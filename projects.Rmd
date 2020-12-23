@@ -1,0 +1,16 @@
+---
+title: "Projects"
+description: |
+ If you are interested in hiring me for a project, please [contact me](mailto:koh@hertie-school.org).
+
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+# Work in Progress 
+
+*Yahrzeit Letter Generator* with the Bellerose Jewish Center. 
+
+*Noodles in Berlin Dashboard*.
