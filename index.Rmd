@@ -1,6 +1,6 @@
 ---
 title: "Allison Koh"
-image: "allisonkoh.jpg"
+image: "img/allisonkoh.jpg"
 links:
   - label: LinkedIn
     url: "https://www.linkedin.com/in/allisonkoh/"
@@ -11,15 +11,12 @@ links:
   - label: Email
     url: "mailto:koh@hertie-school.org"
 output:
-  postcards::trestles: 
-    css: awk.css
+  postcards::jolla
 site: distill::distill_website
 ---
  
-## Hello!
+<!-- ## Hello! -->
 
-I am a PhD Candidate at the [Berlin Graduate School for Global and Transregional Studies](https://www.scripts-berlin.eu/birt/bgts/index.html) and the [Hertie School Centre for International Security](https://www.hertie-school.org/en/international-security).<!-- Broadly speaking, my research interests comprise of the politics and measurement of repression, political violence, and social media use.--> In my dissertation research, I am interested in using a variety of statistical and methodological tools to investigate how ICTs (in particular, social media) factor into regimes' strategies for engaging in state-sanctioned violence against civilians.
-
-I also work as a Research Associate at the [Hertie School Data Science Lab](https://www.hertie-school.org/en/datasciencelab) and the [SCRIPTS Data and Methodology Center](https://www.scripts-berlin.eu/research/data-and-methodology-center/index.html). In this role, I develop training materials for data science workshops and consult on statistical computing for graduate students and researchers.
+I am a PhD Candidate at the [Berlin Graduate School for Global and Transregional Studies](https://www.scripts-berlin.eu/birt/bgts/index.html) and the [Hertie School Centre for International Security](https://www.hertie-school.org/en/international-security).<!-- Broadly speaking, my research interests comprise of the politics and measurement of repression, political violence, and social media use.--> In my dissertation research, I investigate how ICTs (in particular, social media) factor into regimes' strategies for engaging in state-sanctioned violence. I am also a Research Associate at the [Hertie School Data Science Lab](https://www.hertie-school.org/en/datasciencelab) and the [SCRIPTS Data and Methodology Center](https://www.scripts-berlin.eu/research/data-and-methodology-center/index.html). In this role, I develop training materials for data science workshops and consult on statistical computing for graduate students and researchers.
 
 <!--In my pre-research life, I ...-->

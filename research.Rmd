@@ -3,10 +3,17 @@ title: "Research"
 ---
 
 ```{r setup, include=FALSE}
+# load dependencies 
+library(tidyverse)
+library(viridis)
+
+# global options 
 knitr::opts_chunk$set(echo = FALSE)
 ```
 
-# Dissertation
+# Work in Progress 
 
-Preliminary Title: *State-Sponsored Online Harassment Campaigns and Dissent*. 
+_State-Sponsored Online Harassment Campaigns and Dissent_ (Dissertation).
+
+_[Predicting Policy Domains and Preferences with BERT and CNN](https://github.com/allisonkoh/bertcnn-classifying-manifestos)_ with Daniel Kai Sheng Boey. 
 
