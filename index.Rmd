@@ -1,6 +1,6 @@
 ---
 title: "Allison Koh"
-image: "img/allisonkoh.jpg"
+image: "img/allisonkoh.png"
 color1: "#000066"
 color2: "#00001a"
 angle: 60
