@@ -28,6 +28,7 @@ pacman::p_load("postcards")
 
 <!-- ## Hello! -->
 
-I am a PhD Candidate at the [Berlin Graduate School for Global and Transregional Studies](https://www.scripts-berlin.eu/birt/bgts/index.html) and the Hertie School's [Centre for International Security](https://www.hertie-school.org/en/international-security).<!-- Broadly speaking, my research interests comprise of the politics and measurement of repression, political violence, and social media use.--> In my dissertation research, I study the consequences of state-sponsored online harassment campaigns on contentious politics. I am also a Research Associate at the Hertie School's [Data Science Lab](https://www.hertie-school.org/en/datasciencelab). In this role, I develop data science learning resources and consult on statistical computing for graduate students and researchers.
+I am a PhD Candidate at the [Centre for International Security, Hertie School](https://www.hertie-school.org/en/international-security) and Doctoral Research Fellow at the [Berlin Graduate School for Global and Transregional Studies](https://www.scripts-berlin.eu/birt/bgts/index.html). My research focuses on state-sponsored online harassment, contentious politics in the digital age, and natural language processing for analyzing political texts. 
+<!-- I am also a Research Associate at the Hertie School's [Data Science Lab](https://www.hertie-school.org/en/datasciencelab). In this role, I develop data science learning resources and consult on statistical computing for graduate students and researchers. -->
 
 <!--In my pre-research life, I ...-->
