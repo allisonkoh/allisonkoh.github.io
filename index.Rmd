@@ -1,8 +1,8 @@
 ---
 title: "Allison Koh"
 image: "img/allisonkoh.png"
-color1: "#000066"
-color2: "#00001a"
+color1: "#000000"
+color2: "#000000"
 angle: 60
 links:
   - label: CV
@@ -28,7 +28,7 @@ pacman::p_load("postcards")
 
 <!-- ## Hello! -->
 
-I am a PhD Candidate at the [Centre for International Security, Hertie School](https://www.hertie-school.org/en/international-security) and Doctoral Research Fellow at the [Berlin Graduate School for Global and Transregional Studies](https://www.scripts-berlin.eu/birt/bgts/index.html). My research focuses on state-sponsored online harassment, contentious politics in the digital age, and text-as-data methods.  
+I am a PhD Candidate at the [Centre for International Security, Hertie School](https://www.hertie-school.org/en/international-security) and Doctoral Research Fellow at the [Berlin Graduate School for Global and Transregional Studies](https://www.scripts-berlin.eu/birt/bgts/index.html). My research focuses on repressive regimes' responses to online dissent and applications of natural language processing in political science research. 
 <!-- I am also a Research Associate at the Hertie School's [Data Science Lab](https://www.hertie-school.org/en/datasciencelab). In this role, I develop data science learning resources and consult on statistical computing for graduate students and researchers. -->
 
 <!--In my pre-research life, I ...-->

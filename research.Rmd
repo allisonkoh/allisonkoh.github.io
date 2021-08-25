@@ -11,9 +11,12 @@ library(viridis)
 knitr::opts_chunk$set(echo = FALSE)
 ```
 
-# Work in Progress 
+## Dissertation 
 
-_State-Sponsored Online Harassment Campaigns and Dissent_ (Dissertation).
+_Repression Under the Influence: The Role of Online Harassment in State Violence_ 
 
-_[Predicting Policy Domains and Preferences with BERT and CNN](https://github.com/allisonkoh/bertcnn-classifying-manifestos)_ with Daniel Kai Sheng Boey. 
+## Publications 
 
+### Confererence Proceedings 
+
+__Koh, Allison__, Daniel Boey, and Hannah Béchara. 2021. [“Predicting Policy Domains from Party Manifestos with BERT and Convolutional Neural Networks.”](https://osf.io/preprints/socarxiv/fjh4q/) In Proceedings of the 1st Workshop on Computational Linguistics for Political Text Analysis, Düsseldorf, Germany.
