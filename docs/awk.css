@@ -9,9 +9,8 @@
 
 /* Optional: embed custom fonts here with `@import`          */
 /* This must remain at the top of this file.                 */
-@import url('https://fonts.googleapis.com/css?family=Noto+Serif+JP:300, 300i&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Lato:400,400i,700&display=swap');
-@import url('https://fonts.googleapis.com/css?family=IBM+Plex+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
 
 html {
@@ -29,9 +28,14 @@ html {
   --fig-cap-color:   rgba(0, 0, 0, 0.6);
   /*-- Specify custom fonts ~~~ must be imported above   --*/
   --heading-font:    "Poppins", sans-serif; /* edited */
-  --mono-font:       "IBM Plex Mono", monospace;  /* edited */
+  --mono-font:       "Fira Code", monospace;  /* edited */
   --body-font:       "Lato", sans-serif;          /* edited */
   --navbar-font:     "Poppins", sans-serif;          /* edited */
+}
+
+/*-- OTHER BODY OPTIONS --*/
+body{
+  font-size: 1.2rem;
 }
 
 /*-- ARTICLE METADATA --*/
@@ -74,14 +78,18 @@ d-appendix {
   --bkgd-color:       #ca225;                 /* edited */
 }
 
-/*-- Additional custom styles --*/
-
-/*Change link appearance*/
+/*-- Change link appearance --*/
 
 a{
   color: #00bfff;
-  hover-color: #000000; 
 }
+
+a:hover{
+  color: #787878;
+}
+
+
+/*-- Additional custom styles --*/
 
 ul > li::marker {
   color: #ca225e;
