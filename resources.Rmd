@@ -1,0 +1,24 @@
+---
+title: "Resources"
+---
+
+```{r setup, include=FALSE}
+# load dependencies 
+library(tidyverse)
+library(viridis)
+
+# global options 
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+## `R` 
+
+### Data Visualization 
+
+- The [TidyTuesday](https://github.com/rfordatascience/tidytuesday) project is a great resource for practicing data wrangling and visualization! Regardless of your level of `R`, post your contribution and code every week with the `#TidyTuesday` hashtag on Twitter and learn from others' contributions and code. I have also published my Tidy Tuesday contributions on [Github](https://github.com/allisonkoh/tidytuesday).
+
+## Miscellaneous 
+
+- I have a half-baked learnr tutorial on data wrangling and visualization in `R` and Python. It can be found [here](https://allison-koh.shinyapps.io/dataviz-r-python/). 
+- I write miscellaneous coding notes-to-self and store it in this [Github repository](https://github.com/allisonkoh/helpful-code-stuff).
+- Do you want to publish pretty images of your code online? Use this site: https://carbon.now.sh/
