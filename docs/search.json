@@ -5,7 +5,7 @@
       "title": "Allison Koh",
       "author": [],
       "contents": "\n\n          \n          \n          Allison Koh\n          \n          \n          Home\n          Research\n          Resources\n          CV\n          ☰\n          \n          \n      \n        \n          \n            \n          \n            Allison Koh\n          \n          \n            \n          \n          \n            \n            I am a PhD Candidate at the Centre for International Security, Hertie School and Doctoral Research Fellow at the Berlin Graduate School for Global and Transregional Studies. My research focuses on how states engage with online dissent and applications of natural language processing in the analysis of political texts and social media. Outside of my research, I am enthusiastic about all things R, data visualization, and science communication.\n          \n          \n            \n                \n                  \n                    CV\n                  \n                \n              \n                            \n                \n                  \n                    LinkedIn\n                  \n                \n              \n                            \n                \n                  \n                    Twitter\n                  \n                \n              \n                            \n                \n                  \n                    GitHub\n                  \n                \n              \n                            \n                \n                  \n                    Email\n                  \n                \n              \n                          \n        \n      \n    \n\n    \n      \n        \n          \n            \n          \n            Allison Koh\n          \n          \n            \n          \n          \n            \n            I am a PhD Candidate at the Centre for International Security, Hertie School and Doctoral Research Fellow at the Berlin Graduate School for Global and Transregional Studies. My research focuses on how states engage with online dissent and applications of natural language processing in the analysis of political texts and social media. Outside of my research, I am enthusiastic about all things R, data visualization, and science communication.\n          \n        \n      \n      \n          \n              \n                                \n                    \n                    CV\n                    \n                \n                                \n                    \n                    LinkedIn\n                    \n                \n                                \n                    \n                    Twitter\n                    \n                \n                                \n                    \n                    GitHub\n                    \n                \n                                \n                    \n                    Email\n                    \n                \n                              \n          \n      \n    \n\n    \n    \n    ",
-      "last_modified": "2021-08-31T13:00:22+02:00"
+      "last_modified": "2021-09-06T02:47:35+02:00"
     },
     {
       "path": "projects.html",
@@ -13,28 +13,28 @@
       "description": "If you are interested in hiring me for a project, please [contact me](mailto:koh@hertie-school.org).\n",
       "author": [],
       "contents": "\nWork in Progress\nYahrzeit Letter Generator with the Bellerose Jewish Center.\nNoodles in Berlin Dashboard.\n\n\n\n",
-      "last_modified": "2021-08-31T13:00:23+02:00"
+      "last_modified": "2021-09-06T02:47:36+02:00"
     },
     {
       "path": "research.html",
       "title": "Research",
       "author": [],
       "contents": "\nDissertation\nRepression Under the Influence: The Role of Online Harassment in State Violence\nPublications\nConfererence Proceedings\nKoh, Allison, Daniel Boey, and Hannah Béchara. 2021. “Predicting Policy Domains from Party Manifestos with BERT and Convolutional Neural Networks.” In Proceedings of the 1st Workshop on Computational Linguistics for Political Text Analysis, Düsseldorf, Germany.\n\n\n\n",
-      "last_modified": "2021-08-31T13:00:31+02:00"
+      "last_modified": "2021-09-06T02:47:39+02:00"
     },
     {
       "path": "resources.html",
       "title": "Resources",
       "author": [],
-      "contents": "\nR\nData Visualization\nThe TidyTuesday project is a great resource for practicing data wrangling and visualization! Regardless of your level of R, post your contribution and code every week with the #TidyTuesday hashtag on Twitter and learn from others’ contributions and code. I have also published my Tidy Tuesday contributions on Github.\nMiscellaneous\nI have a half-baked learnr tutorial on data wrangling and visualization in R and Python. It can be found here.\nI write miscellaneous coding notes-to-self and store it in this Github repository.\nDo you want to publish pretty images of your code online? Use this site: https://carbon.now.sh/\n\n\n\n",
-      "last_modified": "2021-08-31T13:00:32+02:00"
+      "contents": "\nR\nData Visualization\nThe TidyTuesday project is a great resource for practicing data wrangling and visualization! Regardless of your level of R, post your contribution and code every week with the #TidyTuesday hashtag on Twitter and learn from others’ contributions and code. I have also published my Tidy Tuesday contributions on Github.\nPackage Development\nThe two links below present different approaches to package development in R. The first presents best practices in package development, while the second is more of a quick-and-dirty approach to creating an R package. My personal approach in package dev falls somewhere between the two.\nR Packages by Hadley Wickham and Jenny Bryan\nCreate R Package in 5 Minutes with roxygen2 by Dane Van Domelen\nI also have my own personal R package called {kohper}, short for “Koh’s Helper Functions”. It is still very new (as of September 5, 2021) and not well populated by the functions I commonly use in my workflow, but that’s subject to change soon!\nMiscellaneous\nI have a half-baked learnr tutorial on data wrangling and visualization in R and Python. It can be found here.\nI write miscellaneous coding notes-to-self and store it in this Github repository.\nDo you want to publish pretty images of your code online? Use this site: https://carbon.now.sh/\n\n\n\n",
+      "last_modified": "2021-09-06T02:47:39+02:00"
     },
     {
       "path": "teaching.html",
       "title": "Teaching",
       "author": [],
       "contents": "\nHertie School\nTeaching Assistant, Data Science Workshop Series (Therese Anders) - 2020\n\n\n\n",
-      "last_modified": "2021-08-31T13:00:32+02:00"
+      "last_modified": "2021-09-06T02:47:39+02:00"
     }
   ],
   "collections": []

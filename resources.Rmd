@@ -15,7 +15,16 @@ knitr::opts_chunk$set(echo = FALSE)
 
 ### Data Visualization 
 
-- The [TidyTuesday](https://github.com/rfordatascience/tidytuesday) project is a great resource for practicing data wrangling and visualization! Regardless of your level of `R`, post your contribution and code every week with the `#TidyTuesday` hashtag on Twitter and learn from others' contributions and code. I have also published my Tidy Tuesday contributions on [Github](https://github.com/allisonkoh/tidytuesday).
+The [TidyTuesday](https://github.com/rfordatascience/tidytuesday) project is a great resource for practicing data wrangling and visualization! Regardless of your level of `R`, post your contribution and code every week with the `#TidyTuesday` hashtag on Twitter and learn from others' contributions and code. I have also published my Tidy Tuesday contributions on [Github](https://github.com/allisonkoh/tidytuesday).
+
+### Package Development 
+
+The two links below present different approaches to package development in `R`. The first presents best practices in package development, while the second is more of a quick-and-dirty approach to creating an `R` package. My personal approach in package dev falls somewhere between the two. 
+
+- [_R Packages_](https://r-pkgs.org/) by Hadley Wickham and Jenny Bryan
+- [_Create R Package in 5 Minutes with roxygen2_](https://vandomed.github.io/build_rpackage.html) by Dane Van Domelen
+
+I also have my own personal `R` package called [`{kohper}`](https://github.com/allisonkoh/kohper), short for "Koh's Helper Functions". It is still very new (as of September 5, 2021) and not well populated by the functions I commonly use in my workflow, but that's subject to change soon! 
 
 ## Miscellaneous 
 
