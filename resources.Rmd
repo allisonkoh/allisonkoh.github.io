@@ -24,7 +24,7 @@ The two links below present different approaches to package development in `R`. 
 - [_R Packages_](https://r-pkgs.org/) by Hadley Wickham and Jenny Bryan
 - [_Create R Package in 5 Minutes with roxygen2_](https://vandomed.github.io/build_rpackage.html) by Dane Van Domelen
 
-I also have my own personal `R` package called [`{kohper}`](https://github.com/allisonkoh/kohper), short for "Koh's Helper Functions". It is still very new (as of September 5, 2021) and not well populated by the functions I commonly use in my workflow, but that's subject to change soon! 
+I also have my own personal `R` package that is home to a bunch of miscellaneous functions ([`{kohmisc}`](https://github.com/allisonkoh/kohmisc)). It is still very new (as of September 5, 2021) and not well populated by the functions I commonly use in my workflow, but that's subject to change soon! 
 
 ## Miscellaneous 
 
