@@ -26,6 +26,10 @@ The two links below present different approaches to package development in `R`. 
 
 I also have my own personal `R` package that is home to a bunch of miscellaneous functions ([`{kohmisc}`](https://github.com/allisonkoh/kohmisc)). It is still very new (as of September 5, 2021) and not well populated by the functions I commonly use in my workflow, but that's subject to change soon! 
 
+## LaTeX 
+
+You can find the material from the practical session on formatting basics from my LaTeX workshop [here](files/workshop-LaTeX.pdf). 
+
 ## Miscellaneous 
 
 - I have a half-baked learnr tutorial on data wrangling and visualization in `R` and Python. It can be found [here](https://allison-koh.shinyapps.io/dataviz-r-python/). 
