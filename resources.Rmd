@@ -28,7 +28,7 @@ I also have my own personal `R` package that is home to a bunch of miscellaneous
 
 ## LaTeX 
 
-You can find the material from the practical session on formatting basics from my LaTeX workshop [here](files/workshop-LaTeX.pdf). 
+I put together a handout on formatting basics from a LaTeX workshop I recently taught at the Hertie School. It can be found [here](files/workshop-LaTeX.pdf). 
 
 ## Miscellaneous 
 
