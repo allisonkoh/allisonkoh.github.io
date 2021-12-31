@@ -13,7 +13,7 @@ knitr::opts_chunk$set(echo = FALSE)
 
 ## Dissertation 
 
-_Trolling Under the Influence: The Strategic Role of Online Harassment in State Coercion_ 
+_Trolling Under the Influence: Implications of Coordinated Online Harassment for Transnational Repression_ 
 
 ## Publications 
 
