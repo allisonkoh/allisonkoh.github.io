@@ -13,7 +13,7 @@ knitr::opts_chunk$set(echo = FALSE)
 
 ## Dissertation 
 
-_Trolling Under the Influence: Implications of Online Harassment for Transnational Repression_ 
+_Grey Areas of Digital Transnational Repression: Contours of Online Smear Campaigns from Authoritarian Contexts_ 
 
 ## Publications 
 
