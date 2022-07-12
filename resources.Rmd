@@ -24,14 +24,14 @@ The two links below present different approaches to package development in `R`. 
 - [_R Packages_](https://r-pkgs.org/) by Hadley Wickham and Jenny Bryan
 - [_Create R Package in 5 Minutes with roxygen2_](https://vandomed.github.io/build_rpackage.html) by Dane Van Domelen
 
-I also have my own personal `R` package that is home to a bunch of miscellaneous functions ([`{kohmisc}`](https://github.com/allisonkoh/kohmisc)). It is still very new (as of September 5, 2021) and not well populated by the functions I commonly use in my workflow, but that's subject to change soon! 
+<!-- I also have my own personal `R` package that is home to a bunch of miscellaneous functions ([`{kohmisc}`](https://github.com/allisonkoh/kohmisc)). It is still very new (as of September 5, 2021) and not well populated by the functions I commonly use in my workflow, but that's subject to change soon!  -->
 
 ## LaTeX 
 
-I put together a handout on formatting basics from a LaTeX workshop I recently taught at the Hertie School. It can be found [here](files/workshop-LaTeX.pdf). 
+I put together a handout on formatting basics from a LaTeX workshop I taught at the Hertie School during the Fall 2021 semester. It can be found [here](files/workshop-LaTeX.pdf). 
 
 ## Miscellaneous 
 
-- I have a half-baked learnr tutorial on data wrangling and visualization in `R` and Python. It can be found [here](https://allison-koh.shinyapps.io/dataviz-r-python/). 
+- I have a half-baked `learnr` tutorial on data wrangling and visualization in `R` and Python. It can be found [here](https://allison-koh.shinyapps.io/dataviz-r-python/). 
 - I write miscellaneous coding notes-to-self and store it in this [Github repository](https://github.com/allisonkoh/helpful-code-stuff).
 - Do you want to publish pretty images of your code online? Use this site: https://carbon.now.sh/
