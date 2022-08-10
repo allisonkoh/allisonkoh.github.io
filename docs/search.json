@@ -5,7 +5,7 @@
       "title": "Allison Koh",
       "author": [],
       "contents": "\r\n\r\n          \r\n          \r\n          Allison Koh\r\n          \r\n          \r\n          Home\r\n          Research\r\n          Resources\r\n          CV\r\n          ☰\r\n          \r\n          \r\n      \r\n        \r\n          \r\n            \r\n          \r\n            Allison Koh\r\n          \r\n          \r\n            \r\n          \r\n          \r\n            \r\n            I am a PhD Candidate at the Hertie\r\n            School’s Centre for International Security in Berlin. My\r\n            dissertation research explores the “grey areas” of digital\r\n            transnational repression targeting individuals in\r\n            exile/diaspora communities on Western media platforms. I am\r\n            broadly interested in studying disinformation, digital\r\n            repression, authoritarian politics, and applications of\r\n            natural language processing in social science research.\r\n            Outside of my research, I am enthusiastic about all things\r\n            R, data visualization, being an (amateur)\r\n            gamer, and advocating for more [neuro]inclusivity in\r\n            academic/professional spaces.\r\n            In a past life, I was a Fulbright\r\n            English Teaching Assistant in Malaysia and happened to\r\n            get a BSc in Economics and Asian Studies from Tulane\r\n            University after living in New Orleans for four years.\r\n            \r\n          \r\n          \r\n            \r\n                \r\n                  \r\n                    CV\r\n                  \r\n                \r\n              \r\n                            \r\n                \r\n                  \r\n                    Twitter\r\n                  \r\n                \r\n              \r\n                            \r\n                \r\n                  \r\n                    GitHub\r\n                  \r\n                \r\n              \r\n                            \r\n                \r\n                  \r\n                    LinkedIn\r\n                  \r\n                \r\n              \r\n                            \r\n                \r\n                  \r\n                    Email\r\n                  \r\n                \r\n              \r\n                          \r\n        \r\n      \r\n    \r\n\r\n    \r\n      \r\n        \r\n          \r\n            \r\n          \r\n            Allison Koh\r\n          \r\n          \r\n            \r\n          \r\n          \r\n            \r\n            I am a PhD Candidate at the Hertie\r\n            School’s Centre for International Security in Berlin. My\r\n            dissertation research explores the “grey areas” of digital\r\n            transnational repression targeting individuals in\r\n            exile/diaspora communities on Western media platforms. I am\r\n            broadly interested in studying disinformation, digital\r\n            repression, authoritarian politics, and applications of\r\n            natural language processing in social science research.\r\n            Outside of my research, I am enthusiastic about all things\r\n            R, data visualization, being an (amateur)\r\n            gamer, and advocating for more [neuro]inclusivity in\r\n            academic/professional spaces.\r\n            In a past life, I was a Fulbright\r\n            English Teaching Assistant in Malaysia and happened to\r\n            get a BSc in Economics and Asian Studies from Tulane\r\n            University after living in New Orleans for four years.\r\n            \r\n          \r\n        \r\n      \r\n      \r\n          \r\n              \r\n                                \r\n                    \r\n                    CV\r\n                    \r\n                \r\n                                \r\n                    \r\n                    Twitter\r\n                    \r\n                \r\n                                \r\n                    \r\n                    GitHub\r\n                    \r\n                \r\n                                \r\n                    \r\n                    LinkedIn\r\n                    \r\n                \r\n                                \r\n                    \r\n                    Email\r\n                    \r\n                \r\n                              \r\n          \r\n      \r\n    \r\n\r\n    \r\n    \r\n    ",
-      "last_modified": "2022-07-14T16:46:58-04:00"
+      "last_modified": "2022-08-09T21:05:57-04:00"
     },
     {
       "path": "projects.html",
@@ -13,28 +13,28 @@
       "description": "If you are interested in hiring me for a project, please [contact me](mailto:koh@hertie-school.org).\n",
       "author": [],
       "contents": "\r\nWork in Progress\r\nYahrzeit Letter Generator with the Bellerose Jewish\r\nCenter.\r\nNoodles in Berlin Dashboard.\r\n\r\n\r\n\r\n",
-      "last_modified": "2022-07-14T16:46:59-04:00"
+      "last_modified": "2022-08-09T21:05:58-04:00"
     },
     {
       "path": "research.html",
       "title": "Research",
       "author": [],
       "contents": "\r\nDissertation\r\nGrey Areas of Digital Transnational Repression on Western Media\r\nPlatforms\r\nPublications\r\nConfererence Proceedings\r\nKoh, Allison, Daniel Boey, and Hannah Béchara. 2021.\r\n“Predicting Policy\r\nDomains from Party Manifestos with BERT and Convolutional Neural\r\nNetworks”. In Proceedings of the 1st Workshop on Computational\r\nLinguistics for Political Text Analysis, Düsseldorf, Germany.\r\nWork in Progress\r\nKoh, Allison, Jonathan Nagler, and Joshua A. Tucker.\r\nGender and Pro-CCP Smear Campaigns Targeting the Uyghur Diaspora on\r\nTwitter. [Data collection]\r\n\r\n\r\n\r\n",
-      "last_modified": "2022-07-14T16:47:02-04:00"
+      "last_modified": "2022-08-09T21:05:59-04:00"
     },
     {
       "path": "resources.html",
       "title": "Resources",
       "author": [],
       "contents": "\r\nR\r\nData Visualization\r\nThe TidyTuesday\r\nproject is a great resource for practicing data wrangling and\r\nvisualization! Regardless of your level of R, post your\r\ncontribution and code every week with the #TidyTuesday\r\nhashtag on Twitter and learn from others’ contributions and code. I have\r\nalso published my Tidy Tuesday contributions on Github.\r\nPackage Development\r\nThe two links below present different approaches to package\r\ndevelopment in R. The first presents best practices in\r\npackage development, while the second is more of a quick-and-dirty\r\napproach to creating an R package. My personal approach in\r\npackage dev falls somewhere between the two.\r\nR Packages by Hadley\r\nWickham and Jenny Bryan\r\nCreate\r\nR Package in 5 Minutes with roxygen2 by Dane Van Domelen\r\nLaTeX\r\nI put together a handout on formatting basics from a LaTeX workshop I\r\ntaught at the Hertie School during the Fall 2021 semester. It can be\r\nfound here.\r\nMiscellaneous\r\nI have a half-baked learnr tutorial on data wrangling\r\nand visualization in R and Python. It can be found here.\r\nI write miscellaneous coding notes-to-self and store it in this Github\r\nrepository.\r\nDo you want to publish pretty images of your code online? Use this\r\nsite: https://carbon.now.sh/\r\n\r\n\r\n\r\n",
-      "last_modified": "2022-07-14T16:47:03-04:00"
+      "last_modified": "2022-08-09T21:06:00-04:00"
     },
     {
       "path": "teaching.html",
       "title": "Teaching",
       "author": [],
       "contents": "\r\nHertie School\r\nTeaching Assistant, Data\r\nScience Workshop Series (Therese Anders) - 2020\r\n\r\n\r\n\r\n",
-      "last_modified": "2022-07-14T16:47:04-04:00"
+      "last_modified": "2022-08-09T21:06:01-04:00"
     }
   ],
   "collections": []
