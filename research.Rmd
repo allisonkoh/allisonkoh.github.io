@@ -13,7 +13,7 @@ knitr::opts_chunk$set(echo = FALSE)
 
 ## Dissertation 
 
-_Grey Areas of Digital Transnational Repression on Western Media Platforms_ 
+_Grey Areas of Digital Transnational Repression on Global Media Platforms_ 
 
 ## Publications 
 
@@ -21,6 +21,16 @@ _Grey Areas of Digital Transnational Repression on Western Media Platforms_
 
 __Koh, Allison__, Daniel Boey, and Hannah Béchara. 2021. ["Predicting Policy Domains from Party Manifestos with BERT and Convolutional Neural Networks".](https://osf.io/preprints/socarxiv/fjh4q/) In _Proceedings of the 1st Workshop on Computational Linguistics for Political Text Analysis_, Düsseldorf, Germany.
 
-### Work in Progress
+### Research in Progress
 
-__Koh, Allison__, Jonathan Nagler, and Joshua A. Tucker. _Gender and Pro-CCP Smear Campaigns Targeting the Uyghur Diaspora on Twitter_. [Data collection]
+__Koh, Allison__, Jonathan Nagler, and Joshua A. Tucker. _Toxicity in Pro-CCP Tweets Targeting Prominent Regime Critics in the Uyghur Diaspora_. 
+
+__Koh, Allison__. _Chilling Effects and Curtailments of the Public Sphere: The Importance of Global Media Platforms for Studying Digital Transnational Repression_. 
+
+__Koh, Allison__. _Sowing Chaos or Violence? Evidence from Pro-CCP Media Attacks Targeting the Uyghur Diaspora on Twitter_. 
+
+### Outreach Publications
+
+Ritholtz, Samuel, __Allison Koh__, and Anita R. Gohdes. ["Fanning the Flames of Hate: The Transnational Diffusion of Online Anti-LGBT+ Rhetoric and Offline Mobilisation"](https://gnet-research.org/2022/11/29/fanning-the-flames-of-hate-the-transnational-diffusion-of-online-anti-lgbt-rhetoric-and-offline-mobilisation-2/). _The Global Network on Extremism and Technology (GNET) - Gender and Online Extremism Series_, 29 Nov 2022.  
+
+
