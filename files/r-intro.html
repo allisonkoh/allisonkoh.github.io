@@ -172,36 +172,12 @@ div.csl-indent {
 <li><code>R</code> Basics (arithmetic, logical operators, objects, installing packages, working with data frames, basic data visualization)</li>
 <li>Data management with <code>tidyverse</code> packages: <code>dplyr</code>, <code>tidyr</code></li>
 </ul>
-<!-- In particular, we cover: working directories, arithmetic, logical operators, basic indexing, data types, basic functions (e.g. `sum`, `mean`, `names`, `seq`, `rep`), installing packages, reading and writing data, dealing with missing data, data frames, indexing on data frames, getting an overview  of the data with numerical and graphical summaries.  -->
-</section>
-<section id="workshop-preparation" class="level1">
-<h1>Workshop preparation</h1>
-<p>In this workshop, we will be using RStudio to write <code>R</code> code. Participants should download <code>R</code> and RStudio in advance of our session to make the best use of our time during the workshop for hands-on coding exercises.</p>
-<!-- The instructions below are an abbreviated guide on how to download `R` and RStudio. An alternative option for downloading `R` and RStudio can be found in the Appendix.  -->
-<section id="how-to-download-and-install-r" class="level2">
-<h2 class="anchored" data-anchor-id="how-to-download-and-install-r">How to download and install <code>R</code></h2>
-<p>R is available through the <a href="https://cran.r-project.org/">Comprehensive R Archive Network</a> (CRAN). The links below will directly send you to the most updated version of <code>R</code> (as of January 30, 2023: 4.2.2):</p>
-<ul>
-<li><a href="https://cran.r-project.org/bin/windows/base/R-4.2.2-win.exe">Windows</a></li>
-<li><a href="https://cran.r-project.org/bin/macosx/">macOS</a></li>
-<li><a href="https://cran.r-project.org/bin/linux/">Linux</a></li>
-</ul>
-</section>
-<section id="how-to-download-and-install-rstudio" class="level2">
-<h2 class="anchored" data-anchor-id="how-to-download-and-install-rstudio">How to download and install RStudio</h2>
-<p>RStudio is an integrated development environment (IDE), or an application that we can use to write and execute code in <code>R</code>. It can also be used with other programming languages such as HTML, Markdown, and Python.</p>
-<p>You can download RStudio for free using the following link: <a href="http://www.rstudio.com/ide">http://www.rstudio.com/ide</a></p>
-</section>
-<section id="download-workshop-files" class="level2">
-<h2 class="anchored" data-anchor-id="download-workshop-files">Download workshop files</h2>
-<p>Please download workshop files from this <a href="https://drive.google.com/drive/u/1/folders/1Ua-uBuMtI9IsOE8Sp0Wv1H5uoR8eILHP">Google Drive folder</a>. It will download as a zipped file; save it in a separate folder and you’ll be all set to code along with me during the workshop!</p>
-</section>
 </section>
 <section id="getting-started-with-r" class="level1">
 <h1>Getting started with <code>R</code></h1>
 <section id="getting-help" class="level2">
 <h2 class="anchored" data-anchor-id="getting-help">Getting help</h2>
-<p>The key to learning <code>R</code> is: <strong>Google</strong>! This workshop will give you an overview over basic <code>R</code> functions, but to really learn <code>R</code> you will have to actively use it yourself, trouble shoot, ask questions, and google! The <code>R</code> mailing list and other help pages such as http://stackoverflow.com offer a rich archive of questions and answers by the <code>R</code> community. For example, if you google “recode data in r” you will find a variety of useful websites explaining how to do this on the first page of the search results. Also, don’t be surprised if you find a variety of different ways to execute the same task.</p>
+<p>The key to learning <code>R</code> is: <strong>Google</strong>! This workshop will give you an overview over basic <code>R</code> functions, but to really learn <code>R</code> you will have to actively use it yourself, trouble shoot, ask questions, and Google! The <code>R</code> mailing list and other help pages such as http://stackoverflow.com offer a rich archive of questions and answers by the <code>R</code> community. For example, if you google “recode data in r” you will find a variety of useful websites explaining how to do this on the first page of the search results. Also, don’t be surprised if you find a variety of different ways to execute the same task.</p>
 <p>RStudio also has a useful help menu. In addition, you can get information on any function or integrated data set in <code>R</code> through the console, for example:</p>
 <div class="cell">
 <div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a>?plot</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
@@ -209,7 +185,15 @@ div.csl-indent {
 <pre><code>starting httpd help server ... done</code></pre>
 </div>
 </div>
-<p>In addition, there are a lot of free <code>R</code> comprehensive guides, such as Quick-R at http://www.statmethods.net or the <code>R</code> cookbook at http://www.cookbook-r.com.</p>
+<p>In addition, there are a lot of free <code>R</code> resources. Some of my favorites include:</p>
+<ul>
+<li><a href="https://r4ds.had.co.nz/">R for Data Science (R4DS)</a> by Hadley Wickham and Garrett Grolemund</li>
+<li><a href="https://www.rstudio.com/resources/cheatsheets/">RStudio Cheat Sheets</a></li>
+<li><a href="https://www.tidytuesday.com/">TidyTuesday Community</a></li>
+<li>YouTube: <a href="https://www.youtube.com/channel/UCfNGzUFfsy_3udMY8UyaqBA">Danielle Navarro</a>, <a href="https://www.youtube.com/c/JuliaSilge/videos">Julia Silge</a></li>
+<li>Twitter: <a href="https://twitter.com/search?q=%23rstats&amp;src=typed_query">#rstats</a>, <a href="https://twitter.com/search?q=%23TidyTuesday&amp;src=typed_query&amp;f=top">#TidyTuesday</a></li>
+<li>Mastodon: <a href="https://fosstodon.org/home">Fosstodon</a> and <a href="https://vis.social/explore">vis.social</a></li>
+</ul>
 </section>
 <section id="lets-execute-our-first-line-of-code" class="level2">
 <h2 class="anchored" data-anchor-id="lets-execute-our-first-line-of-code">Let’s execute our first line of code!</h2>
