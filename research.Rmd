@@ -13,7 +13,7 @@ knitr::opts_chunk$set(echo = FALSE)
 
 ## Dissertation 
 
-_Grey Areas of Digital Transnational Repression on Global Media Platforms_ 
+_Power Plays & Platform Politics: Authoritarian Adaptations in Cross-Border Digital Domains_ 
 
 ## Publications 
 
@@ -23,11 +23,11 @@ __Koh, Allison__, Daniel Boey, and Hannah Béchara. 2021. ["Predicting Policy Do
 
 ### Research in Progress
 
-__Koh, Allison__, Jonathan Nagler, and Joshua A. Tucker. _Toxicity in Pro-CCP Tweets Targeting Prominent Regime Critics in the Uyghur Diaspora_. 
+__Koh, Allison__, Jonathan Nagler, and Joshua A. Tucker. _Nationalist Shields in Transnational Domains: PRC Supporters' Responses to Uyghur Activists-in-Exile on Twitter_. 
 
-__Koh, Allison__. _Repression on New Frontiers: Dynamics of Pro-Government Media Attacks on Global Platforms_. 
+__Koh, Allison__. _Dealing with Diaspora Dissent in Different Domains: A Conceptual Framework of Authoritarian Regimes' Foreign Social Media Strategies_. 
 
-__Koh, Allison__. _Visible State Affiliations on Twitter and Global Communication on State Repression_. 
+__Koh, Allison__. _Did Twitter’s Removal of Government and State-Affiliated Media Labels Expand the Influence of State Actors?_. ([PAP]())
 
 ### Outreach Publications
 
