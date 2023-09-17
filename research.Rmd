@@ -13,7 +13,7 @@ knitr::opts_chunk$set(echo = FALSE)
 
 ## Dissertation 
 
-_Power Plays & Platform Politics: Authoritarian Adaptations in Cross-Border Digital Domains_ 
+_Platformed Power Plays: Authoritarian Adaptations in Foreign Social Media Spaces_ 
 
 ## Publications 
 
