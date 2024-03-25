@@ -30,12 +30,8 @@ pacman::p_load("postcards")
 
 <!-- ## Hello! -->
 
-I am a Research Associate at the [Department of Political Economy, King's College London](https://www.kcl.ac.uk/people/allison-koh). I recently defended my PhD at the [Hertie School's Centre for International Security ](https://www.hertie-school.org/en/international-security) in Berlin. I use computational methods to study global authoritarianism, human rights advocacy, and political communication on social media. 
+I am a Research Associate at the [Department of Political Economy, King's College London](https://www.kcl.ac.uk/people/allison-koh). I recently defended my PhD at the [Hertie School's Centre for International Security ](https://www.hertie-school.org/en/international-security) in Berlin. I use computational methods to investigate uses of digital technologies in international politics. 
 
-My research investigates (adversarial) uses of digital technologies in international politics. In my dissertation entitled _Platformed Power Plays: Authoritarian Adaptations in Foreign Social Media Spaces_, I focus on how high-capacity authoritarian regimes and their supporters use social media to exert their influence and limit dissenting voices---even on foreign platforms where their governments do not have direct control over platform governance. 
+My research addresses how digital authoritarians benefit from ICT vulnerabilities in the context of transnational information ecosystems and whether technology companies enable such actors to push their respective political agendas. In my dissertation entitled _Platformed Power Plays: Authoritarian Adaptations in Foreign Social Media Spaces_, I focus on how high-capacity authoritarian regimes and their supporters use social media to exert their influence and limit dissenting voices---even in foreign social media spaces where their governments do not have direct territorial or regulatory control over platform governance and content moderation. 
 
-<!-- Outside of my research, I am enthusiastic about all things `R` and data visualization. I am also an advocate for diverse, accessible, and interdisciplinary communities in academic/professional settings.    -->
-
-In a past life, I was a [Fulbright English Teaching Assistant in Malaysia](https://www.macee.org.my/fulbright-eta-malaysia/) and happened to get a BSc in Economics and Asian Studies from Tulane University after living in New Orleans for four years. 
-
-<!-- My experiences with internet/life under authoritarianism that inform my research stem from three years of studying Mandarin Chinese, and a year of living in Shanghai and Beijing. -->
+Before graduate school, I was a [Fulbright English Teaching Assistant in Malaysia](https://fulbrightmalaysiaeta.wordpress.com/) and worked in the Asia-Pacific Regional Office at [Open Society Foundations](https://www.opensocietyfoundations.org/what-we-do/regions/asia-pacific). I hold an MPP in Policy Analysis from the Hertie School in Berlin and a BSc in Economics and Asian Studies from Tulane University. 
