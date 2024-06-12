@@ -16,7 +16,7 @@ links:
   - label: LinkedIn
     url: "https://www.linkedin.com/in/allisonkoh/"
   - label: Email
-    url: "mailto:allison.koh@kcl.ac.uk"
+    url: "mailto:koh@hertie-school.org"
 output:
   postcards::onofre
 site: distill::distill_website
