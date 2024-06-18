@@ -8,7 +8,7 @@ links:
   - label: CV
     url: "files/Koh_CV.pdf"
   - label: Twitter
-    url: "https://twitter.com/allisonkoh_"
+    url: "https://twitter.com/allisonwkoh"
   # - label: Mastodon.social
   #   url: "https://mastodon.social/@allisonwkoh"
   - label: GitHub
@@ -30,8 +30,10 @@ pacman::p_load("postcards")
 
 <!-- ## Hello! -->
 
-I am a computational political scientist. I use digital traces and methods to investigate the foreign policy implications of emerging technologies. My research to date addresses how authoritarian regimes' international reputations might benefit from ICT vulnerabilities on social media and whether technology companies enable such actors to push their respective political agendas.  
+As a computational political scientist, I use digital traces and tools to investigate the foreign policy implications of emerging technologies. 
 
-I recently defended my PhD at the [Hertie School's Centre for International Security ](https://www.hertie-school.org/en/international-security) in Berlin. In my dissertation entitled _Platformed Power Plays: Authoritarian Adaptations in Foreign Social Media Spaces_, I focus on how high-capacity authoritarian regimes and their supporters use social media to exert their influence and limit dissenting voices---even in foreign social media spaces where their governments do not have direct territorial or regulatory control over platform governance and content moderation. 
+My research to date addresses how authoritarian regimes' international reputations might benefit from ICT vulnerabilities and whether technology companies enable such actors to advance their political interests globally. In my (recently defended!) PhD dissertation entitled _Platformed Power Plays: Authoritarian Adaptations in Foreign Social Media Spaces_, I focus on how authoritarian regimes and their supporters use social media to exert influence and limit dissenting voices globally---even when their governments do not have direct territorial or regulatory control over platform governance and content moderation. 
 
-Before graduate school, I was a [Fulbright English Teaching Assistant in Malaysia](https://fulbrightmalaysiaeta.wordpress.com/) and worked in the Asia-Pacific Regional Office at [Open Society Foundations](https://www.opensocietyfoundations.org/what-we-do/regions/asia-pacific). These experiences, and additional time spent in the region, inform my research interests and approach. I hold an MPP in Policy Analysis from the Hertie School in Berlin and a BSc in Economics and Asian Studies from Tulane University. 
+Before graduate school, I was a [Fulbright English Teaching Assistant in Malaysia](https://fulbrightmalaysiaeta.wordpress.com/) and worked in the Asia-Pacific Regional Office at [Open Society Foundations](https://www.opensocietyfoundations.org/what-we-do/regions/asia-pacific). These experiences, and additional time living in the region, inform my research interests and approach. 
+
+I hold a PhD in Political Science and an MPP in Policy Analysis from the Hertie School in Berlin. I obtained my BSc in Economics and Asian Studies from Tulane University.
