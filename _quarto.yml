@@ -1,0 +1,59 @@
+project:
+  type: website
+  output-dir: docs
+  
+preview: 
+  browser: true 
+  watch-inputs: true
+  navigate: true
+
+website:
+  title: <i class="bi bi-stars"></i> Allison Koh, PhD <i class="bi bi-stars"></i>
+
+  back-to-top-navigation: true
+
+  navbar:
+    left:
+      - href: index.qmd
+        text: About
+      - href: bio.qmd
+        text: Bio
+      - href: research.qmd
+        text: Research
+      - href: files/Koh_CV.pdf
+        text: CV
+        
+    right: 
+      - icon: envelope
+        aria-label: email
+        href: "mailto:a.w.koh@bham.ac.uk"
+      - icon: twitter
+        aria-label: twitter
+        href: https://twitter.com/allisonwkoh
+        rel: me
+      - icon: github
+        aria-label: github
+        href: https://github.com/allisonkoh
+        rel: me
+      - icon: linkedin
+        aria-label: linkedin
+        href: https://www.linkedin.com/in/andrewheiss
+        rel: me
+
+  page-footer: 
+    left: |
+      <span class="faux-block">[{{< fa brands creative-commons >}}](https://creativecommons.org/licenses/by/4.0/) Allison Koh {{< var year >}}</span>
+    right: |
+      <span class="faux-block">Made with {{< fa brands r-project >}} and [Quarto](https://quarto.org/)</span><br>
+
+        
+format:
+  html:
+    theme:
+      dark: [vapor, theme_variables_dark.scss]
+      light: [cerulean, theme_variables_light.scss]
+    css: styles.css
+    toc: true
+
+editor: source
+

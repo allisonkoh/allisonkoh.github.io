@@ -1,33 +1,44 @@
-{
-  "articles": [
-    {
-      "path": "index.html",
-      "title": "Allison Koh",
-      "author": [],
-      "contents": "\r\n\r\n          \r\n          \r\n          Allison Koh\r\n          \r\n          \r\n          Home\r\n          Research\r\n          Resources\r\n          CV\r\n          ☰\r\n          \r\n          \r\n      \r\n        \r\n          \r\n            \r\n          \r\n            Allison Koh\r\n          \r\n          \r\n            \r\n          \r\n          \r\n            \r\n            As a computational political scientist and Research\r\n            Fellow in Natural Language Processing at the University of\r\n            Birmingham, I use digital traces and tools to investigate\r\n            the foreign policy implications of emerging\r\n            technologies.\r\n            My research to date addresses how authoritarian regimes’\r\n            international reputations might benefit from ICT\r\n            vulnerabilities and whether technology companies enable such\r\n            actors to advance their political interests globally. In my\r\n            (recently defended!) PhD dissertation entitled\r\n            Platformed Power Plays: Authoritarian Adaptations in\r\n            Foreign Social Media Spaces, I focus on how\r\n            authoritarian regimes and their supporters use social media\r\n            to exert influence and limit dissenting voices globally—even\r\n            when their governments do not have direct territorial or\r\n            regulatory control over platform governance and content\r\n            moderation.\r\n            Before graduate school, I was a Fulbright\r\n            English Teaching Assistant in Malaysia and worked in the\r\n            Asia-Pacific Regional Office at Open\r\n            Society Foundations. These experiences, and additional\r\n            time living in the region, inform my research interests and\r\n            approach.\r\n            I hold a PhD in Political Science and an MPP in Policy\r\n            Analysis from the Hertie School in Berlin. I obtained my BSc\r\n            in Economics and Asian Studies from Tulane University.\r\n          \r\n          \r\n            \r\n                \r\n                  \r\n                    CV\r\n                  \r\n                \r\n              \r\n                            \r\n                \r\n                  \r\n                    Twitter\r\n                  \r\n                \r\n              \r\n                            \r\n                \r\n                  \r\n                    GitHub\r\n                  \r\n                \r\n              \r\n                            \r\n                \r\n                  \r\n                    LinkedIn\r\n                  \r\n                \r\n              \r\n                            \r\n                \r\n                  \r\n                    Email\r\n                  \r\n                \r\n              \r\n                          \r\n        \r\n      \r\n    \r\n\r\n    \r\n      \r\n        \r\n          \r\n            \r\n          \r\n            Allison Koh\r\n          \r\n          \r\n            \r\n          \r\n          \r\n            \r\n            As a computational political scientist and Research\r\n            Fellow in Natural Language Processing at the University of\r\n            Birmingham, I use digital traces and tools to investigate\r\n            the foreign policy implications of emerging\r\n            technologies.\r\n            My research to date addresses how authoritarian regimes’\r\n            international reputations might benefit from ICT\r\n            vulnerabilities and whether technology companies enable such\r\n            actors to advance their political interests globally. In my\r\n            (recently defended!) PhD dissertation entitled\r\n            Platformed Power Plays: Authoritarian Adaptations in\r\n            Foreign Social Media Spaces, I focus on how\r\n            authoritarian regimes and their supporters use social media\r\n            to exert influence and limit dissenting voices globally—even\r\n            when their governments do not have direct territorial or\r\n            regulatory control over platform governance and content\r\n            moderation.\r\n            Before graduate school, I was a Fulbright\r\n            English Teaching Assistant in Malaysia and worked in the\r\n            Asia-Pacific Regional Office at Open\r\n            Society Foundations. These experiences, and additional\r\n            time living in the region, inform my research interests and\r\n            approach.\r\n            I hold a PhD in Political Science and an MPP in Policy\r\n            Analysis from the Hertie School in Berlin. I obtained my BSc\r\n            in Economics and Asian Studies from Tulane University.\r\n          \r\n        \r\n      \r\n      \r\n          \r\n              \r\n                                \r\n                    \r\n                    CV\r\n                    \r\n                \r\n                                \r\n                    \r\n                    Twitter\r\n                    \r\n                \r\n                                \r\n                    \r\n                    GitHub\r\n                    \r\n                \r\n                                \r\n                    \r\n                    LinkedIn\r\n                    \r\n                \r\n                                \r\n                    \r\n                    Email\r\n                    \r\n                \r\n                              \r\n          \r\n      \r\n    \r\n\r\n    \r\n    \r\n    ",
-      "last_modified": "2024-07-01T18:06:41+01:00"
-    },
-    {
-      "path": "research.html",
-      "title": "Research",
-      "author": [],
-      "contents": "\r\nDissertation\r\nPlatformed Power Plays: Authoritarian Adaptations in Foreign Social Media Spaces\r\nPublications\r\nConfererence Proceedings\r\nKoh, Allison, Daniel Boey, and Hannah Béchara. 2021. “Predicting Policy Domains from Party Manifestos with BERT and Convolutional Neural Networks”. In Proceedings of the 1st Workshop on Computational Linguistics for Political Text Analysis, Düsseldorf, Germany.\r\nResearch in Progress\r\nKoh, Allison, Jonathan Nagler, and Joshua A. Tucker. Nationalist Shields in Transnational Domains: PRC Supporters’ Responses to Uyghur Activists-in-Exile on Twitter.\r\nKoh, Allison. Dealing with Diaspora Dissent in Different Domains: A Conceptual Framework of Authoritarian Regimes’ Foreign Social Media Strategies.\r\nKoh, Allison. Did Twitter’s Removal of Government and State-Affiliated Media Labels Expand the Influence of State Actors?. (PAP)\r\nOutreach Publications\r\nRitholtz, Samuel, Allison Koh, and Anita R. Gohdes. “Fanning the Flames of Hate: The Transnational Diffusion of Online Anti-LGBT+ Rhetoric and Offline Mobilisation”. The Global Network on Extremism and Technology (GNET) - Gender and Online Extremism Series, 29 Nov 2022.\r\n\r\n\r\n\r\n",
-      "last_modified": "2024-07-01T18:06:50+01:00"
-    },
-    {
-      "path": "resources.html",
-      "title": "Resources",
-      "author": [],
-      "contents": "\r\nR\r\nData Visualization\r\nThe TidyTuesday project is a great resource for practicing data wrangling and visualization! Regardless of your level of R, post your contribution and code every week with the #TidyTuesday hashtag on Twitter and learn from others’ contributions and code. I have also published my Tidy Tuesday contributions on Github.\r\n\r\n\r\n\r\n\r\n\r\nLaTeX\r\nI put together a handout on formatting basics from a LaTeX workshop I taught at the Hertie School during the Fall 2021 semester. It can be found here.\r\nMiscellaneous\r\n\r\nI write miscellaneous coding notes-to-self and store it in this Github repository.\r\nDo you want to publish pretty images of your code online? Use this site: https://carbon.now.sh/\r\nGetting started with Quarto? This is a great place to look at templates: https://github.com/mcanouil/awesome-quarto\r\n\r\n\r\n\r\n",
-      "last_modified": "2024-07-01T18:06:51+01:00"
-    },
-    {
-      "path": "teaching.html",
-      "title": "Teaching",
-      "author": [],
-      "contents": "\r\nHertie School\r\nTeaching Assistant, Data Science Workshop Series (Therese Anders) - 2020\r\n\r\n\r\n\r\n",
-      "last_modified": "2024-07-01T18:06:52+01:00"
-    }
-  ],
-  "collections": []
-}
+[
+  {
+    "objectID": "research.html",
+    "href": "research.html",
+    "title": "<i class=\"bi bi-stars\"></i> Allison Koh, PhD <i class=\"bi bi-stars\"></i>",
+    "section": "",
+    "text": "Platformed Power Plays: Authoritarian Adaptations in Foreign Social Media Spaces"
+  },
+  {
+    "objectID": "research.html#dissertation",
+    "href": "research.html#dissertation",
+    "title": "<i class=\"bi bi-stars\"></i> Allison Koh, PhD <i class=\"bi bi-stars\"></i>",
+    "section": "",
+    "text": "Platformed Power Plays: Authoritarian Adaptations in Foreign Social Media Spaces"
+  },
+  {
+    "objectID": "research.html#publications",
+    "href": "research.html#publications",
+    "title": "<i class=\"bi bi-stars\"></i> Allison Koh, PhD <i class=\"bi bi-stars\"></i>",
+    "section": "Publications",
+    "text": "Publications\n\nConfererence Proceedings\nKoh, Allison, Daniel Boey, and Hannah Béchara. 2021. “Predicting Policy Domains from Party Manifestos with BERT and Convolutional Neural Networks”. In Proceedings of the 1st Workshop on Computational Linguistics for Political Text Analysis, Düsseldorf, Germany.\n\n\nResearch in Progress\nKoh, Allison and Joshua A. Tucker. Nationalist Shields in Transnational Domains: PRC Supporters’ Responses to Uyghur Activists-in-Exile on Twitter.\nKoh, Allison. Dealing with Diaspora Dissent in Different Domains: A Conceptual Framework of Authoritarian Regimes’ Foreign Social Media Strategies.\nKoh, Allison. Did Twitter’s Removal of Government and State-Affiliated Media Labels Expand the Influence of State Actors?. (PAP)\n\n\nOutreach Publications\nRitholtz, Samuel, Allison Koh, and Anita R. Gohdes. “Fanning the Flames of Hate: The Transnational Diffusion of Online Anti-LGBT+ Rhetoric and Offline Mobilisation”. The Global Network on Extremism and Technology (GNET) - Gender and Online Extremism Series, 29 Nov 2022."
+  },
+  {
+    "objectID": "brat.html",
+    "href": "brat.html",
+    "title": "<i class=\"bi bi-stars\"></i> Allison Koh, PhD <i class=\"bi bi-stars\"></i>",
+    "section": "",
+    "text": "In honor of brat summer, …\n\n\n\n Back to top"
+  },
+  {
+    "objectID": "bio.html",
+    "href": "bio.html",
+    "title": "Bio",
+    "section": "",
+    "text": "Allison Koh is a Research Fellow in Natural Language Processing at the University of Birmingham’s Centre for Artificial Intelligence in Government. She is a computational political scientist working at the intersection of international relations, political communication, and computational methods. The substantive foci of her work are the geopolitics of emerging technologies and applications of generative AI in conflict research. Her ongoing work examines the strategic landscape of digital transnational repression on social media, the state-aligned online harassment of diaspora activists, and the effect of Twitter’s recent policy changes on the influence of government and state-affiliated media accounts. Koh holds a PhD in Political Science and MPP in Policy Analysis from the Hertie School in Berlin, and completed her BSc in Economics and Asian Studies at Tulane University.\nClick here for a high-quality headshot.\n\n\n\n Back to top"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "\nAllison Koh, PhD | Computational Political Scientist\n",
+    "section": "",
+    "text": "Allison Koh, PhD | Computational Political Scientist\n\nI am a Research Fellow in Natural Language Processing at the University of Birmingham’s Centre for Artificial Intelligence in Government.\nMy research on the geopolitics of emerging technologies and applications of generative AI in conflict research lies at the intersection of international relations, political communication, and computational social science. Methodologically, I specialize in text-as-data approaches and observational studies with digital trace data. In my dissertation, I collected millions of tweets to analyze how vulnerabilities in social media companies’ platforms and policies can benefit the foreign policy interests of authoritarian regimes.\nI recently earned my PhD at the Hertie School’s Centre for International Security in Berlin. I also hold an MPP in Policy Analysis from the Hertie School and a BSc in Economics and Asian Studies from Tulane University. Previously, I was a Fulbright English Teaching Assistant in Malaysia and worked in the Asia-Pacific Regional Office at Open Society Foundations.\nI’m from Queens, New York and am currently based in London.\n\n\n\n\n\n Back to top"
+  }
+]

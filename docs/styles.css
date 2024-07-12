@@ -1,0 +1,9 @@
+/* css styles */
+.wrapper {
+  display: flex;
+  height: 100vh; /* Full viewport height */
+  align-items: center; /* Center items vertically */
+  justify-items: center; /* Center items horizontally */
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr;
+}
