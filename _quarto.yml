@@ -42,9 +42,9 @@ website:
 
   page-footer: 
     left: |
-      <span class="faux-block">[{{< fa brands creative-commons >}}](https://creativecommons.org/licenses/by/4.0/) Allison Koh {{< var year >}}</span>
+      <br><span class="faux-block">[{{< fa brands creative-commons >}}](https://creativecommons.org/licenses/by/4.0/) Allison Koh {{< var year >}}</span>
     right: |
-      <span class="faux-block">Made with {{< fa brands r-project >}} and [Quarto](https://quarto.org/)</span><br>
+      <br><span class="faux-block">Made with {{< fa brands r-project >}} and [Quarto](https://quarto.org/)</span><br>
 
         
 format:

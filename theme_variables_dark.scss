@@ -3,7 +3,8 @@
 // Navbar customization
 $navbar-bg: #133e7c;
 
-$link-color: #ea00d9;
+$link-color: #3cf281;
+$success: #ff5bf8;
 
 
 // Fonts
@@ -16,3 +17,9 @@ $h2-font-size:            2rem !default;
 $h3-font-size:            1.5rem !default;
 $h4-font-size:            2rem !default;
 $h5-font-size:            1.5rem !default;
+
+
+// Reset background 
+body {
+  background-image: linear-gradient(#1a0933 0%, #1a0933 7%, #1a0933 80%, #1a0933 100%) !important;
+} 
