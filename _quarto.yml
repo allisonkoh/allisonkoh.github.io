@@ -37,14 +37,15 @@ website:
         rel: me
       - icon: linkedin
         aria-label: linkedin
-        href: https://www.linkedin.com/in/andrewheiss
+        href: https://www.linkedin.com/in/allisonkoh/
         rel: me
 
   page-footer: 
     left: |
-      <br><span class="faux-block">[{{< fa brands creative-commons >}}](https://creativecommons.org/licenses/by/4.0/) Allison Koh {{< var year >}}</span>
+      <br>
     right: |
-      <br><span class="faux-block">Made with {{< fa brands r-project >}} and [Quarto](https://quarto.org/)</span><br>
+      <span class="faux-block">[{{< fa brands creative-commons >}}](https://creativecommons.org/licenses/by/4.0/) Allison Koh {{< var year >}}</span>
+      <span class="faux-block">Made with {{< fa brands r-project >}} and [Quarto](https://quarto.org/)</span><br>
 
         
 format:

@@ -32,9 +32,9 @@ format:
 
 <br>I am a Research Fellow in Natural Language Processing at the University of Birmingham's [Centre for Artificial Intelligence in Government](https://www.birmingham.ac.uk/research/centre-for-artificial-intelligence-in-government). 
 
-My [research](research.html) interests lie at the intersection of international relations, political communication, and computational social science. The substantive foci of my work are the <span class="text-success">__geopolitics of emerging technologies__</span> and applications of <span class="text-success">__generative AI in conflict research__</span>. Methodologically, I specialize in text-as-data approaches and observational studies with digital trace data. In my [dissertation](research.html#dissertation), I collected millions of tweets to analyze how vulnerabilities in social media companies' platforms and policies can benefit the foreign policy interests of authoritarian regimes.
+My [research](research.html) interests lie at the intersection of international relations, political communication, and computational social science. The substantive foci of my work are the <span class="text-success">__geopolitics of emerging technologies__</span> and applications of <span class="text-success">__generative AI in conflict research__</span>. In my [dissertation](research.html#dissertation), I collected millions of tweets to analyze how vulnerabilities in social media companies' platforms and policies can benefit the foreign policy interests of authoritarian regimes.
 
-I recently earned my PhD at the Hertie School's [Centre for International Security](https://www.hertie-school.org/en/international-security) in Berlin. I also hold an MPP in Policy Analysis from the Hertie School and a BSc in Economics and Asian Studies from Tulane University. Previously, I was a Fulbright English Teaching Assistant in Malaysia and worked in the Asia-Pacific Regional Office at Open Society Foundations.
+I recently earned my PhD at the Hertie School's [Centre for International Security](https://www.hertie-school.org/en/international-security) in Berlin. I also hold an MPP in Policy Analysis from the Hertie School and a BSc in Economics and Asian Studies from Tulane University. 
 
 I'm from Queens, New York and am currently based in London. 
 :::
