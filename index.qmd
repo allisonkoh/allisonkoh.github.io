@@ -5,7 +5,7 @@ format:
   html: 
     page-layout: full
     grid: 
-      sidebar-width: 780px
+      sidebar-width: 750px
     css: styles.css
 ---
 
@@ -32,7 +32,7 @@ format:
 
 <br>I am a Research Fellow in Natural Language Processing at the University of Birmingham's [Centre for Artificial Intelligence in Government](https://www.birmingham.ac.uk/research/centre-for-artificial-intelligence-in-government). 
 
-My [research](research.html) interests lie at the intersection of international relations, political communication, and computational social science. The substantive foci of my work are the <span class="text-success">__geopolitics of emerging technologies__</span> and applications of <span class="text-success">__generative AI in conflict research__</span>. In my [dissertation](research.html#dissertation), I collected millions of tweets to analyze how vulnerabilities in social media companies' platforms and policies can benefit the foreign policy interests of authoritarian regimes.
+My [research](research.html) interests lie at the intersection of international relations, political communication, and computational social science, with a particular focus on the <span class="text-success">__geopolitics of emerging technologies__</span> and applications of <span class="text-success">__generative AI in conflict research__</span>. In my [dissertation](research.html#dissertation), I outlined the strategic landscape of digital transnational repression on social media and analyzed millions of tweets to identify how vulnerabilities in social media companies' transparency and content moderation policies can benefit the foreign policy interests of authoritarian regimes.
 
 I recently earned my PhD at the Hertie School's [Centre for International Security](https://www.hertie-school.org/en/international-security) in Berlin. I also hold an MPP in Policy Analysis from the Hertie School and a BSc in Economics and Asian Studies from Tulane University. 
 
