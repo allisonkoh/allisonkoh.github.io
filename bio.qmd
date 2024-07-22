@@ -11,3 +11,5 @@ format:
 Allison Koh is a Research Fellow in Natural Language Processing at the University of Birmingham’s Centre for Artificial Intelligence in Government. Her research seeks to understand the geopolitics of emerging technologies and advance applications of generative AI in conflict research. Her most recent work outlines the strategic landscape of digital transnational repression on social media and identifies how vulnerabilities in social media companies' transparency and content moderation policies can benefit the foreign policy interests of authoritarian regimes. Koh holds a PhD in Political Science and an MPP in Policy Analysis from the Hertie School in Berlin, and completed her BSc in Economics and Asian Studies at Tulane University.
 
 Click [here](img/allisonkoh.png) for a high-quality headshot.   
+
+<a href="files/Koh_CV.pdf" target="_new">Download my CV (PDF)</a>

@@ -1,0 +1,19 @@
+---
+title: "Violin 🎻"
+format: 
+  html: 
+    page-layout: full
+    grid: 
+      sidebar-width: 750px
+    css: styles.css
+---
+
+In a past life, I was a pretty good violinist. I have been playing [since I was 2 years old](img/IMG_5848.JPG). Some of my career highlights include being a member of New York Youth Symphony (Seasons [48](https://www.nyys.org/seasons/2010-2011/) and [49](https://www.nyys.org/seasons/2011-2012/)), serving as concertmaster in several orchestras, winning a concerto competition, managing my own chamber music ensembles, and being a wedding musician. Here are a couple moments from around the peak of my career 😊
+
+<center>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Q7_Ex6v4AHM?si=6SZgqXL-gF0yLKaa" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/DVYGm0Fl7Og?si=qHR4UCDfDLPwqDYL&amp;start=202" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+</center>

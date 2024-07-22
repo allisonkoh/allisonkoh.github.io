@@ -15,12 +15,16 @@ website:
   navbar:
     left:
       - href: index.qmd
-        text: About
+        text: Home
       - href: bio.qmd
         text: Bio
       - href: research.qmd
         text: Research
-      - href: files/Koh_CV.pdf
+      - href: resources.qmd
+        text: Resources
+      - href: now.qmd
+        text: Now
+      - href: cv.qmd
         text: CV
         
     right: 
@@ -40,14 +44,9 @@ website:
         href: https://www.linkedin.com/in/allisonkoh/
         rel: me
 
-  page-footer: 
-    left: |
-      <br>
-    right: |
-      <span class="faux-block">[{{< fa brands creative-commons >}}](https://creativecommons.org/licenses/by/4.0/) Allison Koh {{< var year >}}</span>
-      <span class="faux-block">Made with {{< fa brands r-project >}} and [Quarto](https://quarto.org/)</span><br>
-
-        
+  page-footer:
+    center: "[{{< fa brands creative-commons >}}](https://creativecommons.org/licenses/by/4.0/) Allison Koh 2024 • Made with {{< fa brands r-project >}} and [Quarto](https://quarto.org/)" 
+    
 format:
   html:
     theme:

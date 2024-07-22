@@ -1,0 +1,10 @@
+---
+title: "CV" 
+format: 
+  html: 
+    page-layout: full
+    grid: 
+      sidebar-width: 800px
+---
+
+<a href="files/Koh_CV.pdf" target="_new">Download my CV (PDF in new tab)</a> 

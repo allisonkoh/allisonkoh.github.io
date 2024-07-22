@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title> Allison Koh, PhD </title>
+<title> Allison Koh, PhD  - Resources</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -94,18 +94,18 @@ ul.task-list li input[type="checkbox"] {
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
     <a class="nav-link" href="./index.html"> 
-<span class="menu-text">About</span></a>
+<span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="./bio.html"> 
 <span class="menu-text">Bio</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="./research.html" aria-current="page"> 
+    <a class="nav-link" href="./research.html"> 
 <span class="menu-text">Research</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./resources.html"> 
+    <a class="nav-link active" href="./resources.html" aria-current="page"> 
 <span class="menu-text">Resources</span></a>
   </li>  
   <li class="nav-item">
@@ -155,12 +155,40 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#dissertation" id="toc-dissertation" class="nav-link active" data-scroll-target="#dissertation">Dissertation</a></li>
-  <li><a href="#publications" id="toc-publications" class="nav-link" data-scroll-target="#publications">Publications</a>
+  <li><a href="#r" id="toc-r" class="nav-link active" data-scroll-target="#r"><code>R</code></a>
   <ul class="collapse">
-  <li><a href="#confererence-proceedings" id="toc-confererence-proceedings" class="nav-link" data-scroll-target="#confererence-proceedings">Confererence Proceedings</a></li>
-  <li><a href="#research-in-progress" id="toc-research-in-progress" class="nav-link" data-scroll-target="#research-in-progress">Research in Progress</a></li>
-  <li><a href="#outreach-publications" id="toc-outreach-publications" class="nav-link" data-scroll-target="#outreach-publications">Outreach Publications</a></li>
+  <li><a href="#base" id="toc-base" class="nav-link" data-scroll-target="#base">base</a></li>
+  <li><a href="#package-management" id="toc-package-management" class="nav-link" data-scroll-target="#package-management">package management</a></li>
+  <li><a href="#filepath-management" id="toc-filepath-management" class="nav-link" data-scroll-target="#filepath-management">file/path management</a></li>
+  <li><a href="#dplyr" id="toc-dplyr" class="nav-link" data-scroll-target="#dplyr">dplyr</a></li>
+  <li><a href="#stringcharacter-vector-manipulation" id="toc-stringcharacter-vector-manipulation" class="nav-link" data-scroll-target="#stringcharacter-vector-manipulation">String/character vector manipulation</a></li>
+  <li><a href="#purrr" id="toc-purrr" class="nav-link" data-scroll-target="#purrr">purrr</a></li>
+  <li><a href="#lubridate-working-with-dates-in-general" id="toc-lubridate-working-with-dates-in-general" class="nav-link" data-scroll-target="#lubridate-working-with-dates-in-general">lubridate (/working with dates in general)</a></li>
+  <li><a href="#manipulating-twitter-data" id="toc-manipulating-twitter-data" class="nav-link" data-scroll-target="#manipulating-twitter-data">Manipulating Twitter Data</a></li>
+  <li><a href="#ggplot2" id="toc-ggplot2" class="nav-link" data-scroll-target="#ggplot2">ggplot2</a></li>
+  <li><a href="#combining-pdfs" id="toc-combining-pdfs" class="nav-link" data-scroll-target="#combining-pdfs">Combining PDFs</a></li>
+  <li><a href="#rselenium" id="toc-rselenium" class="nav-link" data-scroll-target="#rselenium">RSelenium</a></li>
+  </ul></li>
+  <li><a href="#python" id="toc-python" class="nav-link" data-scroll-target="#python">Python</a>
+  <ul class="collapse">
+  <li><a href="#setting-up-virtual-environments-in-the-cli" id="toc-setting-up-virtual-environments-in-the-cli" class="nav-link" data-scroll-target="#setting-up-virtual-environments-in-the-cli">Setting up virtual environments in the CLI</a></li>
+  <li><a href="#pandas" id="toc-pandas" class="nav-link" data-scroll-target="#pandas"><code>pandas</code></a></li>
+  <li><a href="#ide-stuff" id="toc-ide-stuff" class="nav-link" data-scroll-target="#ide-stuff">IDE stuff</a></li>
+  <li><a href="#pytorch-for-text-classification" id="toc-pytorch-for-text-classification" class="nav-link" data-scroll-target="#pytorch-for-text-classification"><code>PyTorch</code> for Text Classification</a></li>
+  <li><a href="#file-management-with-pathlib" id="toc-file-management-with-pathlib" class="nav-link" data-scroll-target="#file-management-with-pathlib">File management with <code>pathlib</code></a></li>
+  </ul></li>
+  <li><a href="#quarto" id="toc-quarto" class="nav-link" data-scroll-target="#quarto">Quarto</a>
+  <ul class="collapse">
+  <li><a href="#general" id="toc-general" class="nav-link" data-scroll-target="#general">General</a></li>
+  <li><a href="#cross-referencing" id="toc-cross-referencing" class="nav-link" data-scroll-target="#cross-referencing">Cross-referencing</a></li>
+  <li><a href="#installing-extensions" id="toc-installing-extensions" class="nav-link" data-scroll-target="#installing-extensions">Installing extensions</a></li>
+  <li><a href="#web" id="toc-web" class="nav-link" data-scroll-target="#web">Web</a></li>
+  </ul></li>
+  <li><a href="#markdown" id="toc-markdown" class="nav-link" data-scroll-target="#markdown">Markdown</a></li>
+  <li><a href="#miscellaneous" id="toc-miscellaneous" class="nav-link" data-scroll-target="#miscellaneous">Miscellaneous</a>
+  <ul class="collapse">
+  <li><a href="#source-code-images" id="toc-source-code-images" class="nav-link" data-scroll-target="#source-code-images">Source Code Images</a></li>
+  <li><a href="#palette-sites" id="toc-palette-sites" class="nav-link" data-scroll-target="#palette-sites">Palette Sites</a></li>
   </ul></li>
   </ul>
 </nav>
@@ -168,28 +196,381 @@ ul.task-list li input[type="checkbox"] {
 <!-- main -->
 <main class="content column-page-left" id="quarto-document-content">
 
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Resources</h1>
+</div>
 
 
 
-<section id="dissertation" class="level2">
-<h2 class="anchored" data-anchor-id="dissertation">Dissertation</h2>
-<p><em>Platformed Power Plays: Authoritarian Adaptations in Foreign Social Media Spaces</em></p>
+<div class="quarto-title-meta column-page-left">
+
+    
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<p>The collection of links below includes references I frequently consult in my professional workflow and resources that I am often asked to recommend. Regard it as a handpicked collection of things that I have found to be super helpful. Maybe they’ll help you too. :)</p>
+<p>(Disclaimer: Some links/resources/advice may be out of date)</p>
+<section id="r" class="level2">
+<h2 class="anchored" data-anchor-id="r"><code>R</code></h2>
+<section id="base" class="level3">
+<h3 class="anchored" data-anchor-id="base">base</h3>
+<p>Preventing scientific notation: <a href="https://stackoverflow.com/questions/25946047/how-to-prevent-scientific-notation-in-r" class="uri">https://stackoverflow.com/questions/25946047/how-to-prevent-scientific-notation-in-r</a></p>
 </section>
-<section id="publications" class="level2">
-<h2 class="anchored" data-anchor-id="publications">Publications</h2>
-<section id="confererence-proceedings" class="level3">
-<h3 class="anchored" data-anchor-id="confererence-proceedings">Confererence Proceedings</h3>
-<p><strong>Koh, Allison</strong>, Daniel Boey, and Hannah Béchara. 2021. <a href="https://osf.io/preprints/socarxiv/fjh4q/">“Predicting Policy Domains from Party Manifestos with BERT and Convolutional Neural Networks”.</a> In <em>Proceedings of the 1st Workshop on Computational Linguistics for Political Text Analysis</em>, Düsseldorf, Germany.</p>
+<section id="package-management" class="level3">
+<h3 class="anchored" data-anchor-id="package-management">package management</h3>
+<p>My current preferred package management workflow involves creating virtual environments with <code>renv</code>.</p>
+<p>My (previously) preferred package for package management is <code>pacman</code>. Before loading in dependencies, put this at the top of the script</p>
+<pre><code>if(!require("pacman")) install.packages("pacman")</code></pre>
 </section>
-<section id="research-in-progress" class="level3">
-<h3 class="anchored" data-anchor-id="research-in-progress">Research in Progress</h3>
-<p><strong>Koh, Allison</strong> and Joshua A. Tucker. <em>Nationalist Shields in Transnational Domains: PRC Supporters’ Responses to Uyghur Activists-in-Exile on Twitter</em>.</p>
-<p><strong>Koh, Allison</strong>. <em>Dealing with Diaspora Dissent in Different Domains: A Conceptual Framework of Authoritarian Regimes’ Foreign Social Media Strategies</em>.</p>
-<p><strong>Koh, Allison</strong>. <em>Did Twitter’s Removal of Government and State-Affiliated Media Labels Expand the Influence of State Actors?</em>. (<a href="">PAP</a>)</p>
+<section id="filepath-management" class="level3">
+<h3 class="anchored" data-anchor-id="filepath-management">file/path management</h3>
+<p>I use the <code>here()</code> package for file/path management.</p>
+<p>To reset home path (tidyverse equivalent of <code>setwd()</code>): <code>set_here()</code>. It’s a superseded function, but I don’t really like the replacement</p>
 </section>
-<section id="outreach-publications" class="level3">
-<h3 class="anchored" data-anchor-id="outreach-publications">Outreach Publications</h3>
-<p>Ritholtz, Samuel, <strong>Allison Koh</strong>, and Anita R. Gohdes. <a href="https://gnet-research.org/2022/11/29/fanning-the-flames-of-hate-the-transnational-diffusion-of-online-anti-lgbt-rhetoric-and-offline-mobilisation-2/">“Fanning the Flames of Hate: The Transnational Diffusion of Online Anti-LGBT+ Rhetoric and Offline Mobilisation”</a>. <em>The Global Network on Extremism and Technology (GNET) - Gender and Online Extremism Series</em>, 29 Nov 2022.</p>
+<section id="dplyr" class="level3">
+<h3 class="anchored" data-anchor-id="dplyr">dplyr</h3>
+<p>Combine with <code>purrr::map</code> to read in multiple csvs to one data frame <a href="https://www.mjandrews.org/blog/readmultifile/" class="uri">https://www.mjandrews.org/blog/readmultifile/</a></p>
+<p>Useful functions that I am constantly forgetting: <code>na_if</code> and <code>rowwise()</code> (group_by for rows)</p>
+<p>NOTE: Don’t get stuck in the trap of doing row-wise operations if pivoting makes more sense!</p>
+<p><code>slice(1L)</code> for getting the max value of each group</p>
+<pre><code>grouped_data &lt;- data %&gt;%
+  group_by(variable, group_vars) %&gt;%
+  summarize(values = sum(values)) %&gt;%
+  mutate(grp = cur_group_id()) %&gt;%
+  arrange(-n) %&gt;%
+  slice(1L)</code></pre>
+<p><code>recode()</code> values in variables</p>
+<p><code>replace_na()</code> for recoding NA values in variables</p>
+<p>Do you want counts of variables in groups without deleting all the other variables? Use <code>mutate()</code> after <code>group_by()</code> instead of summarize. Then subset accordingly. e.g.:</p>
+<pre><code>df %&gt;%
+  group_by(country_person) %&gt;%
+  mutate(
+    n_articles_total = n(),
+    n_articles_before = sum(before_appoint==1),
+    n_articles_after = n_articles_total - n_articles_before,
+    n_lang_en = sum(lang_en==1),
+    n_lang_other = n_articles_total - n_lang_en,
+    av_text_length = mean(length)
+  )
+
+df_tidy_subset &lt;- df %&gt;%
+  select(
+    id, country_person, n_articles_total, n_articles_before,
+    n_articles_after, n_lang_en, n_lang_other, av_text_length
+  ) %&gt;%
+  unique() # rm duplicates</code></pre>
+<p><strong>id numbers within groups</strong></p>
+<pre><code>df %&gt;% group_by(cat) %&gt;% mutate(id = row_number())</code></pre>
+</section>
+<section id="stringcharacter-vector-manipulation" class="level3">
+<h3 class="anchored" data-anchor-id="stringcharacter-vector-manipulation">String/character vector manipulation</h3>
+<p>My general philosophy: avoid pure regex whenever possible 😅</p>
+<p>Remove all characters that are non-numeric: <code>STRING &lt;- str_remove_all(STRING, "\\D+")</code></p>
+<p>Extract substring between two strings: <code>qdapRegex::ex_between()</code></p>
+</section>
+<section id="purrr" class="level3">
+<h3 class="anchored" data-anchor-id="purrr">purrr</h3>
+<section id="map" class="level4">
+<h4 class="anchored" data-anchor-id="map">map</h4>
+<p>On reading in multiple files and combining result of a function into a data frame: <a href="https://clauswilke.com/blog/2016/06/13/reading-and-combining-many-tidy-data-files-in-r/" class="uri">https://clauswilke.com/blog/2016/06/13/reading-and-combining-many-tidy-data-files-in-r/</a></p>
+</section>
+</section>
+<section id="lubridate-working-with-dates-in-general" class="level3">
+<h3 class="anchored" data-anchor-id="lubridate-working-with-dates-in-general">lubridate (/working with dates in general)</h3>
+<p>Create date object from year and month columns with <code>ym()</code> function (goes for a bunch of different ymd combinations as well). e.g.:</p>
+<pre><code>df %&gt;%
+  mutate(
+    date = ym(paste(Year, Month))
+  )</code></pre>
+</section>
+<section id="manipulating-twitter-data" class="level3">
+<h3 class="anchored" data-anchor-id="manipulating-twitter-data">Manipulating Twitter Data</h3>
+<p>(NOTE: as of July 2023, there is extremely limited researcher access to Twitter data)</p>
+<p>I used to collect my data using the <code>twarc</code> Python package, but work with my data in <code>R</code>. See code below as an example for wrangling the JSON strings from <code>entities</code> variables.</p>
+<p>You might have to make things more complex if you want to also add where tweets came from, but hopefully the snippet below provides a good starting point!</p>
+<pre><code>tweets_entities &lt;- tweets %&gt;% 
+  filter(entities.annotations != "") %&gt;% # for some reason drop_na not working
+  mutate(entities.annotations = gsub("\"\"", "\"", entities.annotations)) 
+
+entities &lt;- map(tweets_entities$entities.annotations, fromJSON) %&gt;% 
+  bind_rows() %&gt;% 
+  select("type", "normalized_text") %&gt;% 
+  distinct()
+
+people &lt;- entities %&gt;% 
+  filter(type == "Person")</code></pre>
+</section>
+<section id="ggplot2" class="level3">
+<h3 class="anchored" data-anchor-id="ggplot2">ggplot2</h3>
+<p>If you’re a Python user, stick to the Grammar of Graphics and use the <a href="https://plotnine.readthedocs.io/en/stable/">plotnine</a> library for visualization :D</p>
+<section id="heatmap-snippet" class="level4">
+<h4 class="anchored" data-anchor-id="heatmap-snippet">Heatmap snippet</h4>
+<pre><code>fig_df |&gt; 
+  ggplot(aes(x = country, y = account_type, fill = n)) + 
+  geom_tile(color = "white") +
+  geom_text(aes(label = n), color = "white", size = 15) + 
+  coord_fixed() + 
+  scale_fill_viridis(end = 0.7)</code></pre>
+</section>
+<section id="faceting" class="level4">
+<h4 class="anchored" data-anchor-id="faceting">Faceting</h4>
+<p>Different categorical x-axes <a href="https://stackoverflow.com/questions/45019839/ggplot2-different-facet-width-for-categorical-x-axis" class="uri">https://stackoverflow.com/questions/45019839/ggplot2-different-facet-width-for-categorical-x-axis</a></p>
+</section>
+<section id="themes" class="level4">
+<h4 class="anchored" data-anchor-id="themes">Themes</h4>
+<p>This is the <code>theme_set()</code> that I might use for now.</p>
+<pre><code># add fonts (this might not be a necessary step)
+showtext::font_add_google(name = "Fira Sans", family = "fira")
+showtext::font_add_google(name = "Roboto", family = "roboto")
+
+# themes and text defaults
+theme_set(
+  theme_minimal() +
+    theme(
+      legend.position = "bottom",
+      plot.title = element_text(family = "fira"),
+      text = element_text(family = "roboto")
+    )
+)</code></pre>
+</section>
+<section id="labels" class="level4">
+<h4 class="anchored" data-anchor-id="labels">Labels</h4>
+<p>Use <code>str_wrap()</code> around different graphic elements to automatically wrap captions/text/legend labels. Sample code below:</p>
+<pre><code>top_df %&gt;%
+  ggplot(aes(x = date, y = as.numeric(rank), color = str_wrap(game, 20))) +
+  geom_point() +
+  geom_bump() +
+  scale_y_reverse(limits = c(10, 1), n.breaks = 10) +
+  labs(
+    title = "Top Games Streamed on Twitch",
+    subtitle = str_wrap("Games shown are a subset of data with the top 200 ranked games over time. Each of these games have consistently ranked in the top 200, but not necessarily top 10 throughout the years.")
+  ) +
+  guides(col = guide_legend(ncol = 3))</code></pre>
+<p>If you want to wrap legend labels but keep factor levels, use the following helper function (thanks Hadley Wickham!)</p>
+<pre><code># for wrapping legend labels while keeping original factor levels
+# https://github.com/tidyverse/stringr/issues/107
+str_wrap_factor &lt;- function(x, ...) {
+  levels(x) &lt;- str_wrap(levels(x), ...)
+  x
+}</code></pre>
+<p>How to customize which legends are shown based on aesthetic: <code>guides()</code>. Example:</p>
+<pre><code>data %&gt;%
+  ggplot(aes(x = type, y = fct_rev(abb), size = n, color = n)) +
+  geom_point() +
+  labs(
+    title = "TITLE",
+    x = "",
+    y = "",
+    color = "",
+    caption = "Data Source: DATA_SOURCE\nVisualization: Allison Koh"
+    ) +
+    guides(size = "none")</code></pre>
+</section>
+<section id="fonts" class="level4">
+<h4 class="anchored" data-anchor-id="fonts">Fonts</h4>
+<p><code>{extrafont}</code> and <code>{showtext}</code> are useful for adding different fonts to viz.&nbsp;The former is for loading in existing fonts from system, the latter is for making sure your text shows up in all graphics(and for loading in fonts from google and other places).</p>
+<p><strong>LIFE HACK</strong> (or more likely, common sense thing that I often forget): Make sure to include font families in <code>theme_set()</code> at the top of a script instead of in individual graphics.</p>
+<p>Useful lines of code for <code>{extrafont}</code> are as follows:</p>
+<pre><code># load in system fonts
+extrafont::load_fonts()
+
+# show font names
+fonts()
+
+# show a data frame of all fonts available
+fonttable()</code></pre>
+<p>Useful lines of code for <code>{showtext}</code> are as follows:</p>
+<pre><code>showtext_auto() # put at the beginning of a script to automatically show text in new graphics devices</code></pre>
+</section>
+<section id="geom_bernie" class="level4">
+<h4 class="anchored" data-anchor-id="geom_bernie">geom_bernie()</h4>
+<p>Add Bernie Sanders to your plots :D because why not</p>
+<p>Install</p>
+<pre><code>remotes::install_github("R-CoderDotCom/ggbernie@main")</code></pre>
+<p>Geom</p>
+<pre><code>geom_bernie(aes(x = 1930, y = 20100), bernie = "sitting")</code></pre>
+</section>
+<section id="alt-text" class="level4">
+<h4 class="anchored" data-anchor-id="alt-text">Alt Text</h4>
+<p><strong>Helper Function</strong></p>
+<pre><code># helper function for writing alt text
+# https://twitter.com/thomas_mock/status/1375853258145734660
+write_alt_text &lt;- function(
+  chart_type,
+  type_of_data,
+  reason,
+  misc,
+  source
+){
+  glue::glue(
+    "{chart_type} of {type_of_data} where {reason}. \n\n{misc}\n\nData source from {source}"
+  )
+}</code></pre>
+<p><strong>Examples</strong></p>
+<p>The <code>{TidyTuesdayAltText}</code> package contains examples of AltText from #TidyTuesday posts between 2019 and 2021.</p>
+<p>A future version of this package will include an annotated dataset of alt text + ratings according to feature: <a href="https://twitter.com/spcanelon/status/1405488036989870080" class="uri">https://twitter.com/spcanelon/status/1405488036989870080</a>. Until it is integrated into the package, the data can be found here: <a href="https://github.com/spcanelon/csvConf2021/blob/main/data/annotatedRubric1.csv" class="uri">https://github.com/spcanelon/csvConf2021/blob/main/data/annotatedRubric1.csv</a></p>
+<pre><code>devtools::install_github("spcanelon/TidyTuesdayAltText</code></pre>
+</section>
+<section id="palette-from-picture-with-paletter" class="level4">
+<h4 class="anchored" data-anchor-id="palette-from-picture-with-paletter">Palette from picture with {paletteR}</h4>
+<p><a href="https://datascienceplus.com/how-to-use-paletter-to-automagically-build-palettes-from-pictures/" class="uri">https://datascienceplus.com/how-to-use-paletter-to-automagically-build-palettes-from-pictures/</a></p>
+<pre><code>devtools::install_github("andreacirilloac/paletter")
+create_palette(image_path = "~/Desktop/410px-Piero_della_Francesca_046.jpg",
+               number_of_colors =20,
+               type_of_variable = “categorical")</code></pre>
+</section>
+<section id="test-palette-with-pie-function" class="level4">
+<h4 class="anchored" data-anchor-id="test-palette-with-pie-function">Test palette with <code>pie()</code> function</h4>
+<pre><code>pie(rep(1, 13), col=pal)</code></pre>
+</section>
+</section>
+<section id="combining-pdfs" class="level3">
+<h3 class="anchored" data-anchor-id="combining-pdfs">Combining PDFs</h3>
+<p><a href="https://stackoverflow.com/questions/17552917/merging-existing-pdf-files-using-r" class="uri">https://stackoverflow.com/questions/17552917/merging-existing-pdf-files-using-r</a></p>
+<pre><code>install.packages("qpdf")
+qpdf::pdf_combine(input = c("file.pdf", "file2.pdf", "file3.pdf"),
+                  output = "output.pdf")</code></pre>
+</section>
+<section id="rselenium" class="level3">
+<h3 class="anchored" data-anchor-id="rselenium">RSelenium</h3>
+<p>Reset port (for error message: Selenium server signals port = 4444 is already in use.) <a href="https://stackoverflow.com/questions/74708282/rselenium-is-not-working-when-creating-servers" class="uri">https://stackoverflow.com/questions/74708282/rselenium-is-not-working-when-creating-servers</a></p>
+<pre><code>library(qdapRegex)
+
+#clear busy port in windows
+port &lt;- 4444L
+tintern &lt;- system("netstat -a -n -o",intern=T)
+irow1 &lt;- grep(as.character(port),tintern)
+if(length(irow1)&gt;0){
+  irow1 &lt;- irow1[1]
+  if(!is.na(irow1)){
+    irow1 &lt;- irow1[1]
+    trow &lt;- tintern[irow1]
+    trow &lt;- trimws(rm_white(trow))
+    tpid &lt;- word(trow,-1,-1) 
+    system(paste0("taskkill /pid ",tpid," /F"))
+    
+  }
+}</code></pre>
+</section>
+</section>
+<section id="python" class="level2">
+<h2 class="anchored" data-anchor-id="python">Python</h2>
+<section id="setting-up-virtual-environments-in-the-cli" class="level3">
+<h3 class="anchored" data-anchor-id="setting-up-virtual-environments-in-the-cli">Setting up virtual environments in the CLI</h3>
+<pre><code>conda create --name ENVNAME python=3.9.7
+conda activate ENVNAME
+conda deactivate ENVNAME</code></pre>
+<p>Every time you make a new environment, <em>don’t forget to install git!</em> For my CLI (Anaconda Powershell Prompt for Windows 11):</p>
+<pre><code>conda install git</code></pre>
+</section>
+<section id="pandas" class="level3">
+<h3 class="anchored" data-anchor-id="pandas"><code>pandas</code></h3>
+<p>Set default format for displaying numbers; rounding to the nearest number</p>
+<pre><code>pd.options.display.float_format = '{:.0f}'.format</code></pre>
+</section>
+<section id="ide-stuff" class="level3">
+<h3 class="anchored" data-anchor-id="ide-stuff">IDE stuff</h3>
+<ul>
+<li>Jupyter notebooks with VSCode are normally my go-to, especially if collaborators are comfortable working with Github.</li>
+<li>If browser-based IDEs aren’t your favorite, <a href="https://generallyintelligent.ai/open-source/2021-10-14-jupyter-ascending/">Jupyter Ascending</a> seems like a good option for using a text editor of your choice to generate Jupyter notebooks. (note: I haven’t checked this in a while)</li>
+<li>Colab is another common tool used; it’s not my preference given the workflow for file management, etc. is very different.</li>
+</ul>
+</section>
+<section id="pytorch-for-text-classification" class="level3">
+<h3 class="anchored" data-anchor-id="pytorch-for-text-classification"><code>PyTorch</code> for Text Classification</h3>
+<p>Useful resource comparing old torchtext (legacy) to new torchtext: <a href="https://lightrun.com/answers/pytorch-text-overview-of-issues-in-torchtext-and-the-plan-for-revamping" class="uri">https://lightrun.com/answers/pytorch-text-overview-of-issues-in-torchtext-and-the-plan-for-revamping</a></p>
+</section>
+<section id="file-management-with-pathlib" class="level3">
+<h3 class="anchored" data-anchor-id="file-management-with-pathlib">File management with <code>pathlib</code></h3>
+<p>Use <code>pathlib</code> for relative paths in Python. Docs: <a href="https://docs.python.org/3/library/pathlib.html" class="uri">https://docs.python.org/3/library/pathlib.html</a></p>
+<p>Stuff to import at the top of the script/NB</p>
+<pre><code>import pathlib 
+from pathlib import Path</code></pre>
+<p>The following lines of code identify a working directory and prints directory name/parent directory.</p>
+<pre><code>path = Path.cwd()
+print(path)
+print(path.parent)</code></pre>
+<p><strong>Joining paths</strong>: In my workflow, I normally keep the working directory as my code folder and specify the path for storing data collected using relative paths. The following code specifies a path and specifies the file path for the data subdirectory of a project.</p>
+<pre><code>code_path = Path.cwd()
+data_path = Path(path.parent, 'data')</code></pre>
+</section>
+</section>
+<section id="quarto" class="level2">
+<h2 class="anchored" data-anchor-id="quarto">Quarto</h2>
+<section id="general" class="level3">
+<h3 class="anchored" data-anchor-id="general">General</h3>
+<ul>
+<li>Docs/first stop for getting started: <a href="https://quarto.org/" class="uri">https://quarto.org/</a>
+<ul>
+<li>Extensions: <a href="https://quarto.org/docs/extensions/listing-revealjs.html">https://quarto.org/docs/extensions/listing-revealjs.html</a></li>
+<li>Presentations (in revealjs): <a href="https://quarto.org/docs/presentations/revealjs/" class="uri">https://quarto.org/docs/presentations/revealjs/</a><br>
+</li>
+</ul></li>
+<li>Getting started
+<ul>
+<li>Getting Started with Quarto by Tom Mock (presented at rstudio conf 2022; works as of June 2023) <a href="https://rstudio-conf-2022.github.io/get-started-quarto/materials/05-presentations.html#/presentations">here</a>. Source code <a href="https://github.com/rstudio-conf-2022/get-started-quarto/blob/main/materials/05-presentations.qmd">here</a>.</li>
+</ul></li>
+<li>Misc
+<ul>
+<li>A Quarto tip a day by Mine Cetinkaya-Rundel: <a href="https://mine-cetinkaya-rundel.github.io/quarto-tip-a-day/">https://mine-cetinkaya-rundel.github.io/quarto-tip-a-day/</a></li>
+</ul></li>
+</ul>
+</section>
+<section id="cross-referencing" class="level3">
+<h3 class="anchored" data-anchor-id="cross-referencing">Cross-referencing</h3>
+<p>Sections <a href="https://quarto.org/docs/authoring/cross-references.html#sections" class="uri">https://quarto.org/docs/authoring/cross-references.html#sections</a></p>
+<p>To reference a section, add a #sec- identifier to any heading. For example:</p>
+<pre><code>## Introduction {#sec-introduction}</code></pre>
+<p>See <strong>?@sec-introduction</strong> for additional context.</p>
+<p>Note that when using section cross-references, you will also need to enable the number-sections option (so that section numbering is visible to readers). For example:</p>
+<pre><code>---
+title: "My Document"
+number-sections: true
+---</code></pre>
+</section>
+<section id="installing-extensions" class="level3">
+<h3 class="anchored" data-anchor-id="installing-extensions">Installing extensions</h3>
+<p>Extensions (e.g.&nbsp;<code>quarto-ext/fontawesome</code> for icons) have to be installed with every new project (as far as I know). Quick tutorial for this: <a href="https://www.youtube.com/watch?v=u8EOVOjX13Y">https://www.youtube.com/watch?v=u8EOVOjX13Y</a></p>
+</section>
+<section id="web" class="level3">
+<h3 class="anchored" data-anchor-id="web">Web</h3>
+<p>I found the following to be helpful in migrating my personal website from <a href="https://rstudio.github.io/distill/website.html">distill</a> to <a href="https://quarto.org/docs/websites/">Quarto</a>:</p>
+<ul>
+<li><a href="https://github.com/andrewheiss/ath-quarto">Code and content</a> for <a href="https://www.andrewheiss.com/">andrewheiss.com</a></li>
+<li><a href="https://blog.djnavarro.net/posts/2022-04-20_porting-to-quarto/">Porting a distill blog to quarto</a> by Danielle Navarro</li>
+<li><a href="https://patdmob.github.io/posts/2023-02-25-customizing-your-quarto-website/">Customizing Your Quarto Website</a> by Patrick Mobley
+<ul>
+<li>Patrick also provides a good list of <a href="https://patdmob.github.io/posts/2023-02-25-customizing-your-quarto-website/#inspiration">examples/inspo</a>.</li>
+</ul></li>
+</ul>
+</section>
+</section>
+<section id="markdown" class="level2">
+<h2 class="anchored" data-anchor-id="markdown">Markdown</h2>
+<ul>
+<li><a href="https://github.com/markdown-templates/markdown-emojis">Emojis</a></li>
+</ul>
+</section>
+<section id="miscellaneous" class="level2">
+<h2 class="anchored" data-anchor-id="miscellaneous">Miscellaneous</h2>
+<section id="source-code-images" class="level3">
+<h3 class="anchored" data-anchor-id="source-code-images">Source Code Images</h3>
+<p>Create pretty images of source code here: <a href="https://carbon.now.sh/" class="uri">https://carbon.now.sh/</a></p>
+</section>
+<section id="palette-sites" class="level3">
+<h3 class="anchored" data-anchor-id="palette-sites">Palette Sites</h3>
+<ul>
+<li><a href="https://coolors.co/" class="uri">https://coolors.co/</a></li>
+<li><a href="https://pokepalettes.com/" class="uri">https://pokepalettes.com/</a></li>
+<li><a href="https://colorbrewer2.org/" class="uri">https://colorbrewer2.org/</a></li>
+</ul>
 
 
 </section>
@@ -756,7 +1137,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       &nbsp;
     </div>   
     <div class="nav-footer-center">
-<p><br> <a href="https://creativecommons.org/licenses/by/4.0/"><i class="fa-brands fa-creative-commons" aria-label="creative-commons"></i></a> Allison Koh 2024 • Made with <i class="fa-brands fa-r-project" aria-label="r-project"></i> and <a href="https://quarto.org/">Quarto</a></p>
+<p><a href="https://creativecommons.org/licenses/by/4.0/"><i class="fa-brands fa-creative-commons" aria-label="creative-commons"></i></a> Allison Koh 2024 • Made with <i class="fa-brands fa-r-project" aria-label="r-project"></i> and <a href="https://quarto.org/">Quarto</a></p>
 </div>
     <div class="nav-footer-right">
       &nbsp;
