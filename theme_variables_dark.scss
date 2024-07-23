@@ -18,9 +18,13 @@ $h3-font-size:            1.5rem !default;
 $h4-font-size:            1.5rem !default;
 $h5-font-size:            1.5rem !default;
 
-
 // Reset background from gradient default 
 body {
   background-image: linear-gradient(#1a0933 0%, #1a0933 7%, #1a0933 80%, #1a0933 100%) !important;
   cursor: url(http://www.rw-designer.com/cursor-extern.php?id=3386);
 } 
+
+pre {
+  background-color: #f0f0f0 !important; /* Replace with your desired color */
+}
+

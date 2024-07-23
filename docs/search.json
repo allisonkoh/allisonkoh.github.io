@@ -9,21 +9,21 @@
   {
     "objectID": "research.html",
     "href": "research.html",
-    "title": "<i class=\"bi bi-stars\"></i> Allison Koh, PhD <i class=\"bi bi-stars\"></i>",
+    "title": "Research",
     "section": "",
     "text": "Platformed Power Plays: Authoritarian Adaptations in Foreign Social Media Spaces"
   },
   {
     "objectID": "research.html#dissertation",
     "href": "research.html#dissertation",
-    "title": "<i class=\"bi bi-stars\"></i> Allison Koh, PhD <i class=\"bi bi-stars\"></i>",
+    "title": "Research",
     "section": "",
     "text": "Platformed Power Plays: Authoritarian Adaptations in Foreign Social Media Spaces"
   },
   {
     "objectID": "research.html#publications",
     "href": "research.html#publications",
-    "title": "<i class=\"bi bi-stars\"></i> Allison Koh, PhD <i class=\"bi bi-stars\"></i>",
+    "title": "Research",
     "section": "Publications",
     "text": "Publications\n\nConfererence Proceedings\nKoh, Allison, Daniel Boey, and Hannah Béchara. 2021. “Predicting Policy Domains from Party Manifestos with BERT and Convolutional Neural Networks”. In Proceedings of the 1st Workshop on Computational Linguistics for Political Text Analysis, Düsseldorf, Germany.\n\n\nResearch in Progress\nKoh, Allison and Joshua A. Tucker. Nationalist Shields in Transnational Domains: PRC Supporters’ Responses to Uyghur Activists-in-Exile on Twitter.\nKoh, Allison. Dealing with Diaspora Dissent in Different Domains: A Conceptual Framework of Authoritarian Regimes’ Foreign Social Media Strategies.\nKoh, Allison. Did Twitter’s Removal of Government and State-Affiliated Media Labels Expand the Influence of State Actors?. (PAP)\n\n\nOutreach Publications\nRitholtz, Samuel, Allison Koh, and Anita R. Gohdes. “Fanning the Flames of Hate: The Transnational Diffusion of Online Anti-LGBT+ Rhetoric and Offline Mobilisation”. The Global Network on Extremism and Technology (GNET) - Gender and Online Extremism Series, 29 Nov 2022."
   },
@@ -32,7 +32,7 @@
     "href": "index.html",
     "title": "\nAllison Koh | Computational Political Scientist\n",
     "section": "",
-    "text": "Allison Koh | Computational Political Scientist\n\nI am a Research Fellow in Natural Language Processing at the University of Birmingham’s Centre for Artificial Intelligence in Government. I recently earned my PhD at the Hertie School’s Centre for International Security in Berlin.\nMy research interests lie at the intersection of international relations, political communication, and computational social science, with a focus on the geopolitics of emerging technologies and applications of generative AI in conflict research. In my dissertation, I outlined the strategic landscape of digital transnational repression on social media and identified how vulnerabilities in social media companies’ transparency and content moderation policies benefit the foreign policy interests of authoritarian regimes.\nI maintain a somewhat chaotic list of resources that I’ve put together throughout my coding (mis)adventures. It includes links that I frequently consult in my breaking/debugging code workflow and (in a future iteration) materials from technical workshops that I’ve taught.\n\nI’m from Queens, New York and am currently based in London.\n\n\n\n\n\n Back to top"
+    "text": "Allison Koh | Computational Political Scientist\n\nI am a Research Fellow in Natural Language Processing at the University of Birmingham’s Centre for Artificial Intelligence in Government. I recently earned my PhD at the Hertie School’s Centre for International Security in Berlin.\nMy research interests lie at the intersection of international relations, political communication, and computational social science, with a focus on the geopolitics of emerging technologies and applications of generative AI in conflict research. In my dissertation, I outlined the strategic landscape of digital transnational repression on social media and identified how vulnerabilities in social media companies’ transparency and content moderation policies benefit the foreign policy interests of authoritarian regimes.\nI maintain a somewhat chaotic list of resources that I’ve put together throughout my coding (mis)adventures. It includes links that I frequently consult in my workflow of breaking/debugging code and (in a future iteration) some of my teaching materials.\n\nI’m from Queens, New York and am currently based in London.\n\n\n\n\n\n Back to top"
   },
   {
     "objectID": "bio.html",
@@ -46,7 +46,7 @@
     "href": "cv.html",
     "title": "CV",
     "section": "",
-    "text": "Download my CV (PDF in new tab)\n\n\n\n Back to top"
+    "text": "Back to top"
   },
   {
     "objectID": "now.html",
@@ -67,7 +67,7 @@
     "href": "resources.html",
     "title": "Resources",
     "section": "",
-    "text": "The collection of links below includes references I frequently consult in my professional workflow and resources that I am often asked to recommend. Regard it as a handpicked collection of things that I have found to be super helpful. Maybe they’ll help you too. :)\n(Disclaimer: Some links/resources/advice may be out of date)"
+    "text": "The collection of links below includes references I frequently consult in my professional workflow and resources that I am often asked to recommend. Regard it as a handpicked collection of things that I have found to be super helpful. Maybe they’ll help you too. 😊\n(Disclaimer: Some links/resources/advice may be out of date)"
   },
   {
     "objectID": "resources.html#r",
@@ -88,7 +88,7 @@
     "href": "resources.html#quarto",
     "title": "Resources",
     "section": "Quarto",
-    "text": "Quarto\n\nGeneral\n\nDocs/first stop for getting started: https://quarto.org/\n\nExtensions: https://quarto.org/docs/extensions/listing-revealjs.html\nPresentations (in revealjs): https://quarto.org/docs/presentations/revealjs/\n\n\nGetting started\n\nGetting Started with Quarto by Tom Mock (presented at rstudio conf 2022; works as of June 2023) here. Source code here.\n\nMisc\n\nA Quarto tip a day by Mine Cetinkaya-Rundel: https://mine-cetinkaya-rundel.github.io/quarto-tip-a-day/\n\n\n\n\nCross-referencing\nSections https://quarto.org/docs/authoring/cross-references.html#sections\nTo reference a section, add a #sec- identifier to any heading. For example:\n## Introduction {#sec-introduction}\nSee ?@sec-introduction for additional context.\nNote that when using section cross-references, you will also need to enable the number-sections option (so that section numbering is visible to readers). For example:\n---\ntitle: \"My Document\"\nnumber-sections: true\n---\n\n\nInstalling extensions\nExtensions (e.g. quarto-ext/fontawesome for icons) have to be installed with every new project (as far as I know). Quick tutorial for this: https://www.youtube.com/watch?v=u8EOVOjX13Y\n\n\nWeb\nI found the following to be helpful in migrating my personal website from distill to Quarto:\n\nCode and content for andrewheiss.com\nPorting a distill blog to quarto by Danielle Navarro\nCustomizing Your Quarto Website by Patrick Mobley\n\nPatrick also provides a good list of examples/inspo."
+    "text": "Quarto\n\nGeneral\n\nDocs/first stop for getting started: https://quarto.org/\n\nExtensions: https://quarto.org/docs/extensions/listing-revealjs.html\nPresentations (in revealjs): https://quarto.org/docs/presentations/revealjs/\n\n\nGetting started\n\nGetting Started with Quarto by Tom Mock (presented at rstudio conf 2022; works as of June 2023) here. Source code here.\n\nMisc\n\nA Quarto tip a day by Mine Cetinkaya-Rundel: https://mine-cetinkaya-rundel.github.io/quarto-tip-a-day/\n\n\n\n\nCross-referencing\nSections https://quarto.org/docs/authoring/cross-references.html#sections\nTo reference a section, add a #sec- identifier to any heading. For example:\n## Introduction {#sec-introduction}\n\nSee @sec-introduction for additional context.\nNote that when using section cross-references, you will also need to enable the number-sections option (so that section numbering is visible to readers). For example:\n---\ntitle: \"My Document\"\nnumber-sections: true\n---\n\n\nInstalling extensions\nExtensions (e.g. quarto-ext/fontawesome for icons) have to be installed with every new project (as far as I know). Quick tutorial for this: https://www.youtube.com/watch?v=u8EOVOjX13Y\n\n\nWeb\nI found the following to be helpful in migrating my personal website from distill to Quarto:\n\nCode and content for andrewheiss.com\nPorting a distill blog to quarto by Danielle Navarro\nCustomizing Your Quarto Website by Patrick Mobley\n\nPatrick also provides a good list of examples/inspo."
   },
   {
     "objectID": "resources.html#markdown",

@@ -1,4 +1,6 @@
 ---
+title: "Research"
+subtitle: "Updated July 23, 2024"
 format: 
   html: 
     page-layout: full

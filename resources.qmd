@@ -7,7 +7,7 @@ format:
       sidebar-width: 800px
 ---
 
-The collection of links below includes references I frequently consult in my professional workflow and resources that I am often asked to recommend. Regard it as a handpicked collection of things that I have found to be super helpful. Maybe they'll help you too. :)
+The collection of links below includes references I frequently consult in my professional workflow and resources that I am often asked to recommend. Regard it as a handpicked collection of things that I have found to be super helpful. Maybe they'll help you too. 😊
 
 (Disclaimer: Some links/resources/advice may be out of date)
 
@@ -415,9 +415,10 @@ To reference a section, add a #sec- identifier to any heading. For example:
 
 ```
 ## Introduction {#sec-introduction}
-```
 
 See @sec-introduction for additional context.
+```
+
 
 Note that when using section cross-references, you will also need to enable the number-sections option (so that section numbering is visible to readers). For example:
 

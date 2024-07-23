@@ -1,6 +1,6 @@
 ---
 title: "Bio" 
-subtitle: "Updated: July 13, 2024"
+subtitle: "Updated July 13, 2024"
 format: 
   html: 
     page-layout: full

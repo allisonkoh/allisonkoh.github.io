@@ -8,24 +8,24 @@ preview:
   navigate: true
 
 website:
-  title: <i class="bi bi-stars"></i> Allison Koh, PhD <i class="bi bi-stars"></i>
+  title: Allison Koh
 
   back-to-top-navigation: true
 
   navbar:
     left:
       - href: index.qmd
-        text: Home
+        text: About
       - href: bio.qmd
         text: Bio
+      - href: cv.qmd
+        text: CV
       - href: research.qmd
         text: Research
       - href: resources.qmd
         text: Resources
       - href: now.qmd
         text: Now
-      - href: cv.qmd
-        text: CV
         
     right: 
       - icon: envelope
