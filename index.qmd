@@ -34,7 +34,7 @@ format:
 
 My [research](research.html) interests lie at the intersection of international relations, political communication, and computational social science, with a focus on the <span class="text-success">__geopolitics of emerging technologies__</span> and applications of <span class="text-success">__generative AI in conflict research__</span>. In my [dissertation](research.html#dissertation), I outlined the strategic landscape of digital transnational repression on social media and identified how vulnerabilities in social media companies' transparency and content moderation policies benefit the foreign policy interests of authoritarian regimes.
 
-I maintain a somewhat chaotic list of [resources](resources.html) that I've regularly consulted or put together throughout my coding (mis)adventures. Like many advanced coders, I acquired my technical skills through breaking and debugging course projects and some fun side quests, and filled my own knowledge gaps by putting together materials for technical workshops. 
+I maintain a somewhat chaotic list of [resources](resources.html) that I've put together throughout my coding (mis)adventures. It includes links that I frequently consult in my breaking/debugging code workflow and (in a future iteration) materials from technical workshops that I've taught.  
 
 <!-- I recently earned my PhD at the Hertie School's [Centre for International Security](https://www.hertie-school.org/en/international-security) in Berlin. I also hold an MPP in Policy Analysis from the Hertie School and a BSc in Economics and Asian Studies from Tulane University.  -->
 
