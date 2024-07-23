@@ -12,4 +12,4 @@ Allison Koh is a Research Fellow in Natural Language Processing at the Universit
 
 Click [here](img/allisonkoh.png) for a high-quality headshot.   
 
-<a href="files/Koh_CV.pdf" target="_new">Download my CV (PDF)</a>
+<!-- <a href="files/Koh_CV.pdf" target="_new">Download my CV (PDF)</a> -->

@@ -5,11 +5,73 @@ format:
     page-layout: full
     grid: 
       sidebar-width: 800px
+    toc-depth: 1
 ---
 
 The collection of links below includes references I frequently consult in my professional workflow and resources that I am often asked to recommend. Regard it as a handpicked collection of things that I have found to be super helpful. Maybe they'll help you too. 😊
 
 (Disclaimer: Some links/resources/advice may be out of date)
+
+## HTML5/CSS
+
+Use `!important;` in CSS style files to override any other style rules applied to an element. It's not necessarily "best practices" to do so, but easy to implement in a pinch when you can't be bothered to make sure specific selectors are applied correctly... 
+
+e.g.: 
+
+```
+pre {
+  background-color: #f0f0f0 !important; 
+}
+```
+
+## Quarto
+
+### General 
+
+- Docs/first stop for getting started: <https://quarto.org/>
+  - Extensions: [https://quarto.org/docs/extensions/listing-revealjs.html](https://quarto.org/docs/extensions/listing-revealjs.html) 
+  - Presentations (in revealjs): <https://quarto.org/docs/presentations/revealjs/>  
+- Getting started
+  - Getting Started with Quarto by Tom Mock (presented at rstudio conf 2022; works as of June 2023) [here](https://rstudio-conf-2022.github.io/get-started-quarto/materials/05-presentations.html#/presentations). Source code [here](https://github.com/rstudio-conf-2022/get-started-quarto/blob/main/materials/05-presentations.qmd). 
+- Misc 
+  - A Quarto tip a day by Mine Cetinkaya-Rundel: [https://mine-cetinkaya-rundel.github.io/quarto-tip-a-day/](https://mine-cetinkaya-rundel.github.io/quarto-tip-a-day/)
+  
+### Cross-referencing 
+
+Sections <https://quarto.org/docs/authoring/cross-references.html#sections> 
+
+To reference a section, add a #sec- identifier to any heading. For example:
+
+```
+## Introduction {#sec-introduction}
+
+See @sec-introduction for additional context.
+```
+
+
+Note that when using section cross-references, you will also need to enable the number-sections option (so that section numbering is visible to readers). For example:
+
+```
+---
+title: "My Document"
+number-sections: true
+---
+```
+
+### Installing extensions  
+
+Extensions (e.g. `quarto-ext/fontawesome` for icons) have to be installed with every new project (as far as I know). Quick tutorial for this: [https://www.youtube.com/watch?v=u8EOVOjX13Y](https://www.youtube.com/watch?v=u8EOVOjX13Y) 
+
+### Web
+
+I found the following to be helpful in migrating my personal website from [distill](https://rstudio.github.io/distill/website.html) to [Quarto](https://quarto.org/docs/websites/): 
+
+- [Code and content](https://github.com/andrewheiss/ath-quarto) for [andrewheiss.com](https://www.andrewheiss.com/)
+- [Porting a distill blog to quarto](https://blog.djnavarro.net/posts/2022-04-20_porting-to-quarto/) by Danielle Navarro
+- [Customizing Your Quarto Website](https://patdmob.github.io/posts/2023-02-25-customizing-your-quarto-website/) by Patrick Mobley
+  - Patrick also provides a good list of [examples/inspo](https://patdmob.github.io/posts/2023-02-25-customizing-your-quarto-website/#inspiration).
+- [Customizing Quarto Websites](https://ucsb-meds.github.io/customizing-quarto-websites/#/title-slide) by Sam Csik
+
 
 ## `R`
 
@@ -393,54 +455,6 @@ print(path.parent)
 code_path = Path.cwd()
 data_path = Path(path.parent, 'data')
 ```
-
-
-## Quarto
-
-### General 
-
-- Docs/first stop for getting started: <https://quarto.org/>
-  - Extensions: [https://quarto.org/docs/extensions/listing-revealjs.html](https://quarto.org/docs/extensions/listing-revealjs.html) 
-  - Presentations (in revealjs): <https://quarto.org/docs/presentations/revealjs/>  
-- Getting started
-  - Getting Started with Quarto by Tom Mock (presented at rstudio conf 2022; works as of June 2023) [here](https://rstudio-conf-2022.github.io/get-started-quarto/materials/05-presentations.html#/presentations). Source code [here](https://github.com/rstudio-conf-2022/get-started-quarto/blob/main/materials/05-presentations.qmd). 
-- Misc 
-  - A Quarto tip a day by Mine Cetinkaya-Rundel: [https://mine-cetinkaya-rundel.github.io/quarto-tip-a-day/](https://mine-cetinkaya-rundel.github.io/quarto-tip-a-day/)
-  
-### Cross-referencing 
-
-Sections <https://quarto.org/docs/authoring/cross-references.html#sections> 
-
-To reference a section, add a #sec- identifier to any heading. For example:
-
-```
-## Introduction {#sec-introduction}
-
-See @sec-introduction for additional context.
-```
-
-
-Note that when using section cross-references, you will also need to enable the number-sections option (so that section numbering is visible to readers). For example:
-
-```
----
-title: "My Document"
-number-sections: true
----
-```
-
-### Installing extensions  
-
-Extensions (e.g. `quarto-ext/fontawesome` for icons) have to be installed with every new project (as far as I know). Quick tutorial for this: [https://www.youtube.com/watch?v=u8EOVOjX13Y](https://www.youtube.com/watch?v=u8EOVOjX13Y) 
-
-### Web
-
-I found the following to be helpful in migrating my personal website from [distill](https://rstudio.github.io/distill/website.html) to [Quarto](https://quarto.org/docs/websites/): 
-
-- [Code and content](https://github.com/andrewheiss/ath-quarto) for [andrewheiss.com](https://www.andrewheiss.com/)
-- [Porting a distill blog to quarto](https://blog.djnavarro.net/posts/2022-04-20_porting-to-quarto/) by Danielle Navarro
-- [Customizing Your Quarto Website](https://patdmob.github.io/posts/2023-02-25-customizing-your-quarto-website/) by Patrick Mobley
-  - Patrick also provides a good list of [examples/inspo](https://patdmob.github.io/posts/2023-02-25-customizing-your-quarto-website/#inspiration).
 
 ## Markdown 
 

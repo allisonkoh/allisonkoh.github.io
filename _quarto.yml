@@ -13,19 +13,28 @@ website:
   back-to-top-navigation: true
 
   navbar:
+    search: true
     left:
       - href: index.qmd
-        text: About
-      - href: bio.qmd
-        text: Bio
-      - href: cv.qmd
+        text: Home
+      - text: About
+        menu: 
+        - href: bio.qmd
+          text: Bio
+        - href: now.qmd
+          text: Now
+      - text: Research
+        menu:
+        - href: research.qmd
+          text: Publications 
+      - text: Resources 
+        menu:
+        - href: links.qmd
+          text: Links
+      - href: files/Koh_CV.pdf
         text: CV
-      - href: research.qmd
-        text: Research
-      - href: resources.qmd
-        text: Resources
-      - href: now.qmd
-        text: Now
+        target: _blank
+
         
     right: 
       - icon: envelope
@@ -53,7 +62,8 @@ format:
       dark: [vapor, theme_variables_dark.scss]
       light: [cerulean, theme_variables_light.scss]
     css: styles.css
-    toc: true
+    toc: false
+    page-layout: full
 
 editor: source
 

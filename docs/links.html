@@ -94,27 +94,48 @@ ul.task-list li input[type="checkbox"] {
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
     <a class="nav-link" href="./index.html"> 
-<span class="menu-text">About</span></a>
+<span class="menu-text">Home</span></a>
   </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="./bio.html"> 
-<span class="menu-text">Bio</span></a>
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-about" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">About</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-about">    
+        <li>
+    <a class="dropdown-item" href="./bio.html">
+ <span class="dropdown-text">Bio</span></a>
   </li>  
+        <li>
+    <a class="dropdown-item" href="./now.html">
+ <span class="dropdown-text">Now</span></a>
+  </li>  
+    </ul>
+  </li>
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-research" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Research</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-research">    
+        <li>
+    <a class="dropdown-item" href="./research.html">
+ <span class="dropdown-text">Publications</span></a>
+  </li>  
+    </ul>
+  </li>
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-resources" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Resources</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-resources">    
+        <li>
+    <a class="dropdown-item" href="./links.html">
+ <span class="dropdown-text">Links</span></a>
+  </li>  
+    </ul>
+  </li>
   <li class="nav-item">
-    <a class="nav-link" href="./cv.html"> 
+    <a class="nav-link" href="./files/Koh_CV.pdf" target="_blank"> 
 <span class="menu-text">CV</span></a>
-  </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="./research.html"> 
-<span class="menu-text">Research</span></a>
-  </li>  
-  <li class="nav-item">
-    <a class="nav-link active" href="./resources.html" aria-current="page"> 
-<span class="menu-text">Resources</span></a>
-  </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="./now.html"> 
-<span class="menu-text">Now</span></a>
   </li>  
 </ul>
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
@@ -150,51 +171,9 @@ ul.task-list li input[type="checkbox"] {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        <nav id="TOC" role="doc-toc" class="toc-active">
-    <h2 id="toc-title">On this page</h2>
-   
-  <ul>
-  <li><a href="#r" id="toc-r" class="nav-link active" data-scroll-target="#r"><code>R</code></a>
-  <ul class="collapse">
-  <li><a href="#base" id="toc-base" class="nav-link" data-scroll-target="#base">base</a></li>
-  <li><a href="#package-management" id="toc-package-management" class="nav-link" data-scroll-target="#package-management">package management</a></li>
-  <li><a href="#filepath-management" id="toc-filepath-management" class="nav-link" data-scroll-target="#filepath-management">file/path management</a></li>
-  <li><a href="#dplyr" id="toc-dplyr" class="nav-link" data-scroll-target="#dplyr">dplyr</a></li>
-  <li><a href="#stringcharacter-vector-manipulation" id="toc-stringcharacter-vector-manipulation" class="nav-link" data-scroll-target="#stringcharacter-vector-manipulation">String/character vector manipulation</a></li>
-  <li><a href="#purrr" id="toc-purrr" class="nav-link" data-scroll-target="#purrr">purrr</a></li>
-  <li><a href="#lubridate-working-with-dates-in-general" id="toc-lubridate-working-with-dates-in-general" class="nav-link" data-scroll-target="#lubridate-working-with-dates-in-general">lubridate (/working with dates in general)</a></li>
-  <li><a href="#manipulating-twitter-data" id="toc-manipulating-twitter-data" class="nav-link" data-scroll-target="#manipulating-twitter-data">Manipulating Twitter Data</a></li>
-  <li><a href="#ggplot2" id="toc-ggplot2" class="nav-link" data-scroll-target="#ggplot2">ggplot2</a></li>
-  <li><a href="#combining-pdfs" id="toc-combining-pdfs" class="nav-link" data-scroll-target="#combining-pdfs">Combining PDFs</a></li>
-  <li><a href="#rselenium" id="toc-rselenium" class="nav-link" data-scroll-target="#rselenium">RSelenium</a></li>
-  </ul></li>
-  <li><a href="#python" id="toc-python" class="nav-link" data-scroll-target="#python">Python</a>
-  <ul class="collapse">
-  <li><a href="#setting-up-virtual-environments-in-the-cli" id="toc-setting-up-virtual-environments-in-the-cli" class="nav-link" data-scroll-target="#setting-up-virtual-environments-in-the-cli">Setting up virtual environments in the CLI</a></li>
-  <li><a href="#pandas" id="toc-pandas" class="nav-link" data-scroll-target="#pandas"><code>pandas</code></a></li>
-  <li><a href="#ide-stuff" id="toc-ide-stuff" class="nav-link" data-scroll-target="#ide-stuff">IDE stuff</a></li>
-  <li><a href="#pytorch-for-text-classification" id="toc-pytorch-for-text-classification" class="nav-link" data-scroll-target="#pytorch-for-text-classification"><code>PyTorch</code> for Text Classification</a></li>
-  <li><a href="#file-management-with-pathlib" id="toc-file-management-with-pathlib" class="nav-link" data-scroll-target="#file-management-with-pathlib">File management with <code>pathlib</code></a></li>
-  </ul></li>
-  <li><a href="#quarto" id="toc-quarto" class="nav-link" data-scroll-target="#quarto">Quarto</a>
-  <ul class="collapse">
-  <li><a href="#general" id="toc-general" class="nav-link" data-scroll-target="#general">General</a></li>
-  <li><a href="#cross-referencing" id="toc-cross-referencing" class="nav-link" data-scroll-target="#cross-referencing">Cross-referencing</a></li>
-  <li><a href="#installing-extensions" id="toc-installing-extensions" class="nav-link" data-scroll-target="#installing-extensions">Installing extensions</a></li>
-  <li><a href="#web" id="toc-web" class="nav-link" data-scroll-target="#web">Web</a></li>
-  </ul></li>
-  <li><a href="#markdown" id="toc-markdown" class="nav-link" data-scroll-target="#markdown">Markdown</a></li>
-  <li><a href="#miscellaneous" id="toc-miscellaneous" class="nav-link" data-scroll-target="#miscellaneous">Miscellaneous</a>
-  <ul class="collapse">
-  <li><a href="#source-code-images" id="toc-source-code-images" class="nav-link" data-scroll-target="#source-code-images">Source Code Images</a></li>
-  <li><a href="#palette-sites" id="toc-palette-sites" class="nav-link" data-scroll-target="#palette-sites">Palette Sites</a></li>
-  </ul></li>
-  </ul>
-</nav>
-    </div>
+    
 <!-- main -->
-<main class="content column-page-left" id="quarto-document-content">
+<main class="content column-page" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
@@ -203,7 +182,7 @@ ul.task-list li input[type="checkbox"] {
 
 
 
-<div class="quarto-title-meta column-page-left">
+<div class="quarto-title-meta column-page">
 
     
   
@@ -217,6 +196,66 @@ ul.task-list li input[type="checkbox"] {
 
 <p>The collection of links below includes references I frequently consult in my professional workflow and resources that I am often asked to recommend. Regard it as a handpicked collection of things that I have found to be super helpful. Maybe they’ll help you too. 😊</p>
 <p>(Disclaimer: Some links/resources/advice may be out of date)</p>
+<section id="html5css" class="level2">
+<h2 class="anchored" data-anchor-id="html5css">HTML5/CSS</h2>
+<p>Use <code>!important;</code> in CSS style files to override any other style rules applied to an element. It’s not necessarily “best practices” to do so, but easy to implement in a pinch when you can’t be bothered to make sure specific selectors are applied correctly…</p>
+<p>e.g.:</p>
+<pre><code>pre {
+  background-color: #f0f0f0 !important; 
+}</code></pre>
+</section>
+<section id="quarto" class="level2">
+<h2 class="anchored" data-anchor-id="quarto">Quarto</h2>
+<section id="general" class="level3">
+<h3 class="anchored" data-anchor-id="general">General</h3>
+<ul>
+<li>Docs/first stop for getting started: <a href="https://quarto.org/" class="uri">https://quarto.org/</a>
+<ul>
+<li>Extensions: <a href="https://quarto.org/docs/extensions/listing-revealjs.html">https://quarto.org/docs/extensions/listing-revealjs.html</a></li>
+<li>Presentations (in revealjs): <a href="https://quarto.org/docs/presentations/revealjs/" class="uri">https://quarto.org/docs/presentations/revealjs/</a><br>
+</li>
+</ul></li>
+<li>Getting started
+<ul>
+<li>Getting Started with Quarto by Tom Mock (presented at rstudio conf 2022; works as of June 2023) <a href="https://rstudio-conf-2022.github.io/get-started-quarto/materials/05-presentations.html#/presentations">here</a>. Source code <a href="https://github.com/rstudio-conf-2022/get-started-quarto/blob/main/materials/05-presentations.qmd">here</a>.</li>
+</ul></li>
+<li>Misc
+<ul>
+<li>A Quarto tip a day by Mine Cetinkaya-Rundel: <a href="https://mine-cetinkaya-rundel.github.io/quarto-tip-a-day/">https://mine-cetinkaya-rundel.github.io/quarto-tip-a-day/</a></li>
+</ul></li>
+</ul>
+</section>
+<section id="cross-referencing" class="level3">
+<h3 class="anchored" data-anchor-id="cross-referencing">Cross-referencing</h3>
+<p>Sections <a href="https://quarto.org/docs/authoring/cross-references.html#sections" class="uri">https://quarto.org/docs/authoring/cross-references.html#sections</a></p>
+<p>To reference a section, add a #sec- identifier to any heading. For example:</p>
+<pre><code>## Introduction {#sec-introduction}
+
+See @sec-introduction for additional context.</code></pre>
+<p>Note that when using section cross-references, you will also need to enable the number-sections option (so that section numbering is visible to readers). For example:</p>
+<pre><code>---
+title: "My Document"
+number-sections: true
+---</code></pre>
+</section>
+<section id="installing-extensions" class="level3">
+<h3 class="anchored" data-anchor-id="installing-extensions">Installing extensions</h3>
+<p>Extensions (e.g.&nbsp;<code>quarto-ext/fontawesome</code> for icons) have to be installed with every new project (as far as I know). Quick tutorial for this: <a href="https://www.youtube.com/watch?v=u8EOVOjX13Y">https://www.youtube.com/watch?v=u8EOVOjX13Y</a></p>
+</section>
+<section id="web" class="level3">
+<h3 class="anchored" data-anchor-id="web">Web</h3>
+<p>I found the following to be helpful in migrating my personal website from <a href="https://rstudio.github.io/distill/website.html">distill</a> to <a href="https://quarto.org/docs/websites/">Quarto</a>:</p>
+<ul>
+<li><a href="https://github.com/andrewheiss/ath-quarto">Code and content</a> for <a href="https://www.andrewheiss.com/">andrewheiss.com</a></li>
+<li><a href="https://blog.djnavarro.net/posts/2022-04-20_porting-to-quarto/">Porting a distill blog to quarto</a> by Danielle Navarro</li>
+<li><a href="https://patdmob.github.io/posts/2023-02-25-customizing-your-quarto-website/">Customizing Your Quarto Website</a> by Patrick Mobley
+<ul>
+<li>Patrick also provides a good list of <a href="https://patdmob.github.io/posts/2023-02-25-customizing-your-quarto-website/#inspiration">examples/inspo</a>.</li>
+</ul></li>
+<li><a href="https://ucsb-meds.github.io/customizing-quarto-websites/#/title-slide">Customizing Quarto Websites</a> by Sam Csik</li>
+</ul>
+</section>
+</section>
 <section id="r" class="level2">
 <h2 class="anchored" data-anchor-id="r"><code>R</code></h2>
 <section id="base" class="level3">
@@ -499,57 +538,6 @@ print(path.parent)</code></pre>
 <p><strong>Joining paths</strong>: In my workflow, I normally keep the working directory as my code folder and specify the path for storing data collected using relative paths. The following code specifies a path and specifies the file path for the data subdirectory of a project.</p>
 <pre><code>code_path = Path.cwd()
 data_path = Path(path.parent, 'data')</code></pre>
-</section>
-</section>
-<section id="quarto" class="level2">
-<h2 class="anchored" data-anchor-id="quarto">Quarto</h2>
-<section id="general" class="level3">
-<h3 class="anchored" data-anchor-id="general">General</h3>
-<ul>
-<li>Docs/first stop for getting started: <a href="https://quarto.org/" class="uri">https://quarto.org/</a>
-<ul>
-<li>Extensions: <a href="https://quarto.org/docs/extensions/listing-revealjs.html">https://quarto.org/docs/extensions/listing-revealjs.html</a></li>
-<li>Presentations (in revealjs): <a href="https://quarto.org/docs/presentations/revealjs/" class="uri">https://quarto.org/docs/presentations/revealjs/</a><br>
-</li>
-</ul></li>
-<li>Getting started
-<ul>
-<li>Getting Started with Quarto by Tom Mock (presented at rstudio conf 2022; works as of June 2023) <a href="https://rstudio-conf-2022.github.io/get-started-quarto/materials/05-presentations.html#/presentations">here</a>. Source code <a href="https://github.com/rstudio-conf-2022/get-started-quarto/blob/main/materials/05-presentations.qmd">here</a>.</li>
-</ul></li>
-<li>Misc
-<ul>
-<li>A Quarto tip a day by Mine Cetinkaya-Rundel: <a href="https://mine-cetinkaya-rundel.github.io/quarto-tip-a-day/">https://mine-cetinkaya-rundel.github.io/quarto-tip-a-day/</a></li>
-</ul></li>
-</ul>
-</section>
-<section id="cross-referencing" class="level3">
-<h3 class="anchored" data-anchor-id="cross-referencing">Cross-referencing</h3>
-<p>Sections <a href="https://quarto.org/docs/authoring/cross-references.html#sections" class="uri">https://quarto.org/docs/authoring/cross-references.html#sections</a></p>
-<p>To reference a section, add a #sec- identifier to any heading. For example:</p>
-<pre><code>## Introduction {#sec-introduction}
-
-See @sec-introduction for additional context.</code></pre>
-<p>Note that when using section cross-references, you will also need to enable the number-sections option (so that section numbering is visible to readers). For example:</p>
-<pre><code>---
-title: "My Document"
-number-sections: true
----</code></pre>
-</section>
-<section id="installing-extensions" class="level3">
-<h3 class="anchored" data-anchor-id="installing-extensions">Installing extensions</h3>
-<p>Extensions (e.g.&nbsp;<code>quarto-ext/fontawesome</code> for icons) have to be installed with every new project (as far as I know). Quick tutorial for this: <a href="https://www.youtube.com/watch?v=u8EOVOjX13Y">https://www.youtube.com/watch?v=u8EOVOjX13Y</a></p>
-</section>
-<section id="web" class="level3">
-<h3 class="anchored" data-anchor-id="web">Web</h3>
-<p>I found the following to be helpful in migrating my personal website from <a href="https://rstudio.github.io/distill/website.html">distill</a> to <a href="https://quarto.org/docs/websites/">Quarto</a>:</p>
-<ul>
-<li><a href="https://github.com/andrewheiss/ath-quarto">Code and content</a> for <a href="https://www.andrewheiss.com/">andrewheiss.com</a></li>
-<li><a href="https://blog.djnavarro.net/posts/2022-04-20_porting-to-quarto/">Porting a distill blog to quarto</a> by Danielle Navarro</li>
-<li><a href="https://patdmob.github.io/posts/2023-02-25-customizing-your-quarto-website/">Customizing Your Quarto Website</a> by Patrick Mobley
-<ul>
-<li>Patrick also provides a good list of <a href="https://patdmob.github.io/posts/2023-02-25-customizing-your-quarto-website/#inspiration">examples/inspo</a>.</li>
-</ul></li>
-</ul>
 </section>
 </section>
 <section id="markdown" class="level2">
