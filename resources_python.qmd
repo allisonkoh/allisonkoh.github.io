@@ -1,0 +1,60 @@
+---
+title: "Python"
+subtitle: "How-to Guides and Useful Links"
+---
+
+## Setting up virtual environments in the CLI 
+
+```
+conda create --name ENVNAME python=3.9.7
+conda activate ENVNAME
+conda deactivate ENVNAME
+```
+Every time you make a new environment, *don't forget to install git!* For my CLI (Anaconda Powershell Prompt for Windows 11):
+
+```
+conda install git
+```
+
+## `pandas`
+
+Set default format for displaying numbers; rounding to the nearest number 
+```
+pd.options.display.float_format = '{:.0f}'.format
+```
+
+## IDE stuff 
+
+- Jupyter notebooks with VSCode are normally my go-to, especially if collaborators are comfortable working with Github. 
+- If browser-based IDEs aren't your favorite, [Jupyter Ascending](https://generallyintelligent.ai/open-source/2021-10-14-jupyter-ascending/) seems like a good option for using a text editor of your choice to generate Jupyter notebooks. (note: I haven't checked this in a while)
+- Colab is another common tool used; it's not my preference given the workflow for file management, etc. is very different. 
+
+## `PyTorch` for Text Classification
+
+Useful resource comparing old torchtext (legacy) to new torchtext: <https://lightrun.com/answers/pytorch-text-overview-of-issues-in-torchtext-and-the-plan-for-revamping> 
+
+## File management with `pathlib`
+
+Use `pathlib` for relative paths in Python.  Docs: <https://docs.python.org/3/library/pathlib.html>
+
+Stuff to import at the top of the script/NB 
+
+```
+import pathlib 
+from pathlib import Path
+```
+
+The following lines of code identify a working directory and prints directory name/parent directory.
+
+```
+path = Path.cwd()
+print(path)
+print(path.parent)
+```
+
+**Joining paths**: In my workflow, I normally keep the working directory as my code folder and specify the path for storing data collected using relative paths. The following code specifies a path and specifies the file path for the data subdirectory of a project. 
+
+```
+code_path = Path.cwd()
+data_path = Path(path.parent, 'data')
+```

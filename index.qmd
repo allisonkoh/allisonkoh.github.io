@@ -28,13 +28,15 @@ format:
 ```
 :::
 ::: {.g-col-12 .g-col-md-8 .px-2}
-<h1 style="display: inline;">Allison Koh | Computational Political Scientist</h1>
+<h1 style="display: inline;">Allison Koh, PhD | Computational Political Scientist</h1>
 
 <br>I am a Research Fellow in Natural Language Processing at the University of Birmingham's [Centre for Artificial Intelligence in Government](https://www.birmingham.ac.uk/research/centre-for-artificial-intelligence-in-government). I recently earned my PhD at the Hertie School's [Centre for International Security](https://www.hertie-school.org/en/international-security) in Berlin.   
 
 My [research](research.html) interests lie at the intersection of international relations, political communication, and computational social science, with a focus on the <span class="text-success">__geopolitics of emerging technologies__</span> and applications of <span class="text-success">__generative AI in conflict research__</span>. In my [dissertation](research.html#dissertation), I outlined the strategic landscape of digital transnational repression on social media and identified how vulnerabilities in social media companies' transparency and content moderation policies benefit the foreign policy interests of authoritarian regimes.
 
-I maintain a somewhat chaotic list of [resources](links.html) that I've put together throughout my coding (mis)adventures. It includes links that I frequently consult in my workflow of breaking/debugging code and (in a future iteration) some of my teaching materials.  
+Beyond my research, I enjoy teaching myself and others how to code through hands-on experimentation and the inevitable debugging that follows. This approach is central to my teaching style. I am available to teach technical workshops in [R](resources_r.html), [Python](resources_python.html), [Quarto](resources_quarto.html), typesetting with LaTeX, and web development. 
+
+<!-- I maintain a somewhat chaotic list of [resources](links.html) that I've put together throughout my coding (mis)adventures. It includes links that I frequently consult in my workflow of breaking/debugging code and (in a future iteration) some of my teaching materials.   -->
 
 <!-- I recently earned my PhD at the Hertie School's [Centre for International Security](https://www.hertie-school.org/en/international-security) in Berlin. I also hold an MPP in Policy Analysis from the Hertie School and a BSc in Economics and Asian Studies from Tulane University.  -->
 

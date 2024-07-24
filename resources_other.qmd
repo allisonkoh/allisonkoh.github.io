@@ -1,0 +1,32 @@
+---
+title: "Other"
+subtitle: "How-to Guides and Useful Links"
+---
+
+## HTML5/CSS
+
+Use `!important;` in CSS style files to override any other style rules applied to an element. It's not necessarily "best practices" to do so, but easy to implement in a pinch when you can't be bothered to make sure specific selectors are applied correctly... 
+
+e.g.: 
+
+```
+pre {
+  background-color: #f0f0f0 !important; 
+}
+```
+
+## Markdown 
+
+- [Emojis](https://github.com/markdown-templates/markdown-emojis)
+
+## Miscellaneous
+
+### Source Code Images
+
+Create pretty images of source code here: <https://carbon.now.sh/>
+
+### Palette Sites
+
+- <https://coolors.co/>
+- <https://pokepalettes.com/>
+- <https://colorbrewer2.org/>

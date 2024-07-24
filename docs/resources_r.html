@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Allison Koh</title>
+<title>Allison Koh - R</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -93,7 +93,7 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
-    <a class="nav-link active" href="./index.html" aria-current="page"> 
+    <a class="nav-link" href="./index.html"> 
 <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item dropdown ">
@@ -104,10 +104,6 @@ ul.task-list li input[type="checkbox"] {
         <li>
     <a class="dropdown-item" href="./bio.html">
  <span class="dropdown-text">Bio</span></a>
-  </li>  
-        <li>
-    <a class="dropdown-item" href="./files/Koh_CV.pdf" target="_blank">
- <span class="dropdown-text">CV</span></a>
   </li>  
         <li>
     <a class="dropdown-item" href="./now.html">
@@ -172,6 +168,10 @@ ul.task-list li input[type="checkbox"] {
   </li>  
     </ul>
   </li>
+  <li class="nav-item">
+    <a class="nav-link" href="./files/Koh_CV.pdf" target="_blank"> 
+<span class="menu-text">CV</span></a>
+  </li>  
 </ul>
           </div> <!-- /navcollapse -->
           <div class="quarto-navbar-tools">
@@ -188,38 +188,267 @@ ul.task-list li input[type="checkbox"] {
 <!-- main -->
 <main class="content column-page" id="quarto-document-content">
 
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">R</h1>
+<p class="subtitle lead">How-to Guides and Useful Links</p>
+</div>
 
 
 
-<p><br><br></p>
-<div class="grid">
-<div class="g-col-12 g-col-md-4">
-<div class="grid" style="--bs-columns: 3; row-gap: 0;">
-  <div class="g-col-1 g-col-sm-0"></div>
-  <div class="g-col-3 g-col-sm-5">
-    <picture>
-      <source media="(max-width: 576px)" srcset="img/allisonkoh-sq.png">
-      <source media="(min-width: 576px)" srcset="img/allisonkoh-crop.png">
-      <img class="img-fluid" src="img/allisonkoh-crop.png" alt="">
-    </picture>
+<div class="quarto-title-meta column-page">
+
+    
+  
+    
   </div>
-  <div class="g-col-1 g-col-sm-0"></div>
-</div>
-</div>
-<div class="g-col-12 g-col-md-8 px-2">
-<h1 style="display: inline;">
-Allison Koh, PhD | Computational Political Scientist
-</h1>
-<p><br>I am a Research Fellow in Natural Language Processing at the University of Birmingham’s <a href="https://www.birmingham.ac.uk/research/centre-for-artificial-intelligence-in-government">Centre for Artificial Intelligence in Government</a>. I recently earned my PhD at the Hertie School’s <a href="https://www.hertie-school.org/en/international-security">Centre for International Security</a> in Berlin.</p>
-<p>My <a href="research.html">research</a> interests lie at the intersection of international relations, political communication, and computational social science, with a focus on the <span class="text-success"><strong>geopolitics of emerging technologies</strong></span> and applications of <span class="text-success"><strong>generative AI in conflict research</strong></span>. In my <a href="research.html#dissertation">dissertation</a>, I outlined the strategic landscape of digital transnational repression on social media and identified how vulnerabilities in social media companies’ transparency and content moderation policies benefit the foreign policy interests of authoritarian regimes.</p>
-<p>Beyond my research, I enjoy teaching myself and others how to code through hands-on experimentation and the inevitable debugging that follows. This approach is central to my teaching style. I am available to teach technical workshops in <a href="resources_r.html">R</a>, <a href="resources_python.html">Python</a>, <a href="resources_quarto.html">Quarto</a>, typesetting with LaTeX, and web development.</p>
-<!-- I maintain a somewhat chaotic list of [resources](links.html) that I've put together throughout my coding (mis)adventures. It includes links that I frequently consult in my workflow of breaking/debugging code and (in a future iteration) some of my teaching materials.   -->
-<!-- I recently earned my PhD at the Hertie School's [Centre for International Security](https://www.hertie-school.org/en/international-security) in Berlin. I also hold an MPP in Policy Analysis from the Hertie School and a BSc in Economics and Asian Studies from Tulane University.  -->
-<p>I’m from Queens, New York and am <a href="now.html">currently</a> based in London.</p>
-</div>
-</div>
+  
 
 
+</header>
+
+
+<section id="base" class="level2">
+<h2 class="anchored" data-anchor-id="base">base</h2>
+<p>Preventing scientific notation: <a href="https://stackoverflow.com/questions/25946047/how-to-prevent-scientific-notation-in-r" class="uri">https://stackoverflow.com/questions/25946047/how-to-prevent-scientific-notation-in-r</a></p>
+</section>
+<section id="package-management" class="level2">
+<h2 class="anchored" data-anchor-id="package-management">package management</h2>
+<p>My current preferred package management workflow involves creating virtual environments with <code>renv</code>.</p>
+<p>My (previously) preferred package for package management is <code>pacman</code>. Before loading in dependencies, put this at the top of the script</p>
+<pre><code>if(!require("pacman")) install.packages("pacman")</code></pre>
+</section>
+<section id="filepath-management" class="level2">
+<h2 class="anchored" data-anchor-id="filepath-management">file/path management</h2>
+<p>I use the <code>here()</code> package for file/path management.</p>
+<p>To reset home path (tidyverse equivalent of <code>setwd()</code>): <code>set_here()</code>. It’s a superseded function, but I don’t really like the replacement</p>
+</section>
+<section id="dplyr" class="level2">
+<h2 class="anchored" data-anchor-id="dplyr">dplyr</h2>
+<p>Combine with <code>purrr::map</code> to read in multiple csvs to one data frame <a href="https://www.mjandrews.org/blog/readmultifile/" class="uri">https://www.mjandrews.org/blog/readmultifile/</a></p>
+<p>Useful functions that I am constantly forgetting: <code>na_if</code> and <code>rowwise()</code> (group_by for rows)</p>
+<p>NOTE: Don’t get stuck in the trap of doing row-wise operations if pivoting makes more sense!</p>
+<p><code>slice(1L)</code> for getting the max value of each group</p>
+<pre><code>grouped_data &lt;- data %&gt;%
+  group_by(variable, group_vars) %&gt;%
+  summarize(values = sum(values)) %&gt;%
+  mutate(grp = cur_group_id()) %&gt;%
+  arrange(-n) %&gt;%
+  slice(1L)</code></pre>
+<p><code>recode()</code> values in variables</p>
+<p><code>replace_na()</code> for recoding NA values in variables</p>
+<p>Do you want counts of variables in groups without deleting all the other variables? Use <code>mutate()</code> after <code>group_by()</code> instead of summarize. Then subset accordingly. e.g.:</p>
+<pre><code>df %&gt;%
+  group_by(country_person) %&gt;%
+  mutate(
+    n_articles_total = n(),
+    n_articles_before = sum(before_appoint==1),
+    n_articles_after = n_articles_total - n_articles_before,
+    n_lang_en = sum(lang_en==1),
+    n_lang_other = n_articles_total - n_lang_en,
+    av_text_length = mean(length)
+  )
+
+df_tidy_subset &lt;- df %&gt;%
+  select(
+    id, country_person, n_articles_total, n_articles_before,
+    n_articles_after, n_lang_en, n_lang_other, av_text_length
+  ) %&gt;%
+  unique() # rm duplicates</code></pre>
+<p><strong>id numbers within groups</strong></p>
+<pre><code>df %&gt;% group_by(cat) %&gt;% mutate(id = row_number())</code></pre>
+</section>
+<section id="stringcharacter-vector-manipulation" class="level2">
+<h2 class="anchored" data-anchor-id="stringcharacter-vector-manipulation">String/character vector manipulation</h2>
+<p>Remove all characters that are non-numeric: <code>STRING &lt;- str_remove_all(STRING, "\\D+")</code></p>
+<p>Extract substring between two strings: <code>qdapRegex::ex_between()</code></p>
+</section>
+<section id="purrr" class="level2">
+<h2 class="anchored" data-anchor-id="purrr">purrr</h2>
+<section id="map" class="level3">
+<h3 class="anchored" data-anchor-id="map">map</h3>
+<p>On reading in multiple files and combining result of a function into a data frame: <a href="https://clauswilke.com/blog/2016/06/13/reading-and-combining-many-tidy-data-files-in-r/" class="uri">https://clauswilke.com/blog/2016/06/13/reading-and-combining-many-tidy-data-files-in-r/</a></p>
+</section>
+</section>
+<section id="lubridate-working-with-dates-in-general" class="level2">
+<h2 class="anchored" data-anchor-id="lubridate-working-with-dates-in-general">lubridate (/working with dates in general)</h2>
+<p>Create date object from year and month columns with <code>ym()</code> function (goes for a bunch of different ymd combinations as well). e.g.:</p>
+<pre><code>df %&gt;%
+  mutate(
+    date = ym(paste(Year, Month))
+  )</code></pre>
+</section>
+<section id="manipulating-twitter-data" class="level2">
+<h2 class="anchored" data-anchor-id="manipulating-twitter-data">Manipulating Twitter Data</h2>
+<p>(NOTE: as of July 2023, there is extremely limited researcher access to Twitter data)</p>
+<p>I used to collect my data using the <code>twarc</code> Python package, but work with my data in <code>R</code>. See code below as an example for wrangling the JSON strings from <code>entities</code> variables.</p>
+<p>You might have to make things more complex if you want to also add where tweets came from, but hopefully the snippet below provides a good starting point!</p>
+<pre><code>tweets_entities &lt;- tweets %&gt;% 
+  filter(entities.annotations != "") %&gt;% # for some reason drop_na not working
+  mutate(entities.annotations = gsub("\"\"", "\"", entities.annotations)) 
+
+entities &lt;- map(tweets_entities$entities.annotations, fromJSON) %&gt;% 
+  bind_rows() %&gt;% 
+  select("type", "normalized_text") %&gt;% 
+  distinct()
+
+people &lt;- entities %&gt;% 
+  filter(type == "Person")</code></pre>
+</section>
+<section id="ggplot2" class="level2">
+<h2 class="anchored" data-anchor-id="ggplot2">ggplot2</h2>
+<p>If you’re a Python user, stick to the Grammar of Graphics and use the <a href="https://plotnine.readthedocs.io/en/stable/">plotnine</a> library for visualization :D</p>
+<section id="heatmap-snippet" class="level3">
+<h3 class="anchored" data-anchor-id="heatmap-snippet">Heatmap snippet</h3>
+<pre><code>fig_df |&gt; 
+  ggplot(aes(x = country, y = account_type, fill = n)) + 
+  geom_tile(color = "white") +
+  geom_text(aes(label = n), color = "white", size = 15) + 
+  coord_fixed() + 
+  scale_fill_viridis(end = 0.7)</code></pre>
+</section>
+<section id="faceting" class="level3">
+<h3 class="anchored" data-anchor-id="faceting">Faceting</h3>
+<p>Different categorical x-axes <a href="https://stackoverflow.com/questions/45019839/ggplot2-different-facet-width-for-categorical-x-axis" class="uri">https://stackoverflow.com/questions/45019839/ggplot2-different-facet-width-for-categorical-x-axis</a></p>
+</section>
+<section id="themes" class="level3">
+<h3 class="anchored" data-anchor-id="themes">Themes</h3>
+<p>This is the <code>theme_set()</code> that I might use for now.</p>
+<pre><code># add fonts (this might not be a necessary step)
+showtext::font_add_google(name = "Fira Sans", family = "fira")
+showtext::font_add_google(name = "Roboto", family = "roboto")
+
+# themes and text defaults
+theme_set(
+  theme_minimal() +
+    theme(
+      legend.position = "bottom",
+      plot.title = element_text(family = "fira"),
+      text = element_text(family = "roboto")
+    )
+)</code></pre>
+</section>
+<section id="labels" class="level3">
+<h3 class="anchored" data-anchor-id="labels">Labels</h3>
+<p>Use <code>str_wrap()</code> around different graphic elements to automatically wrap captions/text/legend labels. Sample code below:</p>
+<pre><code>top_df %&gt;%
+  ggplot(aes(x = date, y = as.numeric(rank), color = str_wrap(game, 20))) +
+  geom_point() +
+  geom_bump() +
+  scale_y_reverse(limits = c(10, 1), n.breaks = 10) +
+  labs(
+    title = "Top Games Streamed on Twitch",
+    subtitle = str_wrap("Games shown are a subset of data with the top 200 ranked games over time. Each of these games have consistently ranked in the top 200, but not necessarily top 10 throughout the years.")
+  ) +
+  guides(col = guide_legend(ncol = 3))</code></pre>
+<p>If you want to wrap legend labels but keep factor levels, use the following helper function (thanks Hadley Wickham!)</p>
+<pre><code># for wrapping legend labels while keeping original factor levels
+# https://github.com/tidyverse/stringr/issues/107
+str_wrap_factor &lt;- function(x, ...) {
+  levels(x) &lt;- str_wrap(levels(x), ...)
+  x
+}</code></pre>
+<p>How to customize which legends are shown based on aesthetic: <code>guides()</code>. Example:</p>
+<pre><code>data %&gt;%
+  ggplot(aes(x = type, y = fct_rev(abb), size = n, color = n)) +
+  geom_point() +
+  labs(
+    title = "TITLE",
+    x = "",
+    y = "",
+    color = "",
+    caption = "Data Source: DATA_SOURCE\nVisualization: Allison Koh"
+    ) +
+    guides(size = "none")</code></pre>
+</section>
+<section id="fonts" class="level3">
+<h3 class="anchored" data-anchor-id="fonts">Fonts</h3>
+<p><code>{extrafont}</code> and <code>{showtext}</code> are useful for adding different fonts to viz.&nbsp;The former is for loading in existing fonts from system, the latter is for making sure your text shows up in all graphics(and for loading in fonts from google and other places).</p>
+<p><strong>LIFE HACK</strong> (or more likely, common sense thing that I often forget): Make sure to include font families in <code>theme_set()</code> at the top of a script instead of in individual graphics.</p>
+<p>Useful lines of code for <code>{extrafont}</code> are as follows:</p>
+<pre><code># load in system fonts
+extrafont::load_fonts()
+
+# show font names
+fonts()
+
+# show a data frame of all fonts available
+fonttable()</code></pre>
+<p>Useful lines of code for <code>{showtext}</code> are as follows:</p>
+<pre><code>showtext_auto() # put at the beginning of a script to automatically show text in new graphics devices</code></pre>
+</section>
+<section id="geom_bernie" class="level3">
+<h3 class="anchored" data-anchor-id="geom_bernie">geom_bernie()</h3>
+<p>Add Bernie Sanders to your plots :D because why not</p>
+<p>Install</p>
+<pre><code>remotes::install_github("R-CoderDotCom/ggbernie@main")</code></pre>
+<p>Geom</p>
+<pre><code>geom_bernie(aes(x = 1930, y = 20100), bernie = "sitting")</code></pre>
+</section>
+<section id="alt-text" class="level3">
+<h3 class="anchored" data-anchor-id="alt-text">Alt Text</h3>
+<p><strong>Helper Function</strong></p>
+<pre><code># helper function for writing alt text
+# https://twitter.com/thomas_mock/status/1375853258145734660
+write_alt_text &lt;- function(
+  chart_type,
+  type_of_data,
+  reason,
+  misc,
+  source
+){
+  glue::glue(
+    "{chart_type} of {type_of_data} where {reason}. \n\n{misc}\n\nData source from {source}"
+  )
+}</code></pre>
+<p><strong>Examples</strong></p>
+<p>The <code>{TidyTuesdayAltText}</code> package contains examples of AltText from #TidyTuesday posts between 2019 and 2021.</p>
+<p>A future version of this package will include an annotated dataset of alt text + ratings according to feature: <a href="https://twitter.com/spcanelon/status/1405488036989870080" class="uri">https://twitter.com/spcanelon/status/1405488036989870080</a>. Until it is integrated into the package, the data can be found here: <a href="https://github.com/spcanelon/csvConf2021/blob/main/data/annotatedRubric1.csv" class="uri">https://github.com/spcanelon/csvConf2021/blob/main/data/annotatedRubric1.csv</a></p>
+<pre><code>devtools::install_github("spcanelon/TidyTuesdayAltText</code></pre>
+</section>
+<section id="palette-from-picture-with-paletter" class="level3">
+<h3 class="anchored" data-anchor-id="palette-from-picture-with-paletter">Palette from picture with {paletteR}</h3>
+<p><a href="https://datascienceplus.com/how-to-use-paletter-to-automagically-build-palettes-from-pictures/" class="uri">https://datascienceplus.com/how-to-use-paletter-to-automagically-build-palettes-from-pictures/</a></p>
+<pre><code>devtools::install_github("andreacirilloac/paletter")
+create_palette(image_path = "~/Desktop/410px-Piero_della_Francesca_046.jpg",
+               number_of_colors =20,
+               type_of_variable = “categorical")</code></pre>
+</section>
+<section id="test-palette-with-pie-function" class="level3">
+<h3 class="anchored" data-anchor-id="test-palette-with-pie-function">Test palette with <code>pie()</code> function</h3>
+<pre><code>pie(rep(1, 13), col=pal)</code></pre>
+</section>
+</section>
+<section id="combining-pdfs" class="level2">
+<h2 class="anchored" data-anchor-id="combining-pdfs">Combining PDFs</h2>
+<p><a href="https://stackoverflow.com/questions/17552917/merging-existing-pdf-files-using-r" class="uri">https://stackoverflow.com/questions/17552917/merging-existing-pdf-files-using-r</a></p>
+<pre><code>install.packages("qpdf")
+qpdf::pdf_combine(input = c("file.pdf", "file2.pdf", "file3.pdf"),
+                  output = "output.pdf")</code></pre>
+</section>
+<section id="rselenium" class="level2">
+<h2 class="anchored" data-anchor-id="rselenium">RSelenium</h2>
+<p>Reset port (for error message: Selenium server signals port = 4444 is already in use.) <a href="https://stackoverflow.com/questions/74708282/rselenium-is-not-working-when-creating-servers" class="uri">https://stackoverflow.com/questions/74708282/rselenium-is-not-working-when-creating-servers</a></p>
+<pre><code>library(qdapRegex)
+
+#clear busy port in windows
+port &lt;- 4444L
+tintern &lt;- system("netstat -a -n -o",intern=T)
+irow1 &lt;- grep(as.character(port),tintern)
+if(length(irow1)&gt;0){
+  irow1 &lt;- irow1[1]
+  if(!is.na(irow1)){
+    irow1 &lt;- irow1[1]
+    trow &lt;- tintern[irow1]
+    trow &lt;- trimws(rm_white(trow))
+    tpid &lt;- word(trow,-1,-1) 
+    system(paste0("taskkill /pid ",tpid," /F"))
+    
+  }
+}</code></pre>
+
+
+</section>
 
 <a onclick="window.scrollTo(0, 0); return false;" role="button" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">

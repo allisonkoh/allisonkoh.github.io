@@ -14,13 +14,17 @@ website:
 
   navbar:
     search: true
-    left:
+    right:
+    # left:
       - href: index.qmd
         text: Home
       - text: About
         menu: 
         - href: bio.qmd
           text: Bio
+        - text: CV
+          href: files/Koh_CV.pdf
+          target: _blank
         - href: now.qmd
           text: Now
       - text: Research
@@ -29,32 +33,46 @@ website:
           text: Publications 
       - text: Resources 
         menu:
-        - href: links.qmd
-          text: Links
-      - href: files/Koh_CV.pdf
-        text: CV
-        target: _blank
+        - href: resources.qmd
+          text: Overview
+        - href: resources_python.qmd
+          text: Python
+        - href: resources_quarto.qmd
+          text: Quarto
+        - href: resources_r.qmd
+          text: R
+        - href: resources_other.qmd
+          text: Other
+      - text: Contact
+        menu: 
+        - text: Email
+          href: "mailto:a.w.koh@bham.ac.uk"
+        - text: Twitter
+          href: https://twitter.com/allisonwkoh
+          rel: me
+        - text: LinkedIn
+          href: https://www.linkedin.com/in/allisonkoh/
+          rel: me
 
-        
-    right: 
-      - icon: envelope
-        aria-label: email
-        href: "mailto:a.w.koh@bham.ac.uk"
-      - icon: twitter
-        aria-label: twitter
-        href: https://twitter.com/allisonwkoh
-        rel: me
-      - icon: github
-        aria-label: github
-        href: https://github.com/allisonkoh
-        rel: me
-      - icon: linkedin
-        aria-label: linkedin
-        href: https://www.linkedin.com/in/allisonkoh/
-        rel: me
 
   page-footer:
-    center: "[{{< fa brands creative-commons >}}](https://creativecommons.org/licenses/by/4.0/) Allison Koh 2024 • Made with {{< fa brands r-project >}} and [Quarto](https://quarto.org/)" 
+    left: "[{{< fa brands creative-commons >}}](https://creativecommons.org/licenses/by/4.0/) Allison Koh 2024 • Made with {{< fa brands r-project >}} and [Quarto](https://quarto.org/)"
+    right:
+    - icon: envelope
+      aria-label: email
+      href: "mailto:a.w.koh@bham.ac.uk"
+    - icon: twitter
+      aria-label: twitter
+      href: https://twitter.com/allisonwkoh
+      rel: me
+    - icon: github
+      aria-label: github
+      href: https://github.com/allisonkoh
+      rel: me
+    - icon: linkedin
+      aria-label: linkedin
+      href: https://www.linkedin.com/in/allisonkoh/
+      rel: me
     
 format:
   html:

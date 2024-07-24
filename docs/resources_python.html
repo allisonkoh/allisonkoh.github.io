@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Allison Koh</title>
+<title>Allison Koh - Python</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -93,7 +93,7 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
-    <a class="nav-link active" href="./index.html" aria-current="page"> 
+    <a class="nav-link" href="./index.html"> 
 <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item dropdown ">
@@ -104,10 +104,6 @@ ul.task-list li input[type="checkbox"] {
         <li>
     <a class="dropdown-item" href="./bio.html">
  <span class="dropdown-text">Bio</span></a>
-  </li>  
-        <li>
-    <a class="dropdown-item" href="./files/Koh_CV.pdf" target="_blank">
- <span class="dropdown-text">CV</span></a>
   </li>  
         <li>
     <a class="dropdown-item" href="./now.html">
@@ -172,6 +168,10 @@ ul.task-list li input[type="checkbox"] {
   </li>  
     </ul>
   </li>
+  <li class="nav-item">
+    <a class="nav-link" href="./files/Koh_CV.pdf" target="_blank"> 
+<span class="menu-text">CV</span></a>
+  </li>  
 </ul>
           </div> <!-- /navcollapse -->
           <div class="quarto-navbar-tools">
@@ -188,38 +188,67 @@ ul.task-list li input[type="checkbox"] {
 <!-- main -->
 <main class="content column-page" id="quarto-document-content">
 
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Python</h1>
+<p class="subtitle lead">How-to Guides and Useful Links</p>
+</div>
 
 
 
-<p><br><br></p>
-<div class="grid">
-<div class="g-col-12 g-col-md-4">
-<div class="grid" style="--bs-columns: 3; row-gap: 0;">
-  <div class="g-col-1 g-col-sm-0"></div>
-  <div class="g-col-3 g-col-sm-5">
-    <picture>
-      <source media="(max-width: 576px)" srcset="img/allisonkoh-sq.png">
-      <source media="(min-width: 576px)" srcset="img/allisonkoh-crop.png">
-      <img class="img-fluid" src="img/allisonkoh-crop.png" alt="">
-    </picture>
+<div class="quarto-title-meta column-page">
+
+    
+  
+    
   </div>
-  <div class="g-col-1 g-col-sm-0"></div>
-</div>
-</div>
-<div class="g-col-12 g-col-md-8 px-2">
-<h1 style="display: inline;">
-Allison Koh, PhD | Computational Political Scientist
-</h1>
-<p><br>I am a Research Fellow in Natural Language Processing at the University of Birmingham’s <a href="https://www.birmingham.ac.uk/research/centre-for-artificial-intelligence-in-government">Centre for Artificial Intelligence in Government</a>. I recently earned my PhD at the Hertie School’s <a href="https://www.hertie-school.org/en/international-security">Centre for International Security</a> in Berlin.</p>
-<p>My <a href="research.html">research</a> interests lie at the intersection of international relations, political communication, and computational social science, with a focus on the <span class="text-success"><strong>geopolitics of emerging technologies</strong></span> and applications of <span class="text-success"><strong>generative AI in conflict research</strong></span>. In my <a href="research.html#dissertation">dissertation</a>, I outlined the strategic landscape of digital transnational repression on social media and identified how vulnerabilities in social media companies’ transparency and content moderation policies benefit the foreign policy interests of authoritarian regimes.</p>
-<p>Beyond my research, I enjoy teaching myself and others how to code through hands-on experimentation and the inevitable debugging that follows. This approach is central to my teaching style. I am available to teach technical workshops in <a href="resources_r.html">R</a>, <a href="resources_python.html">Python</a>, <a href="resources_quarto.html">Quarto</a>, typesetting with LaTeX, and web development.</p>
-<!-- I maintain a somewhat chaotic list of [resources](links.html) that I've put together throughout my coding (mis)adventures. It includes links that I frequently consult in my workflow of breaking/debugging code and (in a future iteration) some of my teaching materials.   -->
-<!-- I recently earned my PhD at the Hertie School's [Centre for International Security](https://www.hertie-school.org/en/international-security) in Berlin. I also hold an MPP in Policy Analysis from the Hertie School and a BSc in Economics and Asian Studies from Tulane University.  -->
-<p>I’m from Queens, New York and am <a href="now.html">currently</a> based in London.</p>
-</div>
-</div>
+  
 
 
+</header>
+
+
+<section id="setting-up-virtual-environments-in-the-cli" class="level2">
+<h2 class="anchored" data-anchor-id="setting-up-virtual-environments-in-the-cli">Setting up virtual environments in the CLI</h2>
+<pre><code>conda create --name ENVNAME python=3.9.7
+conda activate ENVNAME
+conda deactivate ENVNAME</code></pre>
+<p>Every time you make a new environment, <em>don’t forget to install git!</em> For my CLI (Anaconda Powershell Prompt for Windows 11):</p>
+<pre><code>conda install git</code></pre>
+</section>
+<section id="pandas" class="level2">
+<h2 class="anchored" data-anchor-id="pandas"><code>pandas</code></h2>
+<p>Set default format for displaying numbers; rounding to the nearest number</p>
+<pre><code>pd.options.display.float_format = '{:.0f}'.format</code></pre>
+</section>
+<section id="ide-stuff" class="level2">
+<h2 class="anchored" data-anchor-id="ide-stuff">IDE stuff</h2>
+<ul>
+<li>Jupyter notebooks with VSCode are normally my go-to, especially if collaborators are comfortable working with Github.</li>
+<li>If browser-based IDEs aren’t your favorite, <a href="https://generallyintelligent.ai/open-source/2021-10-14-jupyter-ascending/">Jupyter Ascending</a> seems like a good option for using a text editor of your choice to generate Jupyter notebooks. (note: I haven’t checked this in a while)</li>
+<li>Colab is another common tool used; it’s not my preference given the workflow for file management, etc. is very different.</li>
+</ul>
+</section>
+<section id="pytorch-for-text-classification" class="level2">
+<h2 class="anchored" data-anchor-id="pytorch-for-text-classification"><code>PyTorch</code> for Text Classification</h2>
+<p>Useful resource comparing old torchtext (legacy) to new torchtext: <a href="https://lightrun.com/answers/pytorch-text-overview-of-issues-in-torchtext-and-the-plan-for-revamping" class="uri">https://lightrun.com/answers/pytorch-text-overview-of-issues-in-torchtext-and-the-plan-for-revamping</a></p>
+</section>
+<section id="file-management-with-pathlib" class="level2">
+<h2 class="anchored" data-anchor-id="file-management-with-pathlib">File management with <code>pathlib</code></h2>
+<p>Use <code>pathlib</code> for relative paths in Python. Docs: <a href="https://docs.python.org/3/library/pathlib.html" class="uri">https://docs.python.org/3/library/pathlib.html</a></p>
+<p>Stuff to import at the top of the script/NB</p>
+<pre><code>import pathlib 
+from pathlib import Path</code></pre>
+<p>The following lines of code identify a working directory and prints directory name/parent directory.</p>
+<pre><code>path = Path.cwd()
+print(path)
+print(path.parent)</code></pre>
+<p><strong>Joining paths</strong>: In my workflow, I normally keep the working directory as my code folder and specify the path for storing data collected using relative paths. The following code specifies a path and specifies the file path for the data subdirectory of a project.</p>
+<pre><code>code_path = Path.cwd()
+data_path = Path(path.parent, 'data')</code></pre>
+
+
+</section>
 
 <a onclick="window.scrollTo(0, 0); return false;" role="button" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">

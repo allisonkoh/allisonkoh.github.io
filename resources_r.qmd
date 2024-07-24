@@ -1,85 +1,13 @@
 ---
-title: "Resources"
-format: 
-  html: 
-    page-layout: full
-    grid: 
-      sidebar-width: 800px
-    toc-depth: 1
+title: "R"
+subtitle: "How-to Guides and Useful Links"
 ---
 
-The collection of links below includes references I frequently consult in my professional workflow and resources that I am often asked to recommend. Regard it as a handpicked collection of things that I have found to be super helpful. Maybe they'll help you too. 😊
-
-(Disclaimer: Some links/resources/advice may be out of date)
-
-## HTML5/CSS
-
-Use `!important;` in CSS style files to override any other style rules applied to an element. It's not necessarily "best practices" to do so, but easy to implement in a pinch when you can't be bothered to make sure specific selectors are applied correctly... 
-
-e.g.: 
-
-```
-pre {
-  background-color: #f0f0f0 !important; 
-}
-```
-
-## Quarto
-
-### General 
-
-- Docs/first stop for getting started: <https://quarto.org/>
-  - Extensions: [https://quarto.org/docs/extensions/listing-revealjs.html](https://quarto.org/docs/extensions/listing-revealjs.html) 
-  - Presentations (in revealjs): <https://quarto.org/docs/presentations/revealjs/>  
-- Getting started
-  - Getting Started with Quarto by Tom Mock (presented at rstudio conf 2022; works as of June 2023) [here](https://rstudio-conf-2022.github.io/get-started-quarto/materials/05-presentations.html#/presentations). Source code [here](https://github.com/rstudio-conf-2022/get-started-quarto/blob/main/materials/05-presentations.qmd). 
-- Misc 
-  - A Quarto tip a day by Mine Cetinkaya-Rundel: [https://mine-cetinkaya-rundel.github.io/quarto-tip-a-day/](https://mine-cetinkaya-rundel.github.io/quarto-tip-a-day/)
-  
-### Cross-referencing 
-
-Sections <https://quarto.org/docs/authoring/cross-references.html#sections> 
-
-To reference a section, add a #sec- identifier to any heading. For example:
-
-```
-## Introduction {#sec-introduction}
-
-See @sec-introduction for additional context.
-```
-
-
-Note that when using section cross-references, you will also need to enable the number-sections option (so that section numbering is visible to readers). For example:
-
-```
----
-title: "My Document"
-number-sections: true
----
-```
-
-### Installing extensions  
-
-Extensions (e.g. `quarto-ext/fontawesome` for icons) have to be installed with every new project (as far as I know). Quick tutorial for this: [https://www.youtube.com/watch?v=u8EOVOjX13Y](https://www.youtube.com/watch?v=u8EOVOjX13Y) 
-
-### Web
-
-I found the following to be helpful in migrating my personal website from [distill](https://rstudio.github.io/distill/website.html) to [Quarto](https://quarto.org/docs/websites/): 
-
-- [Code and content](https://github.com/andrewheiss/ath-quarto) for [andrewheiss.com](https://www.andrewheiss.com/)
-- [Porting a distill blog to quarto](https://blog.djnavarro.net/posts/2022-04-20_porting-to-quarto/) by Danielle Navarro
-- [Customizing Your Quarto Website](https://patdmob.github.io/posts/2023-02-25-customizing-your-quarto-website/) by Patrick Mobley
-  - Patrick also provides a good list of [examples/inspo](https://patdmob.github.io/posts/2023-02-25-customizing-your-quarto-website/#inspiration).
-- [Customizing Quarto Websites](https://ucsb-meds.github.io/customizing-quarto-websites/#/title-slide) by Sam Csik
-
-
-## `R`
-
-### base 
+## base 
 
 Preventing scientific notation: <https://stackoverflow.com/questions/25946047/how-to-prevent-scientific-notation-in-r> 
 
-### package management 
+## package management 
 
 My current preferred package management workflow involves creating virtual environments with `renv`. 
 
@@ -88,13 +16,13 @@ My (previously) preferred package for package management is `pacman`. Before loa
 ```
 if(!require("pacman")) install.packages("pacman")
 ```
-### file/path management 
+## file/path management 
 
 I use the `here()` package for file/path management. 
 
 To reset home path (tidyverse equivalent of `setwd()`): `set_here()`. It's a superseded function, but I don't really like the replacement 
 
-### dplyr
+## dplyr
 
 Combine with `purrr::map` to read in multiple csvs to one data frame 
 <https://www.mjandrews.org/blog/readmultifile/>
@@ -146,19 +74,19 @@ __id numbers within groups__
 df %>% group_by(cat) %>% mutate(id = row_number())
 ```
 
-### String/character vector manipulation
+## String/character vector manipulation
 
 Remove all characters that are non-numeric: `STRING <- str_remove_all(STRING, "\\D+")`
 
 Extract substring between two strings: `qdapRegex::ex_between()`
 
-### purrr
+## purrr
 
-#### map
+### map
 
 On reading in multiple files and combining result of a function into a data frame:  <https://clauswilke.com/blog/2016/06/13/reading-and-combining-many-tidy-data-files-in-r/>
 
-### lubridate (/working with dates in general)
+## lubridate (/working with dates in general)
 
 Create date object from year and month columns with `ym()` function (goes for a bunch of different ymd combinations as well). e.g.: 
 
@@ -168,7 +96,7 @@ df %>%
     date = ym(paste(Year, Month))
   )
 ```
-### Manipulating Twitter Data 
+## Manipulating Twitter Data 
 
 (NOTE: as of July 2023, there is extremely limited researcher access to Twitter data)
 
@@ -190,11 +118,11 @@ people <- entities %>%
   filter(type == "Person")
 ```
 
-### ggplot2
+## ggplot2
 
 If you're a Python user, stick to the Grammar of Graphics and use the [plotnine](https://plotnine.readthedocs.io/en/stable/) library for visualization :D
 
-#### Heatmap snippet
+### Heatmap snippet
 
 ```
 fig_df |> 
@@ -205,11 +133,11 @@ fig_df |>
   scale_fill_viridis(end = 0.7)
 ```
 
-#### Faceting 
+### Faceting 
 
 Different categorical x-axes <https://stackoverflow.com/questions/45019839/ggplot2-different-facet-width-for-categorical-x-axis>
 
-#### Themes
+### Themes
 
 This is the `theme_set()` that I might use for now.
 
@@ -229,7 +157,7 @@ theme_set(
 )
 ```
 
-#### Labels
+### Labels
 
 Use `str_wrap()` around different graphic elements to automatically wrap captions/text/legend labels. Sample code below:
 
@@ -273,7 +201,7 @@ data %>%
     guides(size = "none")
 ```
 
-#### Fonts
+### Fonts
 
 `{extrafont}` and `{showtext}` are useful for adding different fonts to viz. The former is for loading in existing fonts from system, the latter is for making sure your text shows up in all graphics(and for loading in fonts from google and other places).
 
@@ -299,7 +227,7 @@ Useful lines of code for `{showtext}` are as follows:
 showtext_auto() # put at the beginning of a script to automatically show text in new graphics devices
 ```
 
-#### geom_bernie()
+### geom_bernie()
 
 Add Bernie Sanders to your plots :D because why not 
 
@@ -315,7 +243,7 @@ Geom
 geom_bernie(aes(x = 1930, y = 20100), bernie = "sitting")
 ```
 
-#### Alt Text
+### Alt Text
 
 __Helper Function__
 
@@ -345,7 +273,7 @@ A future version of this package will include an annotated dataset of alt text +
 devtools::install_github("spcanelon/TidyTuesdayAltText
 ```
 
-#### Palette from picture with {paletteR}
+### Palette from picture with {paletteR}
 
 <https://datascienceplus.com/how-to-use-paletter-to-automagically-build-palettes-from-pictures/>
 
@@ -356,13 +284,13 @@ create_palette(image_path = "~/Desktop/410px-Piero_della_Francesca_046.jpg",
                type_of_variable = “categorical")
 ```
 
-#### Test palette with `pie()` function
+### Test palette with `pie()` function
 
 ```
 pie(rep(1, 13), col=pal)
 ```
 
-### Combining PDFs 
+## Combining PDFs 
 
 <https://stackoverflow.com/questions/17552917/merging-existing-pdf-files-using-r> 
 
@@ -372,7 +300,7 @@ qpdf::pdf_combine(input = c("file.pdf", "file2.pdf", "file3.pdf"),
                   output = "output.pdf")
 ```
 
-### RSelenium 
+## RSelenium 
 
 Reset port (for error message: Selenium server signals port = 4444 is already in use.)
 <https://stackoverflow.com/questions/74708282/rselenium-is-not-working-when-creating-servers>
@@ -397,77 +325,3 @@ if(length(irow1)>0){
 }
 ```
 
-
-## Python
-
-### Setting up virtual environments in the CLI 
-
-```
-conda create --name ENVNAME python=3.9.7
-conda activate ENVNAME
-conda deactivate ENVNAME
-```
-Every time you make a new environment, *don't forget to install git!* For my CLI (Anaconda Powershell Prompt for Windows 11):
-
-```
-conda install git
-```
-
-### `pandas`
-
-Set default format for displaying numbers; rounding to the nearest number 
-```
-pd.options.display.float_format = '{:.0f}'.format
-```
-
-### IDE stuff 
-
-- Jupyter notebooks with VSCode are normally my go-to, especially if collaborators are comfortable working with Github. 
-- If browser-based IDEs aren't your favorite, [Jupyter Ascending](https://generallyintelligent.ai/open-source/2021-10-14-jupyter-ascending/) seems like a good option for using a text editor of your choice to generate Jupyter notebooks. (note: I haven't checked this in a while)
-- Colab is another common tool used; it's not my preference given the workflow for file management, etc. is very different. 
-
-### `PyTorch` for Text Classification
-
-Useful resource comparing old torchtext (legacy) to new torchtext: <https://lightrun.com/answers/pytorch-text-overview-of-issues-in-torchtext-and-the-plan-for-revamping> 
-
-### File management with `pathlib`
-
-Use `pathlib` for relative paths in Python.  Docs: <https://docs.python.org/3/library/pathlib.html>
-
-Stuff to import at the top of the script/NB 
-
-```
-import pathlib 
-from pathlib import Path
-```
-
-The following lines of code identify a working directory and prints directory name/parent directory.
-
-```
-path = Path.cwd()
-print(path)
-print(path.parent)
-```
-
-**Joining paths**: In my workflow, I normally keep the working directory as my code folder and specify the path for storing data collected using relative paths. The following code specifies a path and specifies the file path for the data subdirectory of a project. 
-
-```
-code_path = Path.cwd()
-data_path = Path(path.parent, 'data')
-```
-
-## Markdown 
-
-- [Emojis](https://github.com/markdown-templates/markdown-emojis)
-
-## Miscellaneous
-
-### Source Code Images
-
-Create pretty images of source code here: <https://carbon.now.sh/>
-
-### Palette Sites
-
-- <https://coolors.co/>
-- <https://pokepalettes.com/>
-- <https://colorbrewer2.org/>
