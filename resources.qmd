@@ -8,9 +8,7 @@ format:
 
 The collections of links below include references I frequently consult in my professional workflow and resources that I am often asked to recommend. Regard it as a handpicked selection of things that I have found to be super helpful. Maybe they'll help you too. 😊
 
-I regularly update these collections every time I learn something new, find myself visiting the same how-to guide at twice, and receive requests for advice on a specific aspect of coding. Some links/resources/advice may be out of date.
-
-Resources by language 
+I regularly update these collections every time I learn something new, find myself visiting the same how-to guide at least twice, and receive requests for advice on a specific aspect of coding. Some links/resources/advice may be out of date.
 
 - [Python](resources_python.html)
 - [Quarto](resources_quarto.html)
