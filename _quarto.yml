@@ -11,7 +11,6 @@ website:
   title: Allison Koh
 
   back-to-top-navigation: true
-
   navbar:
     search: true
     right:
@@ -42,7 +41,7 @@ website:
         - href: resources_r.qmd
           text: R
         - href: resources_other.qmd
-          text: Other
+          text: Other <br>
       - text: Contact
         menu: 
         - text: Email
