@@ -34,7 +34,7 @@ format:
 
 My [research](research.html) interests lie at the intersection of international relations, political communication, and computational social science, with a focus on the <span class="text-success">__geopolitics of emerging technologies__</span> and applications of <span class="text-success">__generative AI in conflict research__</span>. In my [dissertation](research.html#dissertation), I outlined the strategic landscape of digital transnational repression on social media and identified how vulnerabilities in social media companies' transparency and content moderation policies benefit the foreign policy interests of authoritarian regimes.
 
-Beyond my research, I enjoy teaching myself and others how to code through hands-on experimentation and the inevitable debugging that follows. I am available to teach workshops on data management and visualization, typesetting, and web data collection.  
+Beyond my research, I enjoy teaching others how to code and prioritize accommodating a variety of learning differences in my classroom. I am available to lead workshops on data management and visualization in R/Python, typesetting with LaTeX/Quarto, and web data collection in R.  
 
 <!-- I maintain a somewhat chaotic list of [resources](links.html) that I've put together throughout my coding (mis)adventures. It includes links that I frequently consult in my workflow of breaking/debugging code and (in a future iteration) some of my teaching materials.   -->
 
