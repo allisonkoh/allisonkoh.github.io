@@ -8,13 +8,29 @@ preview:
   navigate: true
 
 website:
-  title: Allison Koh
+  title: ""
 
   back-to-top-navigation: true
   navbar:
+    logo: logo.svg
     search: true
     right:
-    # left:
+    - icon: envelope
+      aria-label: email
+      href: "mailto:a.w.koh@bham.ac.uk"
+    - icon: twitter
+      aria-label: twitter
+      href: https://twitter.com/allisonwkoh
+      rel: me
+    - icon: github
+      aria-label: github
+      href: https://github.com/allisonkoh
+      rel: me
+    - icon: linkedin
+      aria-label: linkedin
+      href: https://www.linkedin.com/in/allisonkoh/
+      rel: me
+    left:
       - href: index.qmd
         text: Home
       - text: About
@@ -55,23 +71,23 @@ website:
 
 
   page-footer:
-    left: "[{{< fa brands creative-commons >}}](https://creativecommons.org/licenses/by/4.0/) Allison Koh 2024 • Made with {{< fa brands r-project >}} and [Quarto](https://quarto.org/)"
-    right:
-    - icon: envelope
-      aria-label: email
-      href: "mailto:a.w.koh@bham.ac.uk"
-    - icon: twitter
-      aria-label: twitter
-      href: https://twitter.com/allisonwkoh
-      rel: me
-    - icon: github
-      aria-label: github
-      href: https://github.com/allisonkoh
-      rel: me
-    - icon: linkedin
-      aria-label: linkedin
-      href: https://www.linkedin.com/in/allisonkoh/
-      rel: me
+    <br> [{{< fa brands creative-commons >}}](https://creativecommons.org/licenses/by/4.0/) Allison Koh 2024 • Made with {{< fa brands r-project >}} and [Quarto](https://quarto.org/)
+    # right:
+    # - icon: envelope
+    #   aria-label: email
+    #   href: "mailto:a.w.koh@bham.ac.uk"
+    # - icon: twitter
+    #   aria-label: twitter
+    #   href: https://twitter.com/allisonwkoh
+    #   rel: me
+    # - icon: github
+    #   aria-label: github
+    #   href: https://github.com/allisonkoh
+    #   rel: me
+    # - icon: linkedin
+    #   aria-label: linkedin
+    #   href: https://www.linkedin.com/in/allisonkoh/
+    #   rel: me
     
 format:
   html:
