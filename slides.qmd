@@ -4,3 +4,4 @@ title: "Slides"
 
 - [PhD Defense](files/defense-tmp.html)
 - [UoB template](files/uob_tmp.html)
+- [Peace Research Institute Frankfurt AC 2024](files/prif_20241011.html)
