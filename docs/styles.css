@@ -12,8 +12,4 @@ body {
   cursor: url(http://www.rw-designer.com/cursor-extern.php?id=3386);
 }
 
-.navbar-logo {
-  height: 3.5em !important;
-  max-width: unset !important;
-  max-height: unset !important;
-}
+

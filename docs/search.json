@@ -46,14 +46,14 @@
     "href": "index.html",
     "title": "\nAllison Koh | Computational Political Scientist\n",
     "section": "",
-    "text": "Allison Koh | Computational Political Scientist\n\nI am a Research Fellow in Natural Language Processing at the University of Birmingham’s Centre for Artificial Intelligence in Government. I recently earned my PhD at the Hertie School’s Centre for International Security in Berlin.\nMy research interests lie at the intersection of international relations, political communication, and computational social science, with a focus on the geopolitics of emerging technologies and applications of generative AI in conflict research. In my dissertation, I outlined the strategic landscape of digital transnational repression on social media and identified how vulnerabilities in social media companies’ transparency and content moderation policies benefit the foreign policy interests of authoritarian regimes.\nBeyond my research, I enjoy teaching others how to code and prioritize accommodating a variety of learning differences in my classroom. I am available to lead workshops on data management and visualization in R/Python, typesetting with LaTeX/Quarto, and web data collection in R.\n\n\nI am currently based in London. Feel free to reach out to discuss potential opportunities, areas of mutual interest, or to grab a 🍵 or 🍺 around London or Birmingham.\n\n\n\n\n\n Back to top"
+    "text": "Allison Koh | Computational Political Scientist\n\nI am a Research Fellow in Natural Language Processing at the University of Birmingham’s Centre for Artificial Intelligence in Government. I recently earned my PhD at the Hertie School’s Centre for International Security in Berlin.\nMy research interests lie at the intersection of international relations, political communication, and computational social science, with a focus on the geopolitics of information disorder and the role of quasi-state actors in digital repression. My dissertation explored the strategic landscape of digital transnational repression on social media and identified how vulnerabilities in social media companies’ transparency and content moderation policies benefit the foreign policy interests of authoritarian regimes.  \n\n\n\nI am currently based in London. Feel free to reach out to discuss potential opportunities, areas of mutual interest, or to grab a 🍵 or 🍺 around London or Birmingham.\n\n\n\n\n\n Back to top"
   },
   {
     "objectID": "slides.html",
     "href": "slides.html",
     "title": "Slides",
     "section": "",
-    "text": "PhD Defense\nUoB template\nLSE Contentious Politics Workshop\n\n\n\n\n Back to top"
+    "text": "PhD Defense\nISA 2025\n\n\n\n\n Back to top"
   },
   {
     "objectID": "resources_other.html",
@@ -109,7 +109,7 @@
     "href": "research.html#publications",
     "title": "Research",
     "section": "Publications",
-    "text": "Publications\n\nConfererence Proceedings\nKoh, Allison, Daniel Boey, and Hannah Béchara. 2021. “Predicting Policy Domains from Party Manifestos with BERT and Convolutional Neural Networks”. In Proceedings of the 1st Workshop on Computational Linguistics for Political Text Analysis, Düsseldorf, Germany.\n\n\nResearch in Progress\nKoh, Allison and Joshua A. Tucker. Digital Defenses Against Naming and Shaming: Measuring Support for Repressive Regimes in Online Interactions with Exiled Dissidents.\nKoh, Allison. Dealing with Diaspora Dissent in Different Domains: A Conceptual Framework of Authoritarian Regimes’ Foreign Social Media Strategies.\nKoh, Allison. Did Twitter’s Removal of Government and State-Affiliated Media Labels Expand the Influence of State Actors?. (PAP)\n\n\nOutreach Publications\nRitholtz, Samuel, Allison Koh, and Anita R. Gohdes. “Fanning the Flames of Hate: The Transnational Diffusion of Online Anti-LGBT+ Rhetoric and Offline Mobilisation”. The Global Network on Extremism and Technology (GNET) - Gender and Online Extremism Series, 29 Nov 2022."
+    "text": "Publications\n\nConfererence Proceedings\nKoh, Allison, Daniel Boey, and Hannah Béchara. 2021. “Predicting Policy Domains from Party Manifestos with BERT and Convolutional Neural Networks”. In Proceedings of the 1st Workshop on Computational Linguistics for Political Text Analysis, Düsseldorf, Germany.\n\n\nResearch in Progress\nKoh, Allison and Joshua A. Tucker. Nationalist Shields in Transnational Domains: PRC Supporters’ Responses to Uyghur Activists-in-Exile on Twitter.\nKoh, Allison. Dealing with Diaspora Dissent in Different Domains: A Conceptual Framework of Authoritarian Regimes’ Foreign Social Media Strategies.\nKoh, Allison. Did Twitter’s Removal of Government and State-Affiliated Media Labels Expand the Influence of State Actors?. (PAP)\n\n\nOutreach Publications\nRitholtz, Samuel, Allison Koh, and Anita R. Gohdes. “Fanning the Flames of Hate: The Transnational Diffusion of Online Anti-LGBT+ Rhetoric and Offline Mobilisation”. The Global Network on Extremism and Technology (GNET) - Gender and Online Extremism Series, 29 Nov 2022."
   },
   {
     "objectID": "violin.html",
@@ -249,7 +249,7 @@
     "href": "now.html",
     "title": "Now1",
     "section": "",
-    "text": "As of September 24, 2024, this is what I’m up to:"
+    "text": "As of July 29, 2024, this is what I’m up to:"
   },
   {
     "objectID": "now.html#footnotes",
@@ -263,6 +263,6 @@
     "href": "bio.html",
     "title": "Bio",
     "section": "",
-    "text": "Allison Koh is a Research Fellow in Natural Language Processing at the University of Birmingham’s Centre for Artificial Intelligence in Government and recently finished her PhD at the Hertie School’s Centre for International Security in Berlin. Her research seeks to understand the geopolitics of emerging technologies and advance applications of generative AI in conflict research. Her most recent work outlines how vulnerabilities in the features and governance of social media platforms can benefit the foreign policy interests of authoritarian regimes. Koh holds an MPP in Policy Analysis from the Hertie School in Berlin, and completed her BSc in Economics and Asian Studies at Tulane University.\nClick here for a high-quality headshot.\n\n\n\n\n Back to top"
+    "text": "Allison Koh is a Research Fellow in Natural Language Processing at the University of Birmingham’s Centre for Artificial Intelligence in Government. Her research seeks to understand the geopolitics of emerging technologies and advance applications of generative AI in conflict research. Her most recent work outlines the strategic landscape of digital transnational repression on social media and identifies how vulnerabilities in social media companies’ transparency and content moderation policies can benefit the foreign policy interests of authoritarian regimes. Koh holds a PhD in Political Science and an MPP in Policy Analysis from the Hertie School in Berlin, and completed her BSc in Economics and Asian Studies at Tulane University.\nClick here for a high-quality headshot.\n\n\n\n\n Back to top"
   }
 ]

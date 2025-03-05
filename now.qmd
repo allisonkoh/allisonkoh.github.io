@@ -1,12 +1,12 @@
 ---
-title: "Now^[[https://nownownow.com/about](https://nownownow.com/about)]"
+title: "Now^[https://nownownow.com/about]"
 ---
 
-As of September 24, 2024, this is what I'm up to: 
+As of July 29, 2024, this is what I'm up to: 
 
-- I currently live in London (UK), and I feel like I'm finally starting to settle in after moving here last December. As a New Yorker, I feel very at home here! Please send over any recommendations for vegan-friendly street food in this city. 
-- I recently started my postdoc as a Research Fellow in Natural Language Processing at the University of Birmingham's [Centre for Artificial Intelligence in Government](https://www.birmingham.ac.uk/research/centre-for-artificial-intelligence-in-government). I'm still adjusting to the commute between London and Birmingham, but I'm very excited to be working with an amazing [team](https://www.birmingham.ac.uk/research/centres-institutes/centre-for-artificial-intelligence-in-government/people) of colleagues. 
+- I currently live in London (UK), and I feel like I'm finally starting to settle in after moving here last December. As a New Yorker, I feel very at home in this city! Please send over any recommendations for vegan-friendly street food in this city. 
+- I recently started my postdoc as a Research Fellow in Natural Language Processing at the University of Birmingham's [Centre for Artificial Intelligence in Government](https://www.birmingham.ac.uk/research/centre-for-artificial-intelligence-in-government). I'm still adjusting to the commute between London and Birmingham, but I'm very excited to be working with an amazing [team](https://x.com/allisonwkoh/status/1805289333131296830) of both new and familiar colleagues. 
 - I am converting my PhD dissertation into three articles and sending them out to journals. Working papers _coming soon_. 
-- In my free time, I am learning how to lift weights without injuring myself (again😅). I also recently brought my [violin](violin.html) to London and am excited to pick it up once I take it to the shop. 
-- True to my roots as a former Tumblr/MySpace kid, I enjoy teaching myself how to code by breaking and debugging via a variety of personal side quests. 
-- I have started reading outside the context of my work as an academic. I am currently reading R.F. Kuang's [Babel](https://www.goodreads.com/book/show/57945316-babel).
+- In my free time, I am learning how to lift weights without injuring myself (again😅). I'm also looking forward to bringing my [violin](violin.html) to London in a couple months. 
+- True to my roots as a former Tumblr/MySpace kid, I enjoy teaching myself how to code by breaking and debugging a variety of personal side quests (including this website). 
+- I have started reading outside the context of my work as an academic. I am currently reading Judith Butler's [Bodies That Matter: On the Discursive Limits of Sex](https://www.routledge.com/Bodies-That-Matter-On-the-Discursive-Limits-of-Sex/Butler/p/book/9780415610155).

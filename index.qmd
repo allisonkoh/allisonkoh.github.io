@@ -9,7 +9,7 @@ format:
     css: styles.css
 ---
 
-<br>
+<br><br>
 
 ::: {.grid}
 ::: {.g-col-12 .g-col-md-4}
@@ -28,13 +28,18 @@ format:
 ```
 :::
 ::: {.g-col-12 .g-col-md-8 .px-2}
+
+<br>
+
 <h1 style="display: inline;">Allison Koh | Computational Political Scientist</h1>
 
-<br>I am a Research Fellow in Natural Language Processing at the University of Birmingham's [Centre for Artificial Intelligence in Government](https://www.birmingham.ac.uk/staff/profiles/gov/koh-allison). I recently earned my PhD at the Hertie School's [Centre for International Security](https://www.hertie-school.org/en/research/faculty-and-researchers/profile/person/koh-1) in Berlin.   
+<br>I am a Research Fellow in Natural Language Processing at the University of Birmingham's [Centre for Artificial Intelligence in Government](https://www.birmingham.ac.uk/research/centre-for-artificial-intelligence-in-government). I recently earned my PhD at the Hertie School's [Centre for International Security](https://www.hertie-school.org/en/international-security) in Berlin.   
 
-My [research](research.html) interests lie at the intersection of international relations, political communication, and computational social science, with a focus on the <span class="text-success">__geopolitics of emerging technologies__</span> and applications of <span class="text-success">__generative AI in conflict research__</span>. In my [dissertation](research.html#dissertation), I outlined the strategic landscape of digital transnational repression on social media and identified how vulnerabilities in social media companies' transparency and content moderation policies benefit the foreign policy interests of authoritarian regimes.
+My [research](research.html) interests lie at the intersection of international relations, political communication, and computational social science, with a focus on the <span class="text-success">__geopolitics of information disorder__</span> and the role of <span class="text-success">__quasi-state actors in digital repression__</span>. My [dissertation](research.html#dissertation) explored the strategic landscape of digital transnational repression on social media and identified how vulnerabilities in social media companies' transparency and content moderation policies benefit the foreign policy interests of authoritarian regimes.
+<!-- <span class="text-success">__geopolitics of emerging technologies__</span> and applications of <span class="text-success">__generative AI for studying political violence__</span>. -->
+<!-- My [dissertation](research.html#dissertation) explored the strategic landscape of digital transnational repression on social media and identified how vulnerabilities in social media companies' transparency and content moderation policies benefit the foreign policy interests of authoritarian regimes. -->
 
-Beyond my research, I enjoy teaching others how to code and prioritize accommodating a variety of learning differences in my classroom. I am available to lead workshops on data management and visualization in R/Python, typesetting with LaTeX/Quarto, and web data collection in R.  
+<!-- Beyond my research, I enjoy teaching myself and others how to code through hands-on experimentation and the inevitable debugging that follows. I am available to teach workshops on data management and visualization, typesetting, and web data collection.   -->
 
 <!-- I maintain a somewhat chaotic list of [resources](links.html) that I've put together throughout my coding (mis)adventures. It includes links that I frequently consult in my workflow of breaking/debugging code and (in a future iteration) some of my teaching materials.   -->
 
