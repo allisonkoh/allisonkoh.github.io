@@ -8,15 +8,19 @@ preview:
   navigate: true
 
 website:
-  title: Allison Koh
+  title: Dr. Allison Koh
+  
+  google-analytics: "G-GXQP8QQQSR"
 
   back-to-top-navigation: true
   navbar:
+    title: false
+    logo: logo.svg
     search: true
     right:
     # left:
-      - href: index.qmd
-        text: Home
+      # - href: index.qmd
+      #   text: Home
       - text: About
         menu: 
         - href: bio.qmd

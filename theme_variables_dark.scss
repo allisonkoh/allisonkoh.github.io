@@ -1,7 +1,8 @@
 /*-- scss:defaults --*/
 
 // Navbar customization
-$navbar-bg: #133e7c;
+// $navbar-bg: #133e7c;
+$navbar-bg: #1a0933;
 
 $link-color: #3cf281;
 $success: #ff5bf8;
@@ -28,4 +29,18 @@ pre {
   background-color: #f0f0f0 !important; 
 }
 
- 
+.navbar-brand img { 
+  max-height: 100px;
+  width: auto;
+}
+
+.menu-text { 
+  color: #f0f0f0;
+}
+
+.dropdown-toggle {
+  color: black;  
+  white-space: nowrap;
+}
+
+

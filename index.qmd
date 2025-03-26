@@ -29,7 +29,7 @@ format:
 :::
 ::: {.g-col-12 .g-col-md-8 .px-2}
 
-<br>
+<hr style="height 30pt; visibility:hidden;" />
 
 <h1 style="display: inline;">Allison Koh | Computational Political Scientist</h1>
 
