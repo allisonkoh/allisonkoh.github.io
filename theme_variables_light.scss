@@ -17,6 +17,11 @@ $h5-font-size:            1.5rem !default;
 
 $success:       #ea00d9;
 
+.navbar{
+  --bs-navbar-brand-color: #ff0000 !important;
+  --bs-navbar-brand-hover-color: #3cf281;
+}
+
 .navbar-brand img { 
   max-height: 100px;
   width: auto;
@@ -28,10 +33,6 @@ $success:       #ea00d9;
 
 .nav-link {
   color: black;
-}
-
-.navbar .quarto-navbar-tools .quarto-navigation-tool {
-    color: #f0f !important;
 }
 
 .navbar-nav {
@@ -50,4 +51,14 @@ $success:       #ea00d9;
     padding-left: 0;
     margin-bottom: 0;
     list-style: none;
+}
+
+/* Make the toggle icon black in light mode while keeping the same icon */
+.quarto-color-scheme-toggle:not(.alternate) .bi::before {
+  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"><path fill="black" d="M0 8a5 5 0 0 0 5 5h6a5 5 0 0 0 0-10H5a5 5 0 0 0-5 5z"/><circle fill="white" cx="5" cy="8" r="4"/></svg>') !important;
+}
+
+/* Make the search icon black */
+.aa-SubmitIcon {
+  fill: black;
 }

@@ -59,6 +59,7 @@ website:
 
 
   page-footer:
+    border: false
     left: "[{{< fa brands creative-commons >}}](https://creativecommons.org/licenses/by/4.0/) Allison Koh 2024 • Made with {{< fa brands r-project >}} and [Quarto](https://quarto.org/)"
     right:
     - icon: envelope

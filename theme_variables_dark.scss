@@ -38,9 +38,26 @@ pre {
   color: #f0f0f0;
 }
 
-.dropdown-toggle {
-  color: black;  
-  white-space: nowrap;
+
+.navbar-nav {
+    --bs-nav-link-padding-x: 0;
+    --bs-nav-link-padding-y: 0.5rem;
+    --bs-nav-link-font-weight: ;
+    --bs-nav-link-font-color: white !important;
+    --bs-nav-link-color: white !important;
+    --bs-nav-link-hover-color: var(--bs-navbar-hover-color);
+    --bs-nav-link-disabled-color: var(--bs-navbar-disabled-color);
+    display: flex
+;
+    display: -webkit-flex;
+    flex-direction: column;
+    -webkit-flex-direction: column;
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
 }
 
-
+/* Make the search icon black */
+.aa-SubmitIcon {
+  fill: white;
+}

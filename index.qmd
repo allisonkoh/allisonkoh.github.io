@@ -9,7 +9,7 @@ format:
     css: styles.css
 ---
 
-<br><br>
+<br>
 
 ::: {.grid}
 ::: {.g-col-12 .g-col-md-4}
@@ -29,13 +29,17 @@ format:
 :::
 ::: {.g-col-12 .g-col-md-8 .px-2}
 
-<hr style="height 30pt; visibility:hidden;" />
-
+<!-- <hr style="height 60pt; visibility:hidden;" /> -->
+<br>
+ 
 <h1 style="display: inline;">Allison Koh | Computational Political Scientist</h1>
 
-<br>I am a Research Fellow in Natural Language Processing at the University of Birmingham's [Centre for Artificial Intelligence in Government](https://www.birmingham.ac.uk/research/centre-for-artificial-intelligence-in-government). I recently earned my PhD at the Hertie School's [Centre for International Security](https://www.hertie-school.org/en/international-security) in Berlin.   
+<br>Hi! I'm a Research Fellow in Natural Language Processing at the University of Birmingham's [Centre for Artificial Intelligence in Government](https://www.birmingham.ac.uk/research/centre-for-artificial-intelligence-in-government). I recently earned my PhD at the Hertie School's [Centre for International Security](https://www.hertie-school.org/en/international-security) in Berlin.   
 
-My [research](research.html) interests lie at the intersection of international relations, political communication, and computational social science, with a focus on the <span class="text-success">__geopolitics of information disorder__</span> and the role of <span class="text-success">__quasi-state actors in digital repression__</span>. My [dissertation](research.html#dissertation) explored the strategic landscape of digital transnational repression on social media and identified how vulnerabilities in social media companies' transparency and content moderation policies benefit the foreign policy interests of authoritarian regimes.
+My [research](research.html) interests lie at the intersection of international relations, political communication, and computational social science, with a focus on the <span class="text-success">__geopolitics of information disorder__</span> and the role of <span class="text-success">__quasi-state actors in digital repression__</span>. My [dissertation](research.html#dissertation) project investigated how authoritarian governments use social media to exert influence over information ecosystems that extend beyond their borders, which has important implications for transnational repression and platform governance. 
+
+
+<!-- explored the strategic landscape of digital transnational repression on social media and identified how vulnerabilities in social media companies' transparency and content moderation policies benefit the foreign policy interests of authoritarian regimes. -->
 <!-- <span class="text-success">__geopolitics of emerging technologies__</span> and applications of <span class="text-success">__generative AI for studying political violence__</span>. -->
 <!-- My [dissertation](research.html#dissertation) explored the strategic landscape of digital transnational repression on social media and identified how vulnerabilities in social media companies' transparency and content moderation policies benefit the foreign policy interests of authoritarian regimes. -->
 
@@ -48,3 +52,5 @@ My [research](research.html) interests lie at the intersection of international 
 I am [currently](now.html) based in London. Feel free to [reach out](mailto:a.w.koh@bham.ac.uk) to discuss potential opportunities, areas of mutual interest, or to grab a 🍵 or 🍺 around London or Birmingham.
 :::
 :::
+
+<br><br><br><br><br>
