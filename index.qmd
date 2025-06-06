@@ -37,7 +37,7 @@ format:
 
 My [research](research.html) interests lie at the intersection of international relations, political communication, and computational social science, with a focus on the <span class="text-success">__geopolitics of digital authoritarianism__</span> and applications of <span class="text-success">__AI for human rights monitoring__</span>. My [dissertation](research.html#dissertation) project investigated how vulnerabilities in social media companies’ transparency and content moderation policies can benefit the foreign policy interests of authoritarian regimes. 
 
-My work has been greatly informed by previous international experience supported by the U.S. Department of State, which include a Fulbright English Teaching Assistantship in Malaysia and a Gilman Scholarship to support study abroad in China. There's no better way to learn about how international politics works than through navigating it firsthand. 
+My work has been greatly informed by previous international experience, which includes work at international nonprofits, a Fulbright English Teaching Assistantship in Malaysia and a Gilman Scholarship to support study abroad in China. There's no better way to learn about how international politics works than through navigating it firsthand. 
 
 <!-- explored the strategic landscape of digital transnational repression on social media and identified how vulnerabilities in social media companies' transparency and content moderation policies benefit the foreign policy interests of authoritarian regimes. -->
 <!-- <span class="text-success">__geopolitics of emerging technologies__</span> and applications of <span class="text-success">__generative AI for studying political violence__</span>. -->
