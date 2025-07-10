@@ -1,0 +1,27 @@
+---
+title: "Summer School for Women in Political Methodology: Day 1" 
+format: 
+  html: 
+    page-layout: full
+    grid: 
+      sidebar-width: 800px
+---
+
+Hi SSWPM participants, 
+
+Looking forward to meeting you all! See below some supplementary information to peruse/optionally prepare ahead of the short courses on <b>Functional Programming in `R`</b> and <b>Introduction to Python for `R` Users</b>. 
+
+## Functional Programming in `R`
+
+This course was prepared for participants with some baseline knowledge of R/RStudio and data management. If you would like a refresher on either of these things, feel free to peruse the following materials.
+
+Please note that some of the information related to IDEs/the tidyverse may be a bit outdated. 
+
+- [Introduction to `R`/RStudio](files/HertieDSWorkshop_Session1.pdf)
+- [Data Management in `R`](files/HertieDSWorkshop_Session2.pdf)
+
+_Optionally_, please bring an `R` script from your work with you to practice integrating what we cover in the course "in the wild".  
+
+## Introduction to Python for `R` users
+
+We will be using [Google Colab](https://colab.research.google.com/) for this course. More information to come shortly, by latest June 15th! 
