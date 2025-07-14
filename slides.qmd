@@ -7,3 +7,4 @@ title: "Slides"
 - [PSI 2025 - AvH Berlin](files/psi2025.html)
 - [Polmeth Europe](files/polmeth_europe.html)
 - [EPSA 2025](files/epsa2025.html)
+- [IPSA 2025](files/ipsa2025.html)
