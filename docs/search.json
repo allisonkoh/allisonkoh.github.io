@@ -11,21 +11,21 @@
     "href": "sswpm.html",
     "title": "Summer School for Women in Political Methodology: Day 1",
     "section": "",
-    "text": "Hi SSWPM participants,\nLooking forward to meeting you all! See below some supplementary information to peruse/optionally prepare ahead of the short courses on Functional Programming in R and Introduction to Python for R Users.\nPre-requisite: For both courses, please have a short R data analysis script from your own work on hand to practice using functional programming and Python “in the wild” (if time).\nCourse materials (slides, handouts, notebooks) will be provided on the day through this webpage. Finalized course materials will follow after July 21st."
+    "text": "Hi SSWPM participants,\nLooking forward to meeting you all! Below is some information for you to peruse/optionally prepare ahead of the short courses on Functional Programming in R and Introduction to Python for R Users.\nCourse preparation (optional): For both courses, please have a short R data analysis script and/or dataset from your own work on hand. If we have time leftover after going through applied examples, we will use them to practice using functional programming and Python “in the wild”."
   },
   {
     "objectID": "sswpm.html#functional-programming-in-r",
     "href": "sswpm.html#functional-programming-in-r",
     "title": "Summer School for Women in Political Methodology: Day 1",
     "section": "Functional Programming in R",
-    "text": "Functional Programming in R\nThis course was prepared for participants with some baseline knowledge of R/RStudio and data management. If you would like a refresher on either of these things, feel free to peruse the following materials.\nPlease note that some of the information related to IDEs/the tidyverse may be a bit outdated.\n\nIntroduction to R/RStudio\nData Management in R"
+    "text": "Functional Programming in R\n\nCourse preparation\nThis course was designed for participants with some baseline knowledge of R/RStudio and data management. If you would like a refresher on either of these things, feel free to peruse the following materials.\nPlease note that some of the information related to IDEs/the tidyverse may be a bit outdated.\n\nIntroduction to R/RStudio\nData Management in R\n\n\n\nCourse materials"
   },
   {
     "objectID": "sswpm.html#introduction-to-python-for-r-users",
     "href": "sswpm.html#introduction-to-python-for-r-users",
     "title": "Summer School for Women in Political Methodology: Day 1",
     "section": "Introduction to Python for R users",
-    "text": "Introduction to Python for R users\nWe will be using Google Colab for this course. You don’t need to do anything to set this up outside of having a Google account.\nFor applied examples with data, we will be using the Parties’ Immigration and Integration Positions Dataset (PImPo) (Lehmann and Zobel 2018). Please download the PImPo Party-Level DS CSV file from here: https://manifesto-project.wzb.eu/information/documents/pimpo.\nWe will review how to load the dataset into Google Colab from your local files on the day."
+    "text": "Introduction to Python for R users\n\nCourse preparation\nWe will be using Google Colab for this course. You don’t need to do anything to set this up outside of having a Google account.\nFor applied examples with data, we will be using the Parties’ Immigration and Integration Positions Dataset (PImPo) (Lehmann and Zobel 2018). Please download the PImPo Party-Level DS CSV file from here: https://manifesto-project.wzb.eu/information/documents/pimpo.\nWe will review how to load the dataset into Google Colab from your local files during the course.\n\n\nCourse materials\n\nSlides\nHandout\nColab notebook"
   },
   {
     "objectID": "sswpm.html#references",
