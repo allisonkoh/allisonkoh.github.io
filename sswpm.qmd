@@ -11,6 +11,8 @@ Hi SSWPM participants,
 
 Looking forward to meeting you all! See below some supplementary information to peruse/optionally prepare ahead of the short courses on <b>Functional Programming in `R`</b> and <b>Introduction to Python for `R` Users</b>. 
 
+_Optional add-on_: For both courses, please have a short `R` data analysis script from your own work on hand to practice using functional programming and Python "in the wild" (if time). 
+
 ## Functional Programming in `R`
 
 This course was prepared for participants with some baseline knowledge of R/RStudio and data management. If you would like a refresher on either of these things, feel free to peruse the following materials.
@@ -20,8 +22,15 @@ Please note that some of the information related to IDEs/the tidyverse may be a 
 - [Introduction to `R`/RStudio](files/HertieDSWorkshop_Session1.pdf)
 - [Data Management in `R`](files/HertieDSWorkshop_Session2.pdf)
 
-_Optionally_, please bring an `R` script from your work with you to practice integrating what we cover in the course "in the wild".  
-
 ## Introduction to Python for `R` users
 
-We will be using [Google Colab](https://colab.research.google.com/) for this course. More information to come shortly, by latest June 15th! 
+We will be using [Google Colab](https://colab.research.google.com/) for this course. You don't need to do anything to set this up outside of having a Google account. 
+ 
+For applied examples with data, we will be using the we’ll be using the __Parties’ Immigration and Integration Positions Dataset (PImPo)__ (Lehmann and Zobel 2018). Please download the __PImPo Party-Level DS__ CSV file from here: [https://manifesto-project.wzb.eu/information/documents/pimpo](https://manifesto-project.wzb.eu/information/documents/pimpo). 
+
+We will review how to load the dataset into Google Colab from your local files on the day.
+
+## References 
+
+Lehmann, P., & Zobel, M.  (2018). Positions and saliency of immigration in party manifestos: A novel dataset using crowd coding. *European Journal of Political Research*, 57(4), 1056-1083. https://doi.org/10.1111/1475-6765.12295
+
