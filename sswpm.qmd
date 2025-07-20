@@ -26,7 +26,9 @@ Please note that some of the information related to IDEs/the tidyverse may be a 
 
 ### Course materials 
 
+- [Slides](files/01_functional_programming_slides.html)
 - Handout [[HTML](files/01_functional_programming_handout.html)] [[PDF](files/01_functional_programming_handout.pdf)]
+- [R Project Folder](files/01_functional_programming.zip)
 
 ## Introduction to Python for `R` users
 
@@ -40,8 +42,7 @@ We will review how to load the dataset into Google Colab from your local files d
 
 ### Course materials 
 
-- [Slides]()
-- [Handout](files/SSWPM2025_Introduction to Python.pdf)
+- [Handout](files/02_intro_python_handout.pdf)
 - [Colab notebook](https://colab.research.google.com/drive/1CBogWrGKMZIFolCrjtrFdKuhxYoHMYSs?usp=sharing)
 
 ## References 
