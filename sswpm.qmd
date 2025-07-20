@@ -26,6 +26,8 @@ Please note that some of the information related to IDEs/the tidyverse may be a 
 
 ### Course materials 
 
+- Handout [[HTML](files/01_functional_programming_handout.html)] [[PDF](files/01_functional_programming_handout.pdf)]
+
 ## Introduction to Python for `R` users
 
 ### Course preparation 
