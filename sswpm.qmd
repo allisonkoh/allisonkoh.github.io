@@ -1,5 +1,6 @@
 ---
 title: "Summer School for Women in Political Methodology: Day 1" 
+subtitle: "_Updated August 11, 2025_"
 format: 
   html: 
     page-layout: full
@@ -9,7 +10,7 @@ format:
 
 Hi SSWPM participants, 
 
-Looking forward to meeting you all! Below is some information for you to peruse/optionally prepare ahead of the short courses on <b>Functional Programming in `R`</b> and <b>Introduction to Python for `R` Users</b>. 
+It was great to meet you all! Here you can find all of the course materials for the short courses on <b>[Functional Programming in `R`](https://github.com/allisonkoh/workshop-functional-programming-r)</b> and <b>[Introduction to Python for `R` Users](https://github.com/allisonkoh/workshop-python-for-r-users)</b> that took place on July 21, 2025. 
 
 __Preparation for both courses:__ Please have a short `R` data analysis script and/or structured data from your own work on hand. If we have time leftover after going through applied examples, we will use them to practice functional programming and Python "in the wild". 
 
@@ -28,7 +29,9 @@ Please note that some of the information related to IDEs/the tidyverse may be a 
 
 - [Slides](files/01_functional_programming_slides.html)
 - Handout [[HTML](files/01_functional_programming_handout.html)] [[PDF](files/01_functional_programming_handout.pdf)]
+- Handout with answers [[HTML](files/01_functional_programming_handout_with_answers.html)] [[PDF](files/01_functional_programming_handout_with_answers.pdf)]
 - [R Project Folder](files/01_functional_programming.zip)
+- [GitHub repository](https://github.com/allisonkoh/workshop-functional-programming-r)
 
 ## Introduction to Python for `R` users
 
@@ -43,7 +46,9 @@ We will review how to load the dataset into Google Colab from your local files d
 ### Course materials 
 
 - [Handout](files/02_intro_python_handout.pdf)
+- [Handout with answers](files/02_intro_python_handout_with_answers.pdf)
 - [Colab notebook](https://colab.research.google.com/drive/1CBogWrGKMZIFolCrjtrFdKuhxYoHMYSs?usp=sharing)
+- [Github repository](https://github.com/allisonkoh/workshop-python-for-r-users)
 
 ## References 
 

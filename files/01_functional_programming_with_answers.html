@@ -3138,7 +3138,7 @@ vertical-align: -.125em;
 
 <section id="course-description" class="level2">
 <h2 class="anchored" data-anchor-id="course-description">Course Description</h2>
-<p>This course offers an introduction to functional programming in R, with applications in political science. Through hands-on exercises, participants will learn how to streamline repetitive tasks, implement modular workflows, and document code for replicability<a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a>. Prior experience with the fundamentals of R and RStudio, as well as data management in R, is recommended.</p>
+<p>This course offers an introduction to functional programming in R, with a focus on applications in political science. Through hands-on exercises, participants will learn how to streamline repetitive tasks, implement modular workflows, and document code for replicability<a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a>. Prior experience with the fundamentals of R and RStudio, as well as data management in R, is recommended.</p>
 </section>
 <section id="setup" class="level2">
 <h2 class="anchored" data-anchor-id="setup">Setup</h2>
@@ -3190,7 +3190,12 @@ NULL</code></pre>
 <pre><code>&lt;environment: namespace:tidytext&gt;</code></pre>
 </div>
 </div>
-<p><strong>Discussion Q1</strong> What do we learn about the <code>stopwords</code> function from accesing its inputs, body, and environment?</p>
+<p><strong>Discussion Q1</strong> So what do we learn about the <code>stopwords</code> function from accesing its inputs, body, and environment? Here are some observations:</p>
+<ul>
+<li>The function has two arguments: <code>language</code> and <code>source</code>.</li>
+<li>If values for these arguments are not specified, running the function will return stopwords in English using the <code>snowball</code> lexicon.</li>
+<li>The function will return a tibble with two columns: <code>word</code> (indicating one row per word) and <code>lexicon</code> (which represents the source)</li>
+</ul>
 </section>
 <section id="writing-functions" class="level3">
 <h3 class="anchored" data-anchor-id="writing-functions">Writing functions</h3>
@@ -3251,10 +3256,10 @@ NULL</code></pre>
 <div class="cell">
 <div class="sourceCode cell-code" id="cb12"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb12-1"><a href="#cb12-1" aria-hidden="true" tabindex="-1"></a><span class="fu">generate_age_vec</span>(<span class="at">n_people =</span> <span class="dv">100</span>, <span class="at">mean_age =</span> <span class="dv">20</span>, <span class="at">sd_age =</span> <span class="dv">1</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
-<pre><code>  [1] 20 17 20 19 20 20 21 20 19 21 22 22 21 20 20 20 19 21 21 22 18 20 21 21 18
- [26] 21 18 20 17 21 21 20 20 20 18 22 20 20 20 20 19 21 19 21 21 20 20 20 18 19
- [51] 19 18 19 19 20 19 20 22 19 20 20 20 20 19 19 20 19 20 20 21 19 17 19 20 20
- [76] 21 21 19 21 21 19 20 19 20 19 19 20 20 20 21 20 20 21 20 21 20 20 19 21 21</code></pre>
+<pre><code>  [1] 20 20 20 20 21 21 19 20 20 19 20 19 20 19 21 19 21 20 18 19 21 20 22 19 22
+ [26] 19 24 21 20 20 21 19 20 19 18 19 20 20 22 20 20 20 20 19 20 19 20 20 20 21
+ [51] 18 22 21 20 19 20 20 20 21 21 20 22 20 21 20 19 20 22 20 19 21 20 20 21 20
+ [76] 19 19 20 21 21 19 19 21 20 19 21 19 20 20 22 19 21 20 19 21 21 21 19 20 20</code></pre>
 </div>
 </div>
 <p>Looks good! Let’s say we want the function to default to generating cohorts of synthetic information on 100 college-age individuals. We can add <em>values</em> to the arguments in our original function to do this.</p>
@@ -3271,17 +3276,17 @@ NULL</code></pre>
 <div class="cell">
 <div class="sourceCode cell-code" id="cb15"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb15-1"><a href="#cb15-1" aria-hidden="true" tabindex="-1"></a><span class="fu">generate_age_vec</span>()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
-<pre><code>  [1] 20 21 20 20 19 18 20 18 21 19 20 19 19 19 19 21 20 22 18 20 20 20 21 19 20
- [26] 22 21 19 20 18 19 21 17 20 19 22 20 19 20 20 18 20 18 20 21 22 19 20 19 23
- [51] 20 22 20 21 21 21 20 19 20 20 19 21 20 21 20 21 20 20 20 20 20 19 19 20 18
- [76] 18 20 21 19 21 19 20 20 20 21 19 21 20 20 20 22 20 18 19 20 20 19 21 22 20</code></pre>
+<pre><code>  [1] 20 18 20 21 21 22 20 19 18 20 20 20 20 19 20 21 22 20 19 21 20 20 20 20 19
+ [26] 20 20 22 21 19 20 18 20 20 19 21 19 22 19 20 21 20 20 18 22 23 19 19 19 20
+ [51] 19 21 20 19 20 19 20 21 20 20 18 21 20 20 20 19 21 19 19 20 21 22 23 21 21
+ [76] 20 20 20 20 19 19 20 21 21 19 20 19 19 22 21 19 20 20 21 20 23 19 21 20 19</code></pre>
 </div>
 </div>
 <p>And if we want to focus on a different age range/cohort, we can override these default values:</p>
 <div class="cell">
 <div class="sourceCode cell-code" id="cb17"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb17-1"><a href="#cb17-1" aria-hidden="true" tabindex="-1"></a><span class="fu">generate_age_vec</span>(<span class="at">n_people =</span> <span class="dv">25</span>, <span class="at">mean_age =</span> <span class="dv">35</span>, <span class="at">sd_age =</span> <span class="dv">15</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
-<pre><code> [1] 33 36  1 50 29 44 39  3 40 20 48 33 33 21 31 47 42 11 50  0 39 48 44 37 24</code></pre>
+<pre><code> [1] 30 78 26 14 30 21 49  0 37 25 35 24 38 53 41 15 28 21 18 56 36 42 65 27 39</code></pre>
 </div>
 </div>
 <p>Building on this, let’s say you want to create a new variable based on this vector that specifies which <code>generation</code> an individual belongs to:</p>
@@ -3309,9 +3314,16 @@ NULL</code></pre>
 <span id="cb21-5"><a href="#cb21-5" aria-hidden="true" tabindex="-1"></a>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 <p><strong>Exercise 1</strong> Write a function that codes generations based on a vector of ages, then apply it to our age vector:</p>
-<pre><code>code_generation &lt;- function(age){
-  ADD FUNCTION BODY HERE
-}</code></pre>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb22"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb22-1"><a href="#cb22-1" aria-hidden="true" tabindex="-1"></a>code_generation <span class="ot">&lt;-</span> <span class="cf">function</span>(age){</span>
+<span id="cb22-2"><a href="#cb22-2" aria-hidden="true" tabindex="-1"></a>  generations <span class="ot">&lt;-</span> <span class="fu">cut</span>(</span>
+<span id="cb22-3"><a href="#cb22-3" aria-hidden="true" tabindex="-1"></a>    age,</span>
+<span id="cb22-4"><a href="#cb22-4" aria-hidden="true" tabindex="-1"></a>    <span class="at">breaks =</span> <span class="fu">c</span>(<span class="fl">10.5</span>, <span class="fl">26.5</span>, <span class="fl">42.5</span>, <span class="fl">58.5</span>),</span>
+<span id="cb22-5"><a href="#cb22-5" aria-hidden="true" tabindex="-1"></a>    <span class="at">labels =</span> <span class="fu">c</span>(<span class="st">&quot;genZ&quot;</span>, <span class="st">&quot;genY&quot;</span>, <span class="st">&quot;genX&quot;</span>) </span>
+<span id="cb22-6"><a href="#cb22-6" aria-hidden="true" tabindex="-1"></a>  )</span>
+<span id="cb22-7"><a href="#cb22-7" aria-hidden="true" tabindex="-1"></a>  <span class="fu">return</span>(generations)</span>
+<span id="cb22-8"><a href="#cb22-8" aria-hidden="true" tabindex="-1"></a>}</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
 <div class="cell">
 <div class="sourceCode cell-code" id="cb23"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb23-1"><a href="#cb23-1" aria-hidden="true" tabindex="-1"></a><span class="fu">code_generation</span>(age)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
@@ -4164,7 +4176,7 @@ Levels: genZ genY genX</code></pre>
 <span id="cb93-4"><a href="#cb93-4" aria-hidden="true" tabindex="-1"></a>  <span class="st">&quot;2&quot;</span> <span class="ot">=</span> <span class="st">&quot;right-wing&quot;</span></span>
 <span id="cb93-5"><a href="#cb93-5" aria-hidden="true" tabindex="-1"></a>)</span>
 <span id="cb93-6"><a href="#cb93-6" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb93-7"><a href="#cb93-7" aria-hidden="true" tabindex="-1"></a>ccc_recoded <span class="ot">&lt;-</span> ccc_data <span class="sc">%&gt;%</span></span>
+<span id="cb93-7"><a href="#cb93-7" aria-hidden="true" tabindex="-1"></a>ccc_data <span class="ot">&lt;-</span> ccc_data <span class="sc">%&gt;%</span></span>
 <span id="cb93-8"><a href="#cb93-8" aria-hidden="true" tabindex="-1"></a>  <span class="fu">mutate</span>(<span class="at">valence_label =</span> <span class="fu">recode</span>(<span class="fu">as.character</span>(valence), <span class="sc">!!!</span>valence_map))</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 <p>Here’s a table that can serve as a small cheat sheet for these four tools:</p>

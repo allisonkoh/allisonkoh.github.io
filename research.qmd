@@ -1,6 +1,6 @@
 ---
 title: "Research"
-subtitle: "Updated July 23, 2024"
+subtitle: "Updated August 11, 2025"
 format: 
   html: 
     page-layout: full
@@ -13,19 +13,26 @@ format:
 
 *Platformed Power Plays: Authoritarian Adaptations in Foreign Social Media Spaces*
 
+This dissertation investigated how vulnerabilities in social media companies’ transparency and content moderation policies can benefit the foreign policy interests of authoritarian regimes. It comprises of the three papers listed in the "Research in Progress" section below. 
+
 ## Publications
 
 ### Confererence Proceedings
 
 **Koh, Allison**, Daniel Boey, and Hannah Béchara. 2021. ["Predicting Policy Domains from Party Manifestos with BERT and Convolutional Neural Networks".](https://osf.io/preprints/socarxiv/fjh4q/) In *Proceedings of the 1st Workshop on Computational Linguistics for Political Text Analysis*, Düsseldorf, Germany.
 
+### Book Chapters 
+
+Gohdes, Anita, **Allison Koh**, and Maurice Schumann. “Digital Authoritarianism”. Forthcoming 2025 in
+the _De Gruyter Handbook of Political Control_, edited by Jessica Braithwaite and Jennifer Earl.
+
 ### Research in Progress
 
-**Koh, Allison** and Joshua A. Tucker. *Nationalist Shields in Transnational Domains: PRC Supporters' Responses to Uyghur Activists-in-Exile on Twitter*.
+**Koh, Allison** and Joshua A. Tucker. *Transnational Repression at the Margins of Platform Governance: Inequalities in Online Engagement with Uyghur Dissidents*.
 
-**Koh, Allison**. *Dealing with Diaspora Dissent in Different Domains: A Conceptual Framework of Authoritarian Regimes' Foreign Social Media Strategies*.
+**Koh, Allison**. *Digital Transnational Repression in a Distinct Domain: Global Platforms as Arenas of Political Control*.
 
-**Koh, Allison**. *Did Twitter's Removal of Government and State-Affiliated Media Labels Expand the Influence of State Actors?*. ([PAP]())
+**Koh, Allison**. *Did Twitter's Removal of Government and State-Affiliated Media Labels Expand the Influence of State Actors?*. ([PAP](https://osf.io/4jxwt/))
 
 ### Outreach Publications
 
