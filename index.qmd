@@ -44,7 +44,7 @@ My [research](research.html) lies at the intersection of international relations
 <!-- My [dissertation](research.html#dissertation) project investigated how vulnerabilities in social media companies’ transparency and content moderation policies can benefit the foreign policy interests of authoritarian regimes. -->
 
 
-While I spend most of my time doing research, I occasionally teach data science workshops and would be happy to do more of it. If anything in my [teaching]() portfolio aligns with your school’s or organization’s needs, please reach out!  
+While I spend most of my time doing research, I occasionally teach data science workshops and would be happy to do more of it. If anything in my [teaching](teaching.html) portfolio aligns with your school’s or organization’s needs, please reach out!  
 
 <!-- explored the strategic landscape of digital transnational repression on social media and identified how vulnerabilities in social media companies' transparency and content moderation policies benefit the foreign policy interests of authoritarian regimes. -->
 <!-- <span class="text-success">__geopolitics of emerging technologies__</span> and applications of <span class="text-success">__generative AI for studying political violence__</span>. -->

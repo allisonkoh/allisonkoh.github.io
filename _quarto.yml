@@ -35,6 +35,12 @@ website:
         menu:
         - href: research.qmd
           text: Publications 
+      - text: Teaching
+        menu: 
+          - href: teaching.qmd
+            text: Overview
+          - href: sswpm.qmd
+            text: Summer School for Women in Political Methodology
       - text: Resources 
         menu:
         - href: resources.qmd
