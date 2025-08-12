@@ -25,7 +25,7 @@
     "href": "sswpm.html#introduction-to-python-for-r-users",
     "title": "Summer School for Women in Political Methodology: Day 1",
     "section": "Introduction to Python for R users",
-    "text": "Introduction to Python for R users\n\nCourse preparation\nWe will be using Google Colab for this course. You don’t need to do anything to set this up outside of having a Google account.\nFor applied examples with data, we will be using the Parties’ Immigration and Integration Positions Dataset (PImPo) (Lehmann and Zobel 2018). Please download the PImPo Party-Level DS CSV file from here: https://manifesto-project.wzb.eu/information/documents/pimpo.\nWe will review how to load the dataset into Google Colab from your local files during the course.\n\n\nCourse materials\n\nHandout\nHandout with answers\nColab notebook\nGithub repository"
+    "text": "Introduction to Python for R users\n\nCourse preparation\nWe will be using Google Colab for this course. You don’t need to do anything to set this up outside of having a Google account.\nFor applied examples with data, we will be using the Parties’ Immigration and Integration Positions Dataset (PImPo) (Lehmann and Zobel 2018). Please download the PImPo Party-Level DS CSV file from here: https://manifesto-project.wzb.eu/information/documents/pimpo.\nWe will review how to load the dataset into Google Colab from your local files during the course.\n\n\nCourse materials\n\nSlides\nHandout\nHandout with answers\nColab notebook\nGithub repository"
   },
   {
     "objectID": "sswpm.html#references",

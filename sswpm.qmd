@@ -45,6 +45,7 @@ We will review how to load the dataset into Google Colab from your local files d
 
 ### Course materials 
 
+- [Slides](files/02_intro_python_slides.html)
 - [Handout](files/02_intro_python_handout.pdf)
 - [Handout with answers](files/02_intro_python_handout_with_answers.pdf)
 - [Colab notebook](https://colab.research.google.com/drive/1CBogWrGKMZIFolCrjtrFdKuhxYoHMYSs?usp=sharing)
