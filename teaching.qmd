@@ -7,7 +7,7 @@ subtitle: "I have taught a range of courses on data analysis and programming, wi
 
 - MSc Supervision, [AI and Sustainable Development ](https://www.birmingham.ac.uk/study/postgraduate/subjects/politics-development-and-international-relations-courses/ai-and-sustainable-development-msc) (2025)
 
-### Summer School for Women in Political Methodology 
+### [Summer School for Women in Political Methodology](http://summerschoolwpm.org/) 
 
 - Instructor for short courses on [Functional Programming in R](sswpm.html#functional-programming-in-r) and [Python for R Users](sswpm.html#introduction-to-python-for-r-users) (2025, University of Bremen)
 
