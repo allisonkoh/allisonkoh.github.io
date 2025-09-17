@@ -8,4 +8,4 @@ title: "Slides"
 - [Polmeth Europe](files/polmeth_europe.html)
 - [EPSA 2025](files/epsa2025.html)
 - [IPSA 2025](files/ipsa2025.html)
-- [CEW Symposium, Berlin](files/cew_symposium_20250918.html)
+- [Symposium on Crisis Early Warning, FFO Berlin](files/symposium_crisis_early_warning.html)
