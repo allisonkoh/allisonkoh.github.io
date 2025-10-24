@@ -66,7 +66,7 @@ img, picture, div.g-col-12.g-col-md-4 {
 <center>
 <p style="margin-bottom: 15pt;"></p>
 <h1 style="display: inline;">Allison Koh</h1><br>
-Computational Political Scientist
+<b>Computational Political Scientist</b>
 </center>
 :::
 ::: {.g-col-12 .g-col-md-8 .px-2}
