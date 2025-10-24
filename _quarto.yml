@@ -18,8 +18,10 @@ website:
     title: false
     logo: logo.svg
     search: true
-    right:
     # left:
+    #   - text: ""
+    #     href: navbar-logo.html
+    right:
       # - href: index.qmd
       #   text: Home
       - text: About

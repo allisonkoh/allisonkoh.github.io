@@ -34,9 +34,6 @@ pre {
   width: auto;
 }
 
-.navbar-logo{
-    content: url("logo-inverse.svg");
-}
 
 .menu-text { 
   color: #f0f0f0;
@@ -59,6 +56,11 @@ pre {
     padding-left: 0;
     margin-bottom: 0;
     list-style: none;
+}
+
+/* Inverse navbar logo */
+.navbar-logo{
+  content: url("logo-inverse.svg");
 }
 
 /* Make the search icon black */
