@@ -1,7 +1,7 @@
 ---
 # main-img: sdv_portrait.png
-main-img: img/allisonkoh-crop.png
-main-img-square: img/allisonkoh-sq.png
+main-img: img/pink-tmp.png
+main-img-square: img/pink-tmp-sq.png
 format: 
   html: 
     page-layout: full
