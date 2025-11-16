@@ -1,7 +1,7 @@
 ---
 # main-img: sdv_portrait.png
-main-img: img/pink-tmp.png
-main-img-square: img/pink-tmp-sq.png
+main-img: img/allisonkoh.jpg
+# main-img-square: img/pink-tmp-sq.png
 format: 
   html: 
     page-layout: full
@@ -48,6 +48,7 @@ img, picture, div.g-col-12.g-col-md-4 {
 ::: {.g-col-12 .g-col-md-4 .px-2}
 ```{=html}
 <center>
+<p style="margin-bottom: 30pt;"></p>
 <div class="g-col-3 g-col-sm-5" style="max-width: 275px;">
   <div class="g-col-1 g-col-sm-0"></div>
   <div class="g-col-3 g-col-sm-5">
@@ -61,7 +62,6 @@ img, picture, div.g-col-12.g-col-md-4 {
 </div>
 </center>
 ```
-
 
 <center>
 <p style="margin-bottom: 15pt;"></p>
