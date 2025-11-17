@@ -1,6 +1,6 @@
 ---
 # main-img: sdv_portrait.png
-main-img: img/allisonkoh.jpg
+main-img: img/allisonkoh.gif
 # main-img-square: img/pink-tmp-sq.png
 format: 
   html: 
@@ -48,7 +48,7 @@ img, picture, div.g-col-12.g-col-md-4 {
 ::: {.g-col-12 .g-col-md-4 .px-2}
 ```{=html}
 <center>
-<p style="margin-bottom: 30pt;"></p>
+<p style="margin-bottom: 55pt;"></p>
 <div class="g-col-3 g-col-sm-5" style="max-width: 275px;">
   <div class="g-col-1 g-col-sm-0"></div>
   <div class="g-col-3 g-col-sm-5">
@@ -77,7 +77,7 @@ img, picture, div.g-col-12.g-col-md-4 {
 
 Hi! I am a Research Fellow in Natural Language Processing at the University of Birmingham's [Centre for Artificial Intelligence in Government](https://www.birmingham.ac.uk/research/centre-for-artificial-intelligence-in-government). I am also affiliated with the Hertie School's [Centre for International Security](https://www.hertie-school.org/en/international-security) in Berlin.   
 
-My [research](research.html) lies at the intersection of international relations, political communication, and computational social science, with a focus on the <span class="text-success">__geopolitics of digital authoritarianism__</span> and applications of <span class="text-success">__AI for human rights monitoring__</span>. This work is greatly informed by previous international experience, which includes work at nonprofits, a Fulbright English Teaching Assistantship in Malaysia, and a Gilman Scholarship to support a semester abroad in China. 
+My [research](research.html) lies at the intersection of international relations, political communication, and computational social science, with a focus on the <span class="text-success">__geopolitics of digital platforms__</span> and applications of <span class="text-success">__AI for monitoring human rights practices and conflict processes__</span>. This work is greatly informed by previous international experience, which includes work at nonprofits, a Fulbright English Teaching Assistantship in Malaysia, and a Gilman Scholarship to support a semester abroad in China. 
 <!-- There's no better way to learn about how international politics works than through navigating it firsthand.  -->
 
 <!-- My [dissertation](research.html#dissertation) project investigated how vulnerabilities in social media companies’ transparency and content moderation policies can benefit the foreign policy interests of authoritarian regimes. -->
