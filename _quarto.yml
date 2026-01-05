@@ -16,7 +16,7 @@ website:
   back-to-top-navigation: true
   navbar:
     title: false
-    logo: logo.svg
+    logo: flamingtext_logo_inverted.png
     search: true
     # left:
     #   - text: ""
@@ -95,6 +95,8 @@ format:
     css: styles.css
     toc: false
     page-layout: full
+    include-in-header: 
+      - file: header.html
 
 editor: source
 
