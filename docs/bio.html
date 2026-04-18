@@ -111,6 +111,16 @@ var tinyv = new Array();
 
 colours = new Array('#ff0000', '#00ff00', '#ffffff', '#ff00ff', '#ffa500', '#ffff00', '#00ff00', '#ffffff', 'ff00ff')
 
+n = 10;
+y = 0;
+x = 0;
+n6 = (document.getElementById && !document.all);
+ns = (document.layers);
+ie = (document.all);
+d = (ns || ie) ? 'document.' : 'document.getElementById("';
+a = (ns || n6) ? '' : 'all.';
+n6r = (n6) ? '")' : '';
+s = (ns) ? '' : '.style';
 
 if (ns) {
     for (i = 0; i < n; i++)
