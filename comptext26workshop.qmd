@@ -1,0 +1,30 @@
+---
+title: "Workshop: Introduction to Python for Data Management and Analysis" 
+subtitle: "_Updated April 21, 2026_"
+format: 
+  html: 
+    page-layout: full
+    grid: 
+      sidebar-width: 800px
+---
+
+Hi COMPTEXT workshop participants, 
+
+Here you can find all of the course materials for the <b>[Introduction to Python for Data Management and Analysis]()</b> that took place on April 23, 2026. 
+
+## Introduction to Python for Data Management and Analysis 
+
+### Course preparation 
+
+We will be using [Google Colab](https://colab.research.google.com/) for this course. You don't need to do anything to set this up outside of having a Google account. 
+ 
+For applied examples with data, we will be using the [__Manifesto Project Database__](https://manifesto-project.wzb.eu/). Please download the __version 2025a__ data (csv) from here: [https://manifesto-project.wzb.eu/datasets/MPDS2025a](https://manifesto-project.wzb.eu/datasets/MPDS2025a). 
+
+We will review how to load the dataset into Google Colab from your local files during the course.
+
+### Course materials 
+
+- [Slides](files/intro-python-comptext.html)
+- [Handout](files/COMPTEXT2026_Intro_Python_handout.pdf)
+- [Colab notebook](https://colab.research.google.com/drive/1CteydSOrg9-9ink193nLP2ToTxuzppst)
+
