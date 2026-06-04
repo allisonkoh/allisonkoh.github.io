@@ -2,4 +2,5 @@
 title: "Slides"
 ---
 
-- [PhD Defense](files/defense-tmp.html)
+- [ICA Preconference](files/ica_preconference_digital_publics.html)
+<!-- - [PhD Defense](files/defense-tmp.html) -->
