@@ -2,6 +2,7 @@
 title: "Slides"
 ---
 
+- [EPSS 2026 Panel: AI Regulation and Platform Governance](files/epss.html)
 - [EPSS 2026 Showcase: Using AI in Political Science Research](files/epss-ai-roundtable.html)
 <!-- - [ICA Preconference](files/ica_preconference_digital_publics.html) -->
 <!-- - [PhD Defense](files/defense-tmp.html) -->
