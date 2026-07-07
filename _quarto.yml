@@ -47,6 +47,8 @@ website:
         menu:
         - href: resources.qmd
           text: Overview
+        - href: resources_ai.qmd
+          text: AI
         - href: resources_python.qmd
           text: Python
         - href: resources_quarto.qmd

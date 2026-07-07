@@ -1,66 +1,206 @@
 [
   {
-    "objectID": "resources.html",
-    "href": "resources.html",
-    "title": "Resources",
+    "objectID": "resources_ai.html",
+    "href": "resources_ai.html",
+    "title": "AI",
     "section": "",
-    "text": "The collections of links below include references I frequently consult in my professional workflow and resources that I am often asked to recommend. Regard it as a handpicked selection of things that I have found to be super helpful. Maybe they’ll help you too. 😊\nI regularly update these collections every time I learn something new, find myself visiting the same how-to guide at least twice, and receive requests for advice on a specific aspect of coding. Some links/resources/advice may be out of date.\n\nPython\nQuarto\nR\nOther\n\n\n\n\n Back to top"
+    "text": "Below are some resources I’ve either personally used, customized for my own workflow, or bookmarked for use down the line. I have found most of these resources on LinkedIn. If you have a resource that you think may be of interest to political scientists, please reach out! Especially if you don’t feel represented among the individuals listed here.\nNOTE): I do not use AI to maintain this page; if a resource is linked here, it’s because I’ve personally put it here and endorse its use (or at the very least am curious about it!). My general guidance around AI use is that my approach toward integrating generative AI into my workflow is no different from that of other coding languages."
   },
   {
-    "objectID": "sswpm.html",
-    "href": "sswpm.html",
-    "title": "Summer School for Women in Political Methodology: Day 1",
+    "objectID": "resources_ai.html#instructional-material",
+    "href": "resources_ai.html#instructional-material",
+    "title": "AI",
+    "section": "Instructional material",
+    "text": "Instructional material\n\nAre we all system architects now? (I hope not!): Brief remarks on using AI in political research without losing what drew us away from more stable jobs by Allison Koh - my contribution to the EPSS 2026 Showcase on Using AI in Political Science Research\nFrom Vibe to Rigor: Claude Code in Social Science by Johannes Gruber - another contribution to the same roundtable that I really appreciate (added bonus: PacMan progress bar!)\nPractical AI for Academics by Claes Bäckman - material from a day-long workshop that includes both conceptual and hands-on stuff; looks like a good starting point if you’re looking for workshop material that’s robust across varied workflows/tools (in other words: not just Claude stuff)"
+  },
+  {
+    "objectID": "resources_ai.html#open-source-coding-agent-stuff",
+    "href": "resources_ai.html#open-source-coding-agent-stuff",
+    "title": "AI",
+    "section": "Open-source coding agent stuff",
+    "text": "Open-source coding agent stuff\n\nOpenCode\nOpenCode Power Pack by Wayner Barrios - for converting Claude skills into OpenCode agent skills (although some OpenCode agents seem to work fine with Claude skills as is?)"
+  },
+  {
+    "objectID": "resources_ai.html#claude-skills",
+    "href": "resources_ai.html#claude-skills",
+    "title": "AI",
+    "section": "Claude skills",
+    "text": "Claude skills\n\nclaudeblattman by Chris Blattman - a whole suite of coding agents, skills etc. that academics can use out of the box. I haven’t used it yet but it looks very comprehensive!\nclo-author by Hugo Sant’Anna - tools for empirical Economics research; my starting point for custom building skills\nBibTeX Cleaning Agent by Yusaku Horiuchi\nClaes Bäckman’s AI-research-feedback collection of Claude skills for academic research review\n“My Claude Code Setup” by Pedro Sant’Anna - a how-to guide and forkable GH repo for getting started with building your own personal workflow"
+  },
+  {
+    "objectID": "bio.html",
+    "href": "bio.html",
+    "title": "Bio",
     "section": "",
-    "text": "Hi SSWPM participants,\nIt was great to meet you all! Here you can find all of the course materials for the short courses on Functional Programming in R and Introduction to Python for R Users that took place on July 21, 2025.\nPreparation for both courses: Please have a short R data analysis script and/or structured data from your own work on hand. If we have time leftover after going through applied examples, we will use them to practice functional programming and Python “in the wild”."
+    "text": "Allison Koh is a Research Fellow in Natural Language Processing at the University of Birmingham’s Centre for Artificial Intelligence in Government. Her research seeks to understand the geopolitics of social media and advance applications of generative AI for monitoring human rights practices and conflict processes. Her most recent work advances our understanding of how politics are rendered more broadly visible to digital publics on video-first platforms, the role of content moderation regimes in global politics, and the contemporary dynamics of digital authoritarianism. Koh holds a PhD in Political Science and an MPP in Policy Analysis from the Hertie School in Berlin, and completed her BSc in Economics and Asian Studies at Tulane Universit1y.\nClick here for a high-quality headshot.\n\n\n\n\n Back to top"
   },
   {
-    "objectID": "sswpm.html#functional-programming-in-r",
-    "href": "sswpm.html#functional-programming-in-r",
-    "title": "Summer School for Women in Political Methodology: Day 1",
-    "section": "Functional Programming in R",
-    "text": "Functional Programming in R\n\nCourse preparation\nThis course was designed for participants with some baseline knowledge of R/RStudio and data management. If you would like a refresher on either of these things, feel free to peruse the following materials.\nPlease note that some of the information related to IDEs/the tidyverse may be a bit outdated.\n\nIntroduction to R/RStudio\nData Management in R\n\n\n\nCourse materials\n\nSlides\nHandout [HTML] [PDF]\nHandout with answers [HTML] [PDF]\nR Project Folder\nGitHub repository"
-  },
-  {
-    "objectID": "sswpm.html#introduction-to-python-for-r-users",
-    "href": "sswpm.html#introduction-to-python-for-r-users",
-    "title": "Summer School for Women in Political Methodology: Day 1",
-    "section": "Introduction to Python for R users",
-    "text": "Introduction to Python for R users\n\nCourse preparation\nWe will be using Google Colab for this course. You don’t need to do anything to set this up outside of having a Google account.\nFor applied examples with data, we will be using the Parties’ Immigration and Integration Positions Dataset (PImPo) (Lehmann and Zobel 2018). Please download the PImPo Party-Level DS CSV file from here: https://manifesto-project.wzb.eu/information/documents/pimpo.\nWe will review how to load the dataset into Google Colab from your local files during the course.\n\n\nCourse materials\n\nSlides\nHandout\nHandout with answers\nColab notebook\nGithub repository"
-  },
-  {
-    "objectID": "sswpm.html#references",
-    "href": "sswpm.html#references",
-    "title": "Summer School for Women in Political Methodology: Day 1",
-    "section": "References",
-    "text": "References\nLehmann, P., & Zobel, M. (2018). Positions and saliency of immigration in party manifestos: A novel dataset using crowd coding. European Journal of Political Research, 57(4), 1056-1083. https://doi.org/10.1111/1475-6765.12295"
-  },
-  {
-    "objectID": "now.html",
-    "href": "now.html",
-    "title": "Now1",
+    "objectID": "resources_quarto.html",
+    "href": "resources_quarto.html",
+    "title": "Quarto",
     "section": "",
-    "text": "As of June 15, 2026, this is what I’m up to:"
+    "text": "Docs/first stop for getting started: https://quarto.org/\n\nExtensions: https://quarto.org/docs/extensions/listing-revealjs.html\nPresentations (in revealjs): https://quarto.org/docs/presentations/revealjs/\n\n\nGetting started\n\nGetting Started with Quarto by Tom Mock (presented at rstudio conf 2022; works as of June 2023) here. Source code here.\n\nMisc\n\nA Quarto tip a day by Mine Cetinkaya-Rundel: https://mine-cetinkaya-rundel.github.io/quarto-tip-a-day/"
   },
   {
-    "objectID": "now.html#footnotes",
-    "href": "now.html#footnotes",
-    "title": "Now1",
-    "section": "Footnotes",
-    "text": "Footnotes\n\n\nhttps://nownownow.com/about↩︎"
-  },
-  {
-    "objectID": "comptext26workshop.html",
-    "href": "comptext26workshop.html",
-    "title": "Workshop: Introduction to Python for Data Management and Analysis",
+    "objectID": "resources_quarto.html#general",
+    "href": "resources_quarto.html#general",
+    "title": "Quarto",
     "section": "",
-    "text": "Hi COMPTEXT workshop participants,\nHere you can find all of the course materials for the Introduction to Python for Data Management and Analysis that took place on April 23, 2026."
+    "text": "Docs/first stop for getting started: https://quarto.org/\n\nExtensions: https://quarto.org/docs/extensions/listing-revealjs.html\nPresentations (in revealjs): https://quarto.org/docs/presentations/revealjs/\n\n\nGetting started\n\nGetting Started with Quarto by Tom Mock (presented at rstudio conf 2022; works as of June 2023) here. Source code here.\n\nMisc\n\nA Quarto tip a day by Mine Cetinkaya-Rundel: https://mine-cetinkaya-rundel.github.io/quarto-tip-a-day/"
   },
   {
-    "objectID": "comptext26workshop.html#introduction-to-python-for-data-management-and-analysis",
-    "href": "comptext26workshop.html#introduction-to-python-for-data-management-and-analysis",
-    "title": "Workshop: Introduction to Python for Data Management and Analysis",
-    "section": "Introduction to Python for Data Management and Analysis",
-    "text": "Introduction to Python for Data Management and Analysis\n\nCourse preparation\nWe will be using Google Colab for this course. You don’t need to do anything to set this up outside of having a Google account.\nFor applied examples with data, we will be using the Manifesto Project Database. Please download the version 2025a data (csv) from here: https://manifesto-project.wzb.eu/datasets/MPDS2025a.\nWe will review how to load the dataset into Google Colab from your local files during the course.\n\n\nCourse materials\n\nSlides\nHandout\nColab notebook"
+    "objectID": "resources_quarto.html#cross-referencing",
+    "href": "resources_quarto.html#cross-referencing",
+    "title": "Quarto",
+    "section": "Cross-referencing",
+    "text": "Cross-referencing\nSections https://quarto.org/docs/authoring/cross-references.html#sections\nTo reference a section, add a #sec- identifier to any heading. For example:\n## Introduction {#sec-introduction}\n\nSee @sec-introduction for additional context.\nNote that when using section cross-references, you will also need to enable the number-sections option (so that section numbering is visible to readers). For example:\n---\ntitle: \"My Document\"\nnumber-sections: true\n---"
+  },
+  {
+    "objectID": "resources_quarto.html#installing-extensions",
+    "href": "resources_quarto.html#installing-extensions",
+    "title": "Quarto",
+    "section": "Installing extensions",
+    "text": "Installing extensions\nExtensions (e.g. quarto-ext/fontawesome for icons) have to be installed with every new project (as far as I know). Quick tutorial for this: https://www.youtube.com/watch?v=u8EOVOjX13Y"
+  },
+  {
+    "objectID": "resources_quarto.html#web",
+    "href": "resources_quarto.html#web",
+    "title": "Quarto",
+    "section": "Web",
+    "text": "Web\nI found the following to be helpful in migrating my personal website from distill to Quarto:\n\nCode and content for andrewheiss.com\nPorting a distill blog to quarto by Danielle Navarro\nCustomizing Your Quarto Website by Patrick Mobley\n\nPatrick also provides a good list of examples/inspo.\n\nCustomizing Quarto Websites by Sam Csik"
+  },
+  {
+    "objectID": "links.html",
+    "href": "links.html",
+    "title": "Links",
+    "section": "",
+    "text": "SSWPM Intro Python Title Slide\nComptext Intro Python Title Slide\n\n\n\n\n Back to top"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "\nAllison Koh\n",
+    "section": "",
+    "text": "Allison Koh\n\n Computational Political Scientist\n\n\n\n\n\n\nHi! I am a Research Fellow in Natural Language Processing at the University of Birmingham’s Centre for Artificial Intelligence in Government. I am also affiliated with the Hertie School’s Centre for International Security in Berlin.\nMy research at the intersection of international relations, political communication, and computational social science focuses on the geopolitics of communication technologies and applications of AI for monitoring human rights practices. This work is greatly informed by previous international experience, which includes work at nonprofits and a Fulbright English Teaching Assistantship. \n\nWhile I spend most of my time doing research, I occasionally teach data science workshops and would be happy to do more of it. If anything in my teaching portfolio aligns with your school’s or organization’s needs, please reach out!\n\n\n\n\n\n\nI am currently based in London. Feel free to reach out to discuss potential opportunities, areas of mutual interest, or to grab a 🍵 or 🍺 around London or Birmingham.\n\n\n\n\n\n\n\n Back to top"
+  },
+  {
+    "objectID": "slides.html",
+    "href": "slides.html",
+    "title": "Slides",
+    "section": "",
+    "text": "EPSS 2026 Panel: AI Regulation and Platform Governance\nEPSS 2026 Showcase: Using AI in Political Science Research  \n\n\n\n\n Back to top"
+  },
+  {
+    "objectID": "resources_other.html",
+    "href": "resources_other.html",
+    "title": "Other",
+    "section": "",
+    "text": "Use !important; in CSS style files to override any other style rules applied to an element. It’s not necessarily “best practices” to do so, but easy to implement in a pinch when you can’t be bothered to make sure specific selectors are applied correctly…\ne.g.:\npre {\n  background-color: #f0f0f0 !important; \n}"
+  },
+  {
+    "objectID": "resources_other.html#html5css",
+    "href": "resources_other.html#html5css",
+    "title": "Other",
+    "section": "",
+    "text": "Use !important; in CSS style files to override any other style rules applied to an element. It’s not necessarily “best practices” to do so, but easy to implement in a pinch when you can’t be bothered to make sure specific selectors are applied correctly…\ne.g.:\npre {\n  background-color: #f0f0f0 !important; \n}"
+  },
+  {
+    "objectID": "resources_other.html#markdown",
+    "href": "resources_other.html#markdown",
+    "title": "Other",
+    "section": "Markdown",
+    "text": "Markdown\n\nEmojis"
+  },
+  {
+    "objectID": "resources_other.html#miscellaneous",
+    "href": "resources_other.html#miscellaneous",
+    "title": "Other",
+    "section": "Miscellaneous",
+    "text": "Miscellaneous\n\nSource Code Images\nCreate pretty images of source code here: https://carbon.now.sh/\n\n\nPalette Sites\n\nhttps://coolors.co/\nhttps://pokepalettes.com/\nhttps://colorbrewer2.org/"
+  },
+  {
+    "objectID": "contact.html",
+    "href": "contact.html",
+    "title": "Contact",
+    "section": "",
+    "text": "Email: a.w.koh@bham.ac.uk\n\n\n\n\n\n\n\n\n\n\n Back to top"
+  },
+  {
+    "objectID": "teaching.html",
+    "href": "teaching.html",
+    "title": "Teaching",
+    "section": "",
+    "text": "University of Birmingham\n\nMSc Supervision, AI and Sustainable Development (2025)\n\n\n\nSummer School for Women in Political Methodology\n\nInstructor for short courses on Functional Programming in R and Python for R Users (2025, University of Bremen)\n\n\n\nGESIS Fall Seminar in Computational Social Science\n\nCo-Instructor, Automated Web Data collection in R with Hauke Licht (2023)\n\n\n\nBerlin Graduate School for Global and Transregional Studies\n\nInstructor, A Gentle Introduction to R and RStudio (2023)\n\n\n\nHertie School\n\nCo-Instructor, A Gentle Introduction to LaTeX (2021)\nResearch consultant on statistical computing in R and Python (2019-2021)\nTA, Data Science Workshop Series with Therese Anders and Will Lowe (2020)\n\n\n\n\n\n Back to top"
+  },
+  {
+    "objectID": "research.html",
+    "href": "research.html",
+    "title": "Research",
+    "section": "",
+    "text": "Platformed Power Plays: Authoritarian Adaptations in Foreign Social Media Spaces\nThis dissertation investigated how vulnerabilities in social media companies’ transparency and content moderation policies can benefit the foreign policy interests of authoritarian regimes. It comprises of the three papers listed in the “Research in Progress” section below."
+  },
+  {
+    "objectID": "research.html#dissertation",
+    "href": "research.html#dissertation",
+    "title": "Research",
+    "section": "",
+    "text": "Platformed Power Plays: Authoritarian Adaptations in Foreign Social Media Spaces\nThis dissertation investigated how vulnerabilities in social media companies’ transparency and content moderation policies can benefit the foreign policy interests of authoritarian regimes. It comprises of the three papers listed in the “Research in Progress” section below."
+  },
+  {
+    "objectID": "research.html#publications",
+    "href": "research.html#publications",
+    "title": "Research",
+    "section": "Publications",
+    "text": "Publications\n\nConfererence Proceedings\nKoh, Allison, Daniel Boey, and Hannah Béchara. 2021. “Predicting Policy Domains from Party Manifestos with BERT and Convolutional Neural Networks”. In Proceedings of the 1st Workshop on Computational Linguistics for Political Text Analysis, Düsseldorf, Germany.\n\n\nBook Chapters\nGohdes, Anita, Allison Koh, and Maurice Schumann. “Digital Authoritarianism”. Forthcoming 2025 in the De Gruyter Handbook of Political Control, edited by Jessica Braithwaite and Jennifer Earl.\n\n\nResearch in Progress\nKoh, Allison and Joshua A. Tucker. Transnational Repression at the Margins of Platform Governance: Inequalities in Online Engagement with Uyghur Dissidents.\nKoh, Allison. Digital Transnational Repression in a Distinct Domain: Global Platforms as Arenas of Political Control.\nKoh, Allison. Did Twitter’s Removal of Government and State-Affiliated Media Labels Expand the Influence of State Actors?. (PAP)\n\n\nOutreach Publications\nRitholtz, Samuel, Allison Koh, and Anita R. Gohdes. “Fanning the Flames of Hate: The Transnational Diffusion of Online Anti-LGBT+ Rhetoric and Offline Mobilisation”. The Global Network on Extremism and Technology (GNET) - Gender and Online Extremism Series, 29 Nov 2022."
+  },
+  {
+    "objectID": "violin.html",
+    "href": "violin.html",
+    "title": "Violin 🎻",
+    "section": "",
+    "text": "In a past life, I was a pretty good violinist. I have been playing since I was 2 years old. Some of my career highlights include being a member of New York Youth Symphony (Seasons 48 and 49), serving as concertmaster in several orchestras, winning a concerto competition, managing my own chamber music ensembles, and being a wedding musician. Here are a couple moments from around the peak of my career 😊\n\n\n\n\n\n\n\n\n\n Back to top"
+  },
+  {
+    "objectID": "resources_python.html",
+    "href": "resources_python.html",
+    "title": "Python",
+    "section": "",
+    "text": "conda create --name ENVNAME python=3.9.7\nconda activate ENVNAME\nconda deactivate ENVNAME\nEvery time you make a new environment, don’t forget to install git! For my CLI (Anaconda Powershell Prompt for Windows 11):\nconda install git"
+  },
+  {
+    "objectID": "resources_python.html#setting-up-virtual-environments-in-the-cli",
+    "href": "resources_python.html#setting-up-virtual-environments-in-the-cli",
+    "title": "Python",
+    "section": "",
+    "text": "conda create --name ENVNAME python=3.9.7\nconda activate ENVNAME\nconda deactivate ENVNAME\nEvery time you make a new environment, don’t forget to install git! For my CLI (Anaconda Powershell Prompt for Windows 11):\nconda install git"
+  },
+  {
+    "objectID": "resources_python.html#pandas",
+    "href": "resources_python.html#pandas",
+    "title": "Python",
+    "section": "pandas",
+    "text": "pandas\nSet default format for displaying numbers; rounding to the nearest number\npd.options.display.float_format = '{:.0f}'.format"
+  },
+  {
+    "objectID": "resources_python.html#ide-stuff",
+    "href": "resources_python.html#ide-stuff",
+    "title": "Python",
+    "section": "IDE stuff",
+    "text": "IDE stuff\n\nJupyter notebooks with VSCode are normally my go-to, especially if collaborators are comfortable working with Github.\nIf browser-based IDEs aren’t your favorite, Jupyter Ascending seems like a good option for using a text editor of your choice to generate Jupyter notebooks. (note: I haven’t checked this in a while)\nColab is another common tool used; it’s not my preference given the workflow for file management, etc. is very different."
+  },
+  {
+    "objectID": "resources_python.html#pytorch-for-text-classification",
+    "href": "resources_python.html#pytorch-for-text-classification",
+    "title": "Python",
+    "section": "PyTorch for Text Classification",
+    "text": "PyTorch for Text Classification\nUseful resource comparing old torchtext (legacy) to new torchtext: https://lightrun.com/answers/pytorch-text-overview-of-issues-in-torchtext-and-the-plan-for-revamping"
+  },
+  {
+    "objectID": "resources_python.html#file-management-with-pathlib",
+    "href": "resources_python.html#file-management-with-pathlib",
+    "title": "Python",
+    "section": "File management with pathlib",
+    "text": "File management with pathlib\nUse pathlib for relative paths in Python. Docs: https://docs.python.org/3/library/pathlib.html\nStuff to import at the top of the script/NB\nimport pathlib \nfrom pathlib import Path\nThe following lines of code identify a working directory and prints directory name/parent directory.\npath = Path.cwd()\nprint(path)\nprint(path.parent)\nJoining paths: In my workflow, I normally keep the working directory as my code folder and specify the path for storing data collected using relative paths. The following code specifies a path and specifies the file path for the data subdirectory of a project.\ncode_path = Path.cwd()\ndata_path = Path(path.parent, 'data')"
   },
   {
     "objectID": "resources_r.html",
@@ -147,178 +287,66 @@
     "text": "RSelenium\nReset port (for error message: Selenium server signals port = 4444 is already in use.) https://stackoverflow.com/questions/74708282/rselenium-is-not-working-when-creating-servers\nlibrary(qdapRegex)\n\n#clear busy port in windows\nport &lt;- 4444L\ntintern &lt;- system(\"netstat -a -n -o\",intern=T)\nirow1 &lt;- grep(as.character(port),tintern)\nif(length(irow1)&gt;0){\n  irow1 &lt;- irow1[1]\n  if(!is.na(irow1)){\n    irow1 &lt;- irow1[1]\n    trow &lt;- tintern[irow1]\n    trow &lt;- trimws(rm_white(trow))\n    tpid &lt;- word(trow,-1,-1) \n    system(paste0(\"taskkill /pid \",tpid,\" /F\"))\n    \n  }\n}"
   },
   {
-    "objectID": "resources_python.html",
-    "href": "resources_python.html",
-    "title": "Python",
+    "objectID": "comptext26workshop.html",
+    "href": "comptext26workshop.html",
+    "title": "Workshop: Introduction to Python for Data Management and Analysis",
     "section": "",
-    "text": "conda create --name ENVNAME python=3.9.7\nconda activate ENVNAME\nconda deactivate ENVNAME\nEvery time you make a new environment, don’t forget to install git! For my CLI (Anaconda Powershell Prompt for Windows 11):\nconda install git"
+    "text": "Hi COMPTEXT workshop participants,\nHere you can find all of the course materials for the Introduction to Python for Data Management and Analysis that took place on April 23, 2026."
   },
   {
-    "objectID": "resources_python.html#setting-up-virtual-environments-in-the-cli",
-    "href": "resources_python.html#setting-up-virtual-environments-in-the-cli",
-    "title": "Python",
+    "objectID": "comptext26workshop.html#introduction-to-python-for-data-management-and-analysis",
+    "href": "comptext26workshop.html#introduction-to-python-for-data-management-and-analysis",
+    "title": "Workshop: Introduction to Python for Data Management and Analysis",
+    "section": "Introduction to Python for Data Management and Analysis",
+    "text": "Introduction to Python for Data Management and Analysis\n\nCourse preparation\nWe will be using Google Colab for this course. You don’t need to do anything to set this up outside of having a Google account.\nFor applied examples with data, we will be using the Manifesto Project Database. Please download the version 2025a data (csv) from here: https://manifesto-project.wzb.eu/datasets/MPDS2025a.\nWe will review how to load the dataset into Google Colab from your local files during the course.\n\n\nCourse materials\n\nSlides\nHandout\nColab notebook"
+  },
+  {
+    "objectID": "now.html",
+    "href": "now.html",
+    "title": "Now1",
     "section": "",
-    "text": "conda create --name ENVNAME python=3.9.7\nconda activate ENVNAME\nconda deactivate ENVNAME\nEvery time you make a new environment, don’t forget to install git! For my CLI (Anaconda Powershell Prompt for Windows 11):\nconda install git"
+    "text": "As of June 15, 2026, this is what I’m up to:"
   },
   {
-    "objectID": "resources_python.html#pandas",
-    "href": "resources_python.html#pandas",
-    "title": "Python",
-    "section": "pandas",
-    "text": "pandas\nSet default format for displaying numbers; rounding to the nearest number\npd.options.display.float_format = '{:.0f}'.format"
+    "objectID": "now.html#footnotes",
+    "href": "now.html#footnotes",
+    "title": "Now1",
+    "section": "Footnotes",
+    "text": "Footnotes\n\n\nhttps://nownownow.com/about↩︎"
   },
   {
-    "objectID": "resources_python.html#ide-stuff",
-    "href": "resources_python.html#ide-stuff",
-    "title": "Python",
-    "section": "IDE stuff",
-    "text": "IDE stuff\n\nJupyter notebooks with VSCode are normally my go-to, especially if collaborators are comfortable working with Github.\nIf browser-based IDEs aren’t your favorite, Jupyter Ascending seems like a good option for using a text editor of your choice to generate Jupyter notebooks. (note: I haven’t checked this in a while)\nColab is another common tool used; it’s not my preference given the workflow for file management, etc. is very different."
-  },
-  {
-    "objectID": "resources_python.html#pytorch-for-text-classification",
-    "href": "resources_python.html#pytorch-for-text-classification",
-    "title": "Python",
-    "section": "PyTorch for Text Classification",
-    "text": "PyTorch for Text Classification\nUseful resource comparing old torchtext (legacy) to new torchtext: https://lightrun.com/answers/pytorch-text-overview-of-issues-in-torchtext-and-the-plan-for-revamping"
-  },
-  {
-    "objectID": "resources_python.html#file-management-with-pathlib",
-    "href": "resources_python.html#file-management-with-pathlib",
-    "title": "Python",
-    "section": "File management with pathlib",
-    "text": "File management with pathlib\nUse pathlib for relative paths in Python. Docs: https://docs.python.org/3/library/pathlib.html\nStuff to import at the top of the script/NB\nimport pathlib \nfrom pathlib import Path\nThe following lines of code identify a working directory and prints directory name/parent directory.\npath = Path.cwd()\nprint(path)\nprint(path.parent)\nJoining paths: In my workflow, I normally keep the working directory as my code folder and specify the path for storing data collected using relative paths. The following code specifies a path and specifies the file path for the data subdirectory of a project.\ncode_path = Path.cwd()\ndata_path = Path(path.parent, 'data')"
-  },
-  {
-    "objectID": "violin.html",
-    "href": "violin.html",
-    "title": "Violin 🎻",
+    "objectID": "sswpm.html",
+    "href": "sswpm.html",
+    "title": "Summer School for Women in Political Methodology: Day 1",
     "section": "",
-    "text": "In a past life, I was a pretty good violinist. I have been playing since I was 2 years old. Some of my career highlights include being a member of New York Youth Symphony (Seasons 48 and 49), serving as concertmaster in several orchestras, winning a concerto competition, managing my own chamber music ensembles, and being a wedding musician. Here are a couple moments from around the peak of my career 😊\n\n\n\n\n\n\n\n\n\n Back to top"
+    "text": "Hi SSWPM participants,\nIt was great to meet you all! Here you can find all of the course materials for the short courses on Functional Programming in R and Introduction to Python for R Users that took place on July 21, 2025.\nPreparation for both courses: Please have a short R data analysis script and/or structured data from your own work on hand. If we have time leftover after going through applied examples, we will use them to practice functional programming and Python “in the wild”."
   },
   {
-    "objectID": "research.html",
-    "href": "research.html",
-    "title": "Research",
+    "objectID": "sswpm.html#functional-programming-in-r",
+    "href": "sswpm.html#functional-programming-in-r",
+    "title": "Summer School for Women in Political Methodology: Day 1",
+    "section": "Functional Programming in R",
+    "text": "Functional Programming in R\n\nCourse preparation\nThis course was designed for participants with some baseline knowledge of R/RStudio and data management. If you would like a refresher on either of these things, feel free to peruse the following materials.\nPlease note that some of the information related to IDEs/the tidyverse may be a bit outdated.\n\nIntroduction to R/RStudio\nData Management in R\n\n\n\nCourse materials\n\nSlides\nHandout [HTML] [PDF]\nHandout with answers [HTML] [PDF]\nR Project Folder\nGitHub repository"
+  },
+  {
+    "objectID": "sswpm.html#introduction-to-python-for-r-users",
+    "href": "sswpm.html#introduction-to-python-for-r-users",
+    "title": "Summer School for Women in Political Methodology: Day 1",
+    "section": "Introduction to Python for R users",
+    "text": "Introduction to Python for R users\n\nCourse preparation\nWe will be using Google Colab for this course. You don’t need to do anything to set this up outside of having a Google account.\nFor applied examples with data, we will be using the Parties’ Immigration and Integration Positions Dataset (PImPo) (Lehmann and Zobel 2018). Please download the PImPo Party-Level DS CSV file from here: https://manifesto-project.wzb.eu/information/documents/pimpo.\nWe will review how to load the dataset into Google Colab from your local files during the course.\n\n\nCourse materials\n\nSlides\nHandout\nHandout with answers\nColab notebook\nGithub repository"
+  },
+  {
+    "objectID": "sswpm.html#references",
+    "href": "sswpm.html#references",
+    "title": "Summer School for Women in Political Methodology: Day 1",
+    "section": "References",
+    "text": "References\nLehmann, P., & Zobel, M. (2018). Positions and saliency of immigration in party manifestos: A novel dataset using crowd coding. European Journal of Political Research, 57(4), 1056-1083. https://doi.org/10.1111/1475-6765.12295"
+  },
+  {
+    "objectID": "resources.html",
+    "href": "resources.html",
+    "title": "Resources",
     "section": "",
-    "text": "Platformed Power Plays: Authoritarian Adaptations in Foreign Social Media Spaces\nThis dissertation investigated how vulnerabilities in social media companies’ transparency and content moderation policies can benefit the foreign policy interests of authoritarian regimes. It comprises of the three papers listed in the “Research in Progress” section below."
-  },
-  {
-    "objectID": "research.html#dissertation",
-    "href": "research.html#dissertation",
-    "title": "Research",
-    "section": "",
-    "text": "Platformed Power Plays: Authoritarian Adaptations in Foreign Social Media Spaces\nThis dissertation investigated how vulnerabilities in social media companies’ transparency and content moderation policies can benefit the foreign policy interests of authoritarian regimes. It comprises of the three papers listed in the “Research in Progress” section below."
-  },
-  {
-    "objectID": "research.html#publications",
-    "href": "research.html#publications",
-    "title": "Research",
-    "section": "Publications",
-    "text": "Publications\n\nConfererence Proceedings\nKoh, Allison, Daniel Boey, and Hannah Béchara. 2021. “Predicting Policy Domains from Party Manifestos with BERT and Convolutional Neural Networks”. In Proceedings of the 1st Workshop on Computational Linguistics for Political Text Analysis, Düsseldorf, Germany.\n\n\nBook Chapters\nGohdes, Anita, Allison Koh, and Maurice Schumann. “Digital Authoritarianism”. Forthcoming 2025 in the De Gruyter Handbook of Political Control, edited by Jessica Braithwaite and Jennifer Earl.\n\n\nResearch in Progress\nKoh, Allison and Joshua A. Tucker. Transnational Repression at the Margins of Platform Governance: Inequalities in Online Engagement with Uyghur Dissidents.\nKoh, Allison. Digital Transnational Repression in a Distinct Domain: Global Platforms as Arenas of Political Control.\nKoh, Allison. Did Twitter’s Removal of Government and State-Affiliated Media Labels Expand the Influence of State Actors?. (PAP)\n\n\nOutreach Publications\nRitholtz, Samuel, Allison Koh, and Anita R. Gohdes. “Fanning the Flames of Hate: The Transnational Diffusion of Online Anti-LGBT+ Rhetoric and Offline Mobilisation”. The Global Network on Extremism and Technology (GNET) - Gender and Online Extremism Series, 29 Nov 2022."
-  },
-  {
-    "objectID": "teaching.html",
-    "href": "teaching.html",
-    "title": "Teaching",
-    "section": "",
-    "text": "University of Birmingham\n\nMSc Supervision, AI and Sustainable Development (2025)\n\n\n\nSummer School for Women in Political Methodology\n\nInstructor for short courses on Functional Programming in R and Python for R Users (2025, University of Bremen)\n\n\n\nGESIS Fall Seminar in Computational Social Science\n\nCo-Instructor, Automated Web Data collection in R with Hauke Licht (2023)\n\n\n\nBerlin Graduate School for Global and Transregional Studies\n\nInstructor, A Gentle Introduction to R and RStudio (2023)\n\n\n\nHertie School\n\nCo-Instructor, A Gentle Introduction to LaTeX (2021)\nResearch consultant on statistical computing in R and Python (2019-2021)\nTA, Data Science Workshop Series with Therese Anders and Will Lowe (2020)\n\n\n\n\n\n Back to top"
-  },
-  {
-    "objectID": "contact.html",
-    "href": "contact.html",
-    "title": "Contact",
-    "section": "",
-    "text": "Email: a.w.koh@bham.ac.uk\n\n\n\n\n\n\n\n\n\n\n Back to top"
-  },
-  {
-    "objectID": "resources_other.html",
-    "href": "resources_other.html",
-    "title": "Other",
-    "section": "",
-    "text": "Use !important; in CSS style files to override any other style rules applied to an element. It’s not necessarily “best practices” to do so, but easy to implement in a pinch when you can’t be bothered to make sure specific selectors are applied correctly…\ne.g.:\npre {\n  background-color: #f0f0f0 !important; \n}"
-  },
-  {
-    "objectID": "resources_other.html#html5css",
-    "href": "resources_other.html#html5css",
-    "title": "Other",
-    "section": "",
-    "text": "Use !important; in CSS style files to override any other style rules applied to an element. It’s not necessarily “best practices” to do so, but easy to implement in a pinch when you can’t be bothered to make sure specific selectors are applied correctly…\ne.g.:\npre {\n  background-color: #f0f0f0 !important; \n}"
-  },
-  {
-    "objectID": "resources_other.html#markdown",
-    "href": "resources_other.html#markdown",
-    "title": "Other",
-    "section": "Markdown",
-    "text": "Markdown\n\nEmojis"
-  },
-  {
-    "objectID": "resources_other.html#miscellaneous",
-    "href": "resources_other.html#miscellaneous",
-    "title": "Other",
-    "section": "Miscellaneous",
-    "text": "Miscellaneous\n\nSource Code Images\nCreate pretty images of source code here: https://carbon.now.sh/\n\n\nPalette Sites\n\nhttps://coolors.co/\nhttps://pokepalettes.com/\nhttps://colorbrewer2.org/"
-  },
-  {
-    "objectID": "slides.html",
-    "href": "slides.html",
-    "title": "Slides",
-    "section": "",
-    "text": "EPSS 2026 Panel: AI Regulation and Platform Governance\nEPSS 2026 Showcase: Using AI in Political Science Research  \n\n\n\n\n Back to top"
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "\nAllison Koh\n",
-    "section": "",
-    "text": "Allison Koh\n\n Computational Political Scientist\n\n\n\n\n\n\nHi! I am a Research Fellow in Natural Language Processing at the University of Birmingham’s Centre for Artificial Intelligence in Government. I am also affiliated with the Hertie School’s Centre for International Security in Berlin.\nMy research at the intersection of international relations, political communication, and computational social science focuses on the geopolitics of communication technologies and applications of AI for monitoring human rights practices. This work is greatly informed by previous international experience, which includes work at nonprofits and a Fulbright English Teaching Assistantship. \n\nWhile I spend most of my time doing research, I occasionally teach data science workshops and would be happy to do more of it. If anything in my teaching portfolio aligns with your school’s or organization’s needs, please reach out!\n\n\n\n\n\n\nI am currently based in London. Feel free to reach out to discuss potential opportunities, areas of mutual interest, or to grab a 🍵 or 🍺 around London or Birmingham.\n\n\n\n\n\n\n\n Back to top"
-  },
-  {
-    "objectID": "links.html",
-    "href": "links.html",
-    "title": "Links",
-    "section": "",
-    "text": "SSWPM Intro Python Title Slide\nComptext Intro Python Title Slide\n\n\n\n\n Back to top"
-  },
-  {
-    "objectID": "resources_quarto.html",
-    "href": "resources_quarto.html",
-    "title": "Quarto",
-    "section": "",
-    "text": "Docs/first stop for getting started: https://quarto.org/\n\nExtensions: https://quarto.org/docs/extensions/listing-revealjs.html\nPresentations (in revealjs): https://quarto.org/docs/presentations/revealjs/\n\n\nGetting started\n\nGetting Started with Quarto by Tom Mock (presented at rstudio conf 2022; works as of June 2023) here. Source code here.\n\nMisc\n\nA Quarto tip a day by Mine Cetinkaya-Rundel: https://mine-cetinkaya-rundel.github.io/quarto-tip-a-day/"
-  },
-  {
-    "objectID": "resources_quarto.html#general",
-    "href": "resources_quarto.html#general",
-    "title": "Quarto",
-    "section": "",
-    "text": "Docs/first stop for getting started: https://quarto.org/\n\nExtensions: https://quarto.org/docs/extensions/listing-revealjs.html\nPresentations (in revealjs): https://quarto.org/docs/presentations/revealjs/\n\n\nGetting started\n\nGetting Started with Quarto by Tom Mock (presented at rstudio conf 2022; works as of June 2023) here. Source code here.\n\nMisc\n\nA Quarto tip a day by Mine Cetinkaya-Rundel: https://mine-cetinkaya-rundel.github.io/quarto-tip-a-day/"
-  },
-  {
-    "objectID": "resources_quarto.html#cross-referencing",
-    "href": "resources_quarto.html#cross-referencing",
-    "title": "Quarto",
-    "section": "Cross-referencing",
-    "text": "Cross-referencing\nSections https://quarto.org/docs/authoring/cross-references.html#sections\nTo reference a section, add a #sec- identifier to any heading. For example:\n## Introduction {#sec-introduction}\n\nSee @sec-introduction for additional context.\nNote that when using section cross-references, you will also need to enable the number-sections option (so that section numbering is visible to readers). For example:\n---\ntitle: \"My Document\"\nnumber-sections: true\n---"
-  },
-  {
-    "objectID": "resources_quarto.html#installing-extensions",
-    "href": "resources_quarto.html#installing-extensions",
-    "title": "Quarto",
-    "section": "Installing extensions",
-    "text": "Installing extensions\nExtensions (e.g. quarto-ext/fontawesome for icons) have to be installed with every new project (as far as I know). Quick tutorial for this: https://www.youtube.com/watch?v=u8EOVOjX13Y"
-  },
-  {
-    "objectID": "resources_quarto.html#web",
-    "href": "resources_quarto.html#web",
-    "title": "Quarto",
-    "section": "Web",
-    "text": "Web\nI found the following to be helpful in migrating my personal website from distill to Quarto:\n\nCode and content for andrewheiss.com\nPorting a distill blog to quarto by Danielle Navarro\nCustomizing Your Quarto Website by Patrick Mobley\n\nPatrick also provides a good list of examples/inspo.\n\nCustomizing Quarto Websites by Sam Csik"
-  },
-  {
-    "objectID": "bio.html",
-    "href": "bio.html",
-    "title": "Bio",
-    "section": "",
-    "text": "Allison Koh is a Research Fellow in Natural Language Processing at the University of Birmingham’s Centre for Artificial Intelligence in Government. Her research seeks to understand the geopolitics of social media and advance applications of generative AI for monitoring human rights practices and conflict processes. Her most recent work advances our understanding of how politics are rendered more broadly visible to digital publics on video-first platforms, the role of content moderation regimes in global politics, and the contemporary dynamics of digital authoritarianism. Koh holds a PhD in Political Science and an MPP in Policy Analysis from the Hertie School in Berlin, and completed her BSc in Economics and Asian Studies at Tulane Universit1y.\nClick here for a high-quality headshot.\n\n\n\n\n Back to top"
+    "text": "The collections of links below include references I frequently consult in my professional workflow and resources that I am often asked to recommend. Regard it as a handpicked selection of things that I have found to be super helpful. Maybe they’ll help you too. 😊\nI regularly update these collections every time I learn something new, find myself visiting the same how-to guide at least twice, and receive requests for advice on a specific aspect of coding. Some links/resources/advice may be out of date.\n\nPython\nQuarto\nR\nAI\nOther\n\n\n\n\n Back to top"
   }
 ]

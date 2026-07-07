@@ -1,0 +1,30 @@
+---
+title: "AI"
+subtitle: "How-to Guides and Useful Links"
+---
+
+_Below are some resources I've either personally used, customized for my own workflow, or bookmarked for use down the line. I have found most of these resources on LinkedIn. If you have a resource that you think may be of interest to political scientists, please reach out! Especially if you don't feel represented among the individuals listed here._
+
+__NOTE__): I do not use AI to maintain this page; if a resource is linked here, it's because I've personally put it here and endorse its use (or at the very least am curious about it!). My general guidance around AI use is that my approach toward integrating generative AI into my workflow is no different from that of other coding languages.
+
+## Instructional material
+
+- [Are we all system architects now? (I hope not!): Brief remarks on using AI in political research without losing what drew us away from more stable jobs ](https://allisonkoh.github.io/files/epss-ai-roundtable.html#/section) by Allison Koh - my contribution to the EPSS 2026 Showcase on Using AI in Political Science Research 
+- [From Vibe to Rigor: Claude Code in Social Science](https://jbgruber.github.io/my-slides/2026_EPSS-AI.html#/title-slide) by Johannes Gruber - another contribution to the same roundtable that I really appreciate (added bonus: PacMan progress bar!)
+- [Practical AI for Academics](https://github.com/claesbackman/AI_Workshop_Slides) by Claes Bäckman - material from a day-long workshop that includes both conceptual and hands-on stuff; looks like a good starting point if you're looking for workshop material that's robust across varied workflows/tools (in other words: not just Claude stuff)
+<!-- - [Using AI for Research](https://velikov-mihail.github.io/ai-econ-wiki/summaries/velikov-edhec/) by Mihail Velikov - materials from a 6-hour workshop that includes both conceptual bits and Claude demos  -->
+
+## Open-source coding agent stuff 
+
+- [OpenCode](https://opencode.ai/)
+- [OpenCode Power Pack](https://github.com/waybarrios/opencode-power-pack) by Wayner Barrios - for converting Claude skills into OpenCode agent skills (although some OpenCode agents seem to work fine with Claude skills as is?)
+
+
+## Claude skills 
+
+- [claudeblattman](https://github.com/chrisblattman/claudeblattman) by Chris Blattman - a whole suite of coding agents, skills etc. that academics can use out of the box. I haven't used it yet but it looks very comprehensive!
+- [clo-author](https://github.com/hugosantanna/clo-author) by Hugo Sant'Anna - tools for empirical Economics research; my starting point for custom building skills 
+- [BibTeX Cleaning Agent](https://yhoriuchi.github.io/bibtex-cleaning-agent-guide/) by Yusaku Horiuchi
+- Claes Bäckman's [AI-research-feedback](https://github.com/claesbackman/AI-research-feedback) collection of Claude skills for academic research review 
+- ["My Claude Code Setup"](https://psantanna.com/claude-code-my-workflow/) by Pedro Sant'Anna - a how-to guide and forkable GH repo for getting started with building your own personal workflow 
+

@@ -13,5 +13,6 @@ I regularly update these collections every time I learn something new, find myse
 - [Python](resources_python.html)
 - [Quarto](resources_quarto.html)
 - [R](resources_r.html)
+- [AI](resources_ai.html)
 - [Other](resources_other.html)
 
