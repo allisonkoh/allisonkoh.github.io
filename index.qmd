@@ -46,13 +46,15 @@ format:
 
 Hi! I am a Research Fellow in Natural Language Processing at the University of Birmingham's [Centre for Artificial Intelligence in Government](https://www.birmingham.ac.uk/research/centre-for-artificial-intelligence-in-government). I am also affiliated with the Hertie School's [Centre for International Security](https://www.hertie-school.org/en/international-security) in Berlin.   
 
-My [research](research.html) at the intersection of international relations, political communication, and computational social science focuses on the <span class="text-success">__geopolitics of communication technologies__</span> and applications of <span class="text-success">__AI for monitoring human rights practices__</span>. This work is greatly informed by previous international experience, which includes work at nonprofits and a Fulbright English Teaching Assistantship. 
+My [research](research.html) at the intersection of international relations, political communication, and computational social science focuses on the <span class="text-success">__geopolitics of emerging technologies__</span> and <span class="text-success">__dynamics of political control__</span>. This work is informed by previous international experience, which includes work at nonprofits and a Fulbright English Teaching Assistantship. 
 <!-- There's no better way to learn about how international politics works than through navigating it firsthand.  -->
 
 <!-- My [dissertation](research.html#dissertation) project investigated how vulnerabilities in social media companies’ transparency and content moderation policies can benefit the foreign policy interests of authoritarian regimes. -->
 
+Beyond my research, I enjoy teaching myself and others how to code and analyse data. I have taught various data science workshops and am developing resources on <span class="text-success">__integrating AI coding agents into research__</span> workflows. If anything in my [teaching](teaching.html) portfolio aligns with your organization’s needs, please reach out! 
 
-While I spend most of my time doing research, I occasionally teach data science workshops and would be happy to do more of it. If anything in my [teaching](teaching.html) portfolio aligns with your school’s or organization’s needs, please reach out!  
+
+<!-- One of the most rewarding parts of my work is the opportunity to pass on what i know about data science coding etc. to others (or something like that). I have taught various data science workshops at  -->
 
 <!-- explored the strategic landscape of digital transnational repression on social media and identified how vulnerabilities in social media companies' transparency and content moderation policies benefit the foreign policy interests of authoritarian regimes. -->
 <!-- <span class="text-success">__geopolitics of emerging technologies__</span> and applications of <span class="text-success">__generative AI for studying political violence__</span>. -->
@@ -64,7 +66,7 @@ While I spend most of my time doing research, I occasionally teach data science 
 
 <!-- I recently earned my PhD at the Hertie School's [Centre for International Security](https://www.hertie-school.org/en/international-security) in Berlin. I also hold an MPP in Policy Analysis from the Hertie School and a BSc in Economics and Asian Studies from Tulane University.  -->
 
-I am [currently](now.html) based in London. Feel free to [reach out](mailto:a.w.koh@bham.ac.uk) to discuss potential opportunities, areas of mutual interest, or to grab a 🍵 or 🍺 around London or Birmingham.
+I am [currently](now.html) based in London. Feel free to [reach out](mailto:a.w.koh@bham.ac.uk) to discuss opportunities, areas of mutual interest, or to grab a 🍵 or 🍺 around London or Birmingham.
 
 </div> 
 

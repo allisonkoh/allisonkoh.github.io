@@ -4,6 +4,7 @@
 // $navbar-bg: #133e7c;
 $navbar-bg: #1a0933;
 
+
 $link-color: #3cf281;
 $success: #fb3073;
 
@@ -33,7 +34,7 @@ pre {
 }
 
 .navbar-brand img { 
-  max-height: 100px;
+  max-height: 45px;
   width: auto;
 }
 
@@ -63,7 +64,9 @@ pre {
 
 /* Inverse navbar logo */
 .navbar-logo{
-  content: url("flamingtext_logo.png");
+  content: url("allisonkoh_dotgothic_lite.png");
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 /* Make the search icon black */

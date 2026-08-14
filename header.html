@@ -4,11 +4,6 @@ body{cursor:url(http://media.tumblr.com/tumblr_ma87yyYp7E1qid2nw.png), url(http:
 
                                                 
 <!-- this script for rainbow sparkles is provided by https://www.htmlfreecode.com coded by: Kerixa Inc. -->
-<style>
-body {
-    background-color: black;
-}
-</style>
 <script>
 var colour = "random"; // "random" can be replaced with any valid colour ie: "red"...
 var sparkles = 100;// increase of decrease for number of sparkles falling
@@ -46,11 +41,11 @@ if (ns) {
 }
 
 if (ie)
-    document.write('<div id="con" style="position:absolute;top:0px;left:0px"><div style="position:relative">');
+    document.write('<div id="con" style="position:fixed;top:0px;left:0px"><div style="position:relative">');
 
 if (ie || n6) {
     for (i = 0; i < n; i++)
-        document.write('<div id="dots' + i + '" style="position:absolute;top:0px;left:0px;width:' + i / 2 + 'px;height:' + i / 2 + 'px;background:#ff0000;font-size:' + i / 2 + '"></div>');
+        document.write('<div id="dots' + i + '" style="position:fixed;top:0px;left:0px;width:' + i / 2 + 'px;height:' + i / 2 + 'px;background:#ff0000;font-size:' + i / 2 + '"></div>');
 }
 
 if (ie)
@@ -66,10 +61,6 @@ function Mouse(evnt) {
 (ns) ? window.onMouseMove = Mouse : document.onmousemove = Mouse;
 
 function animate() {
-
-    o = (ns || n6) ? window.pageYOffset : 0;
-
-    if (ie) con.style.top = document.body.scrollTop + 'px';
 
     for (i = 0; i < n; i++) {
 
@@ -88,7 +79,7 @@ function animate() {
     }
     else {
 
-    temp1.top = y + o + 'px';
+    temp1.top = y + 'px';
     temp1.left = x + 'px';
     }
     }
@@ -127,32 +118,30 @@ if (document.getElementById) {
 }
 }
 
+// Glitter follows the cursor tightly: spawn a star every tick (25ms),
+// with a short 15-tick life and only a tiny drift (no big downward fall).
 function sparkle() {
     var c;
-if (Math.abs(x - ox) > 1 || Math.abs(y - oy) > 1) {
-    ox = x;
-    oy = y;
     for (c = 0; c < sparkles; c++) if (!starv[c]) {
     star[c].style.left = (starx[c] = x) + "px";
     star[c].style.top = (stary[c] = y + 1) + "px";
     star[c].style.clip = "rect(0px, 5px, 5px, 0px)";
     star[c].childNodes[0].style.backgroundColor = star[c].childNodes[1].style.backgroundColor = (colour == "random") ? newColour() : colour;
     star[c].style.visibility = "visible";
-    starv[c] = 50;
+    starv[c] = 15;
     break;
     }
-}
 for (c = 0; c < sparkles; c++) {
     if (starv[c]) update_star(c);
     if (tinyv[c]) update_tiny(c);
 }
-    setTimeout("sparkle()", 40);
+    setTimeout("sparkle()", 25);
 }
 
 function update_star(i) {
-    if (--starv[i] == 25) star[i].style.clip = "rect(1px, 4px, 4px, 1px)";
+    if (--starv[i] == 8) star[i].style.clip = "rect(1px, 4px, 4px, 1px)";
     if (starv[i]) {
-    stary[i] += 1 + Math.random() * 3;
+    stary[i] += Math.random();
     starx[i] += (i % 5 - 2) / 5;
     if (stary[i] < shigh + sdown) {
     star[i].style.top = stary[i] + "px";
@@ -165,7 +154,7 @@ function update_star(i) {
     }
     }
     else {
-    tinyv[i] = 50;
+    tinyv[i] = 12;
     tiny[i].style.top = (tinyy[i] = stary[i]) + "px";
     tiny[i].style.left = (tinyx[i] = starx[i]) + "px";
     tiny[i].style.width = "2px";
@@ -177,12 +166,12 @@ function update_star(i) {
 }
 
 function update_tiny(i) {
-    if (--tinyv[i] == 25) {
+    if (--tinyv[i] == 6) {
     tiny[i].style.width = "1px";
     tiny[i].style.height = "1px";
     }
     if (tinyv[i]) {
-    tinyy[i] += 1 + Math.random() * 3;
+    tinyy[i] += Math.random();
     tinyx[i] += (i % 5 - 2) / 5;
     if (tinyy[i] < shigh + sdown) {
     tiny[i].style.top = tinyy[i] + "px";
@@ -200,8 +189,8 @@ function update_tiny(i) {
 document.onmousemove = mouse;
 function mouse(e) {
     if (e) {
-    y = e.pageY;
-    x = e.pageX;
+    y = e.clientY;
+    x = e.clientX;
     }
     else {
     set_scroll();
@@ -256,7 +245,7 @@ function set_width() {
 
 function createDiv(height, width) {
     var div = document.createElement("div");
-    div.style.position = "absolute";
+    div.style.position = "fixed";
     div.style.height = height + "px";
     div.style.width = width + "px";
     div.style.overflow = "hidden";

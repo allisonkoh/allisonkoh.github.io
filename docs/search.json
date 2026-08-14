@@ -11,21 +11,14 @@
     "href": "resources_ai.html#instructional-material",
     "title": "AI",
     "section": "Instructional material",
-    "text": "Instructional material\n\nAre we all system architects now? (I hope not!): Brief remarks on using AI in political research without losing what drew us away from more stable jobs by Allison Koh - my contribution to the EPSS 2026 Showcase on Using AI in Political Science Research\nFrom Vibe to Rigor: Claude Code in Social Science by Johannes Gruber - another contribution to the same roundtable that I really appreciate (added bonus: PacMan progress bar!)\nPractical AI for Academics by Claes Bäckman - material from a day-long workshop that includes both conceptual and hands-on stuff; looks like a good starting point if you’re looking for workshop material that’s robust across varied workflows/tools (in other words: not just Claude stuff)"
+    "text": "Instructional material\n\nAre we all system architects now? (I hope not!): Brief remarks on using AI in political research without losing what drew us away from more stable jobs by Allison Koh - my contribution to the EPSS 2026 Showcase on Using AI in Political Science Research\nFrom Vibe to Rigor: Claude Code in Social Science by Johannes Gruber - another contribution to the same roundtable that I really appreciate (added bonus: PacMan progress bar!)\nPractical AI for Academics by Claes Bäckman - material from a day-long workshop that includes both conceptual and hands-on stuff; looks like a good starting point if you’re looking for workshop material that’s robust across varied workflows/tools (in other words: not just Claude stuff). His AI guides for academic economists is also a useful resource."
   },
   {
-    "objectID": "resources_ai.html#open-source-coding-agent-stuff",
-    "href": "resources_ai.html#open-source-coding-agent-stuff",
+    "objectID": "resources_ai.html#coding-agent-stuff",
+    "href": "resources_ai.html#coding-agent-stuff",
     "title": "AI",
-    "section": "Open-source coding agent stuff",
-    "text": "Open-source coding agent stuff\n\nOpenCode\nOpenCode Power Pack by Wayner Barrios - for converting Claude skills into OpenCode agent skills (although some OpenCode agents seem to work fine with Claude skills as is?)"
-  },
-  {
-    "objectID": "resources_ai.html#claude-skills",
-    "href": "resources_ai.html#claude-skills",
-    "title": "AI",
-    "section": "Claude skills",
-    "text": "Claude skills\n\nclaudeblattman by Chris Blattman - a whole suite of coding agents, skills etc. that academics can use out of the box. I haven’t used it yet but it looks very comprehensive!\nclo-author by Hugo Sant’Anna - tools for empirical Economics research; my starting point for custom building skills\nBibTeX Cleaning Agent by Yusaku Horiuchi\nClaes Bäckman’s AI-research-feedback collection of Claude skills for academic research review\n“My Claude Code Setup” by Pedro Sant’Anna - a how-to guide and forkable GH repo for getting started with building your own personal workflow"
+    "section": "Coding agent stuff",
+    "text": "Coding agent stuff\n\nOpenCode\nOpenCode Power Pack by Wayner Barrios - for converting Claude skills into OpenCode agent skills (although some OpenCode agents seem to work fine with Claude skills as is?)\nawesome-opencode\nopencode-academic-research\nLongtable\n\n\nClaude Skills\n\nclaudeblattman by Chris Blattman - a whole suite of coding agents, skills etc. that academics can use out of the box. I haven’t used it yet but it looks very comprehensive!\nclo-author by Hugo Sant’Anna - tools for empirical Economics research; my starting point for custom building skills\nBibTeX Cleaning Agent by Yusaku Horiuchi\nClaes Bäckman’s AI-research-feedback collection of Claude skills for academic research review\n“My Claude Code Setup” by Pedro Sant’Anna - a how-to guide and forkable GH repo for getting started with building your own personal workflow\nChris Kenney"
   },
   {
     "objectID": "bio.html",
@@ -81,7 +74,7 @@
     "href": "index.html",
     "title": "\nAllison Koh\n",
     "section": "",
-    "text": "Allison Koh\n\n Computational Political Scientist\n\n\n\n\n\n\nHi! I am a Research Fellow in Natural Language Processing at the University of Birmingham’s Centre for Artificial Intelligence in Government. I am also affiliated with the Hertie School’s Centre for International Security in Berlin.\nMy research at the intersection of international relations, political communication, and computational social science focuses on the geopolitics of communication technologies and applications of AI for monitoring human rights practices. This work is greatly informed by previous international experience, which includes work at nonprofits and a Fulbright English Teaching Assistantship. \n\nWhile I spend most of my time doing research, I occasionally teach data science workshops and would be happy to do more of it. If anything in my teaching portfolio aligns with your school’s or organization’s needs, please reach out!\n\n\n\n\n\n\nI am currently based in London. Feel free to reach out to discuss potential opportunities, areas of mutual interest, or to grab a 🍵 or 🍺 around London or Birmingham.\n\n\n\n\n\n\n\n Back to top"
+    "text": "Allison Koh\n\n Computational Political Scientist\n\n\n\n\n\n\nHi! I am a Research Fellow in Natural Language Processing at the University of Birmingham’s Centre for Artificial Intelligence in Government. I am also affiliated with the Hertie School’s Centre for International Security in Berlin.\nMy research at the intersection of international relations, political communication, and computational social science focuses on the geopolitics of emerging technologies and dynamics of political control. This work is informed by previous international experience, which includes work at nonprofits and a Fulbright English Teaching Assistantship. \n\nBeyond my research, I enjoy teaching myself and others how to code and analyse data. I have taught various data science workshops and am developing resources on integrating AI coding agents into research workflows. If anything in my teaching portfolio aligns with your organization’s needs, please reach out!\n\n\n\n\n\n\n\nI am currently based in London. Feel free to reach out to discuss opportunities, areas of mutual interest, or to grab a 🍵 or 🍺 around London or Birmingham.\n\n\n\n\n\n\n\n Back to top"
   },
   {
     "objectID": "slides.html",
