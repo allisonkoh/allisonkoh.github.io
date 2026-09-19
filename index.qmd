@@ -51,7 +51,7 @@ My [research](research.html) at the intersection of international relations, pol
 
 <!-- My [dissertation](research.html#dissertation) project investigated how vulnerabilities in social media companies’ transparency and content moderation policies can benefit the foreign policy interests of authoritarian regimes. -->
 
-Beyond my research, I enjoy teaching myself and others how to code and analyze data. I have taught various <span class="text-success">__data science workshops__</span> and am developing resources for <span class="text-success">__integrating AI coding agents into research__</span> workflows. If anything in my [teaching](teaching.html) portfolio aligns with your organization’s needs, please reach out! 
+Beyond my research, I enjoy teaching myself and others how to code and analyze data. I have taught various <span class="text-success">__data science workshops__</span> and am developing resources for <span class="text-success">__integrating AI agents into research workflows__</span>. If anything in my [teaching](teaching.html) portfolio aligns with your organization’s needs, please reach out! 
 
 
 <!-- One of the most rewarding parts of my work is the opportunity to pass on what i know about data science coding etc. to others (or something like that). I have taught various data science workshops at  -->
