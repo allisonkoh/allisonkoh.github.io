@@ -8,10 +8,11 @@ format:
     grid: 
       sidebar-width: 801px
     css: styles.css
+    body-classes: home
 ---
 
 
-<br><br> 
+<br><br><br> 
 
 ::: {.grid}
 ::: {.g-col-12 .g-col-md-4 .px-2}
@@ -44,9 +45,13 @@ format:
 
 <p style="margin-bottom: 10pt;"></p>
 
-Hi! I am a Research Fellow in Natural Language Processing at the University of Birmingham's [Centre for Artificial Intelligence in Government](https://www.birmingham.ac.uk/research/centre-for-artificial-intelligence-in-government). I am also affiliated with the Hertie School's [Centre for International Security](https://www.hertie-school.org/en/international-security) in Berlin.   
+Hi! I am a Research Fellow in Natural Language Processing at the University of Birmingham's [Centre for Artificial Intelligence in Government](https://www.birmingham.ac.uk/research/centre-for-artificial-intelligence-in-government). I earned my PhD at the Hertie School's [Centre for International Security](https://www.hertie-school.org/en/international-security) in Berlin.   
 
-My [research](research.html) at the intersection of international relations, political communication, and computational social science focuses on the <span class="text-success">__geopolitics of emerging technologies__</span> and <span class="text-success">__dynamics of political control__</span>. This work is informed by previous international experience, which includes work at nonprofits and a Fulbright English Teaching Assistantship. 
+My [research](research.html) at the intersection of international relations, political communication, and computational social science focuses on <span class="text-success">__frontier technology governance__</span>, <span class="text-success">__nonstate actors in global politics__</span>, and <span class="text-success">__institutional accountability__</span>. This work is informed by previous international experience, which includes nonprofit work and a Fulbright English Teaching Assistantship. 
+
+<!-- driven by an interest in understanding the role of nonstate actors in global politics and determinants of accountability in informationally opaque settings. Ongoing projects at the intersection of these two things include __frontier technology governance__, __digital publics__ under __platform disruption__, and  -->
+
+<!-- focuses on the <span class="text-success">__geopolitics of emerging technologies__</span> and <span class="text-success">__dynamics of political control__</span>. This work is informed by previous international experience, which includes work at nonprofits and a Fulbright English Teaching Assistantship.  -->
 <!-- There's no better way to learn about how international politics works than through navigating it firsthand.  -->
 
 <!-- My [dissertation](research.html#dissertation) project investigated how vulnerabilities in social media companies’ transparency and content moderation policies can benefit the foreign policy interests of authoritarian regimes. -->
@@ -72,5 +77,3 @@ I am [currently](now.html) based in London. Feel free to [reach out](mailto:a.w.
 
 :::
 :::
-
-<br><br><br><br><br>

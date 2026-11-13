@@ -8,3 +8,23 @@
   grid-template-rows: 1fr;
 }
 
+footer.footer,
+.nav-footer,
+.nav-footer-left,
+.nav-footer-center,
+.nav-footer-right {
+  padding-bottom: 8px !important;  
+  margin: 0 !important;
+  min-height: 0 !important;
+}
+
+body,
+main.content,
+.quarto-container {
+  margin-bottom: 0 !important;
+  padding-bottom: 0 !important;
+}
+
+body.home {
+  overflow: hidden;
+}
