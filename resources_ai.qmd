@@ -3,31 +3,35 @@ title: "AI"
 subtitle: "How-to Guides and Useful Links"
 ---
 
-_Below are some resources I've either personally used, customized for my own workflow, or bookmarked for use down the line. I have found most of these resources on LinkedIn. If you have a resource that you think may be of interest to political scientists, please reach out! Especially if you don't feel represented among the individuals listed here._
+## My agentic workflow
 
-__NOTE__): I do not use AI to maintain this page; if a resource is linked here, it's because I've personally put it here and endorse its use (or at the very least am curious about it!). My general guidance around AI use is that my approach toward integrating generative AI into my workflow is no different from that of other coding languages.
+This is how I use coding agents:
 
-## Instructional material
+- For quick fixes/one-off tasks, I open up Terminal/the command line and prompt from there (_after_ specifying the target directory - very important thing to not forget!)
+- For work that involves more than one task/agent, I use VSCode. See [workflow customizations for multitasking](#vscode-customizations-for-multitasking) for more information on my setup. 
+- I am currently figuring out how to document my projects so I can (1) ensure a code base with enough context/memory for any coding agent to pick up from where the last one left off and (2) disclose LLM use where needed while (3) trying not to be too disruptive to collaborators. My starting point for this has been to instantiate a project by pointing an agent to [GUIDE-LLM](https://llm-checklist.com/). Currently refining from there. Apologies to my collaborators for the extra verbose documentation in the meantime😅
 
-- [Are we all system architects now? (I hope not!): Brief remarks on using AI in political research without losing what drew us away from more stable jobs ](https://allisonkoh.github.io/files/epss-ai-roundtable.html#/section) by Allison Koh - my contribution to the EPSS 2026 Showcase on Using AI in Political Science Research 
+## VSCode customizations for multitasking
+
+I typically have multiple VSCode windows open at once (not too unlike my pre-coding agent workflows). I implement multiple visual/auditory indicators to differentiate between them, make sure multiple tasks are simultaneously progressing, and incentivize manual coding where it is likely to be more efficient than using coding agents altogether: 
+
+- [peon-ping](https://www.peonping.com/): triggers short lines of recorded dialogue to indicate when a coding agent needs attention, and what for (e.g. a task is done, there's an error, or the agent is waiting for permission to do something). The developers' byline for the tool is "stop babysitting your terminal". My current default for this is Bender from Futurama. Not very helpful in my efforts to not anthropomorphize using these tools but it's fun so 🤷🏻‍♀️
+- Different color themes for different projects: I set the theme per workspace via the command palette ("Preferences: Color Theme") or the `workbench.colorTheme` key in `.vscode/settings.json`. I only pick custom themes for ongoing projects that I revisit regularly (like this website and all of my research projects).
+- [Ridiculous coding](https://marketplace.visualstudio.com/items?itemName=Merenut.ridiculous-coding): Probably the most controversial of the three, I use this VSCode plugin that adds blips when you type, explosions when you delete, shakes the screen with each keystroke, and an XP-and-level system with fireworks to add some dopamine to the process of manually editing code. Most people will probably find this annoying. 
+
+## My subscriptions 
+
+As of November 2026, I pay for two subscriptions out of pocket: 
+
+- [OpenCode Go](https://opencode.ai/docs/console/go): $10/month for access to a curated set of ~30 mostly open-weight coding models (GLM, Kimi, DeepSeek, Qwen, MiniMax, Claude Haiku 5.5, and more) with generous monthly usage limits. Endpoints that train on request data are blocked by default, and data retention runs 0–30 days depending on the model.
+- [Perplexity Pro](https://www.perplexity.ai/): Education Pro is $10/month (~$120/year) for verified students and academics---half of the typical $20/month. 
+
+## Useful material/links 
+
+_Note:_ Any material that is not my own among the below are there because they've in some way influenced my thinking around my personal workflow and/or other ways that I communicate about my AI use holistically. 
+
+- [Are we all system architects now? (I hope not!): Brief remarks on using AI in political research without losing what drew us away from more stable jobs](https://allisonkoh.github.io/files/epss-ai-roundtable.html#/section) by Allison Koh - my contribution to the EPSS 2026 Showcase on Using AI in Political Science Research 
 - [From Vibe to Rigor: Claude Code in Social Science](https://jbgruber.github.io/my-slides/2026_EPSS-AI.html#/title-slide) by Johannes Gruber - another contribution to the same roundtable that I really appreciate (added bonus: PacMan progress bar!)
-- [Practical AI for Academics](https://github.com/claesbackman/AI_Workshop_Slides) by Claes Bäckman - material from a day-long workshop that includes both conceptual and hands-on stuff; looks like a good starting point if you're looking for workshop material that's robust across varied workflows/tools (in other words: not just Claude stuff). His [AI guides for academic economists](https://claesbackman.com/ai-guides.html) is also a useful resource. 
-<!-- - [Using AI for Research](https://velikov-mihail.github.io/ai-econ-wiki/summaries/velikov-edhec/) by Mihail Velikov - materials from a 6-hour workshop that includes both conceptual bits and Claude demos  -->
-
-## Coding agent stuff 
-
-- [OpenCode](https://opencode.ai/)
-- [OpenCode Power Pack](https://github.com/waybarrios/opencode-power-pack) by Wayner Barrios - for converting Claude skills into OpenCode agent skills (although some OpenCode agents seem to work fine with Claude skills as is?)
-- [awesome-opencode](https://github.com/awesome-opencode/awesome-opencode)
-- [opencode-academic-research](https://github.com/timpara/opencode-academic-research)
-- Longtable 
-
-### Claude Skills 
-
-- [claudeblattman](https://github.com/chrisblattman/claudeblattman) by Chris Blattman - a whole suite of coding agents, skills etc. that academics can use out of the box. I haven't used it yet but it looks very comprehensive!
-- [clo-author](https://github.com/hugosantanna/clo-author) by Hugo Sant'Anna - tools for empirical Economics research; my starting point for custom building skills 
-- [BibTeX Cleaning Agent](https://yhoriuchi.github.io/bibtex-cleaning-agent-guide/) by Yusaku Horiuchi
-- Claes Bäckman's [AI-research-feedback](https://github.com/claesbackman/AI-research-feedback) collection of Claude skills for academic research review 
-- ["My Claude Code Setup"](https://psantanna.com/claude-code-my-workflow/) by Pedro Sant'Anna - a how-to guide and forkable GH repo for getting started with building your own personal workflow 
-- Chris Kenney 
+- [GUIDE-LLM: A reporting checklist for large language models in behavioural science](https://llm-checklist.com/) by [Feuerriegel et al.](https://www.nature.com/articles/s41562-026-02492-7) (2026)
+- [Practical AI for Academics](https://github.com/claesbackman/AI_Workshop_Slides) by Claes Bäckman
 

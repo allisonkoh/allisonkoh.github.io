@@ -4,21 +4,21 @@
     "href": "resources_ai.html",
     "title": "AI",
     "section": "",
-    "text": "Below are some resources I’ve either personally used, customized for my own workflow, or bookmarked for use down the line. I have found most of these resources on LinkedIn. If you have a resource that you think may be of interest to political scientists, please reach out! Especially if you don’t feel represented among the individuals listed here.\nNOTE): I do not use AI to maintain this page; if a resource is linked here, it’s because I’ve personally put it here and endorse its use (or at the very least am curious about it!). My general guidance around AI use is that my approach toward integrating generative AI into my workflow is no different from that of other coding languages."
+    "text": "This is how I use coding agents:\n\nFor quick fixes/one-off tasks, I open up Terminal/the command line and prompt from there (after specifying the target directory - very important thing to not forget!)\nFor work that involves more than one task/agent, I use VSCode. See workflow customizations for multitasking for more information on my setup.\nI am currently figuring out how to document my projects so I can (1) ensure a code base with enough context/memory for any coding agent to pick up from where the last one left off and (2) disclose LLM use where needed while (3) trying not to be too disruptive to collaborators. My starting point for this has been to instantiate a project by pointing an agent to GUIDE-LLM. Currently refining from there. Apologies to my collaborators for the extra verbose documentation in the meantime😅"
   },
   {
     "objectID": "resources_ai.html#instructional-material",
     "href": "resources_ai.html#instructional-material",
     "title": "AI",
-    "section": "Instructional material",
-    "text": "Instructional material\n\nAre we all system architects now? (I hope not!): Brief remarks on using AI in political research without losing what drew us away from more stable jobs by Allison Koh - my contribution to the EPSS 2026 Showcase on Using AI in Political Science Research\nFrom Vibe to Rigor: Claude Code in Social Science by Johannes Gruber - another contribution to the same roundtable that I really appreciate (added bonus: PacMan progress bar!)\nPractical AI for Academics by Claes Bäckman - material from a day-long workshop that includes both conceptual and hands-on stuff; looks like a good starting point if you’re looking for workshop material that’s robust across varied workflows/tools (in other words: not just Claude stuff). His AI guides for academic economists is also a useful resource."
+    "section": "",
+    "text": "Are we all system architects now? (I hope not!): Brief remarks on using AI in political research without losing what drew us away from more stable jobs by Allison Koh - my contribution to the EPSS 2026 Showcase on Using AI in Political Science Research\nFrom Vibe to Rigor: Claude Code in Social Science by Johannes Gruber - another contribution to the same roundtable that I really appreciate (added bonus: PacMan progress bar!)\nPractical AI for Academics by Claes Bäckman - material from a day-long workshop that includes both conceptual and hands-on stuff; looks like a good starting point if you’re looking for workshop material that’s robust across varied workflows/tools (in other words: not just Claude stuff). His AI guides for academic economists is also a useful resource."
   },
   {
     "objectID": "resources_ai.html#coding-agent-stuff",
     "href": "resources_ai.html#coding-agent-stuff",
     "title": "AI",
     "section": "Coding agent stuff",
-    "text": "Coding agent stuff\n\nOpenCode\nOpenCode Power Pack by Wayner Barrios - for converting Claude skills into OpenCode agent skills (although some OpenCode agents seem to work fine with Claude skills as is?)\nawesome-opencode\nopencode-academic-research\nLongtable\n\n\nClaude Skills\n\nclaudeblattman by Chris Blattman - a whole suite of coding agents, skills etc. that academics can use out of the box. I haven’t used it yet but it looks very comprehensive!\nclo-author by Hugo Sant’Anna - tools for empirical Economics research; my starting point for custom building skills\nBibTeX Cleaning Agent by Yusaku Horiuchi\nClaes Bäckman’s AI-research-feedback collection of Claude skills for academic research review\n“My Claude Code Setup” by Pedro Sant’Anna - a how-to guide and forkable GH repo for getting started with building your own personal workflow\nChris Kenney"
+    "text": "Coding agent stuff\n\nOpenCode\nOpenCode Power Pack by Wayner Barrios - for converting Claude skills into OpenCode agent skills (although some OpenCode agents seem to work fine with Claude skills as is?)\nawesome-opencode\nopencode-academic-research\nLongtable"
   },
   {
     "objectID": "bio.html",
@@ -341,5 +341,68 @@
     "title": "Resources",
     "section": "",
     "text": "The collections of links below include references I frequently consult in my professional workflow and resources that I am often asked to recommend. Regard it as a handpicked selection of things that I have found to be super helpful. Maybe they’ll help you too. 😊\nI regularly update these collections every time I learn something new, find myself visiting the same how-to guide at least twice, and receive requests for advice on a specific aspect of coding. Some links/resources/advice may be out of date.\n\nPython\nQuarto\nR\nOther\n\n\n\n\n Back to top"
+  },
+  {
+    "objectID": "ai.html",
+    "href": "ai.html",
+    "title": "Links",
+    "section": "",
+    "text": "SSWPM Intro Python Title Slide\nComptext Intro Python Title Slide\n\n\n\n\n Back to top"
+  },
+  {
+    "objectID": "resources_ai.html#slide-decks",
+    "href": "resources_ai.html#slide-decks",
+    "title": "AI",
+    "section": "Slide decks",
+    "text": "Slide decks\nNote: Any material that is not my own among the below are there because they’ve in some way influenced my thinking around my personal workflow and/or other ways that I communicate about my AI use holistically.\n\nAre we all system architects now? (I hope not!): Brief remarks on using AI in political research without losing what drew us away from more stable jobs by Allison Koh - my contribution to the EPSS 2026 Showcase on Using AI in Political Science Research\nFrom Vibe to Rigor: Claude Code in Social Science by Johannes Gruber - another contribution to the same roundtable that I really appreciate (added bonus: PacMan progress bar!)\nPractical AI for Academics by Claes Bäckman - material from a day-long workshop that includes both conceptual and hands-on stuff; looks like a good starting point if you’re looking for workshop material that’s robust across varied workflows/tools (in other words: not just Claude stuff). His AI guides for academic economists is also a useful resource."
+  },
+  {
+    "objectID": "resources_ai.html#my-subscriptions",
+    "href": "resources_ai.html#my-subscriptions",
+    "title": "AI",
+    "section": "My subscriptions",
+    "text": "My subscriptions\nAs of November 2026, I pay for two subscriptions out of pocket:\n\nOpenCode Go: $10/month for access to a curated set of ~30 mostly open-weight coding models (GLM, Kimi, DeepSeek, Qwen, MiniMax, Claude Haiku 5.5, and more) with generous monthly usage limits. Endpoints that train on request data are blocked by default, and data retention runs 0–30 days depending on the model.\nPerplexity Pro: Education Pro is $10/month (~$120/year) for verified students and academics—half of the typical $20/month."
+  },
+  {
+    "objectID": "resources_ai.html#my-agentic-workflow-customization",
+    "href": "resources_ai.html#my-agentic-workflow-customization",
+    "title": "AI",
+    "section": "",
+    "text": "Below are my best practices for integrating coding agents into my work.\n\nFor quick fixes/one-off tasks, I will open up Terminal/the command line and prompt from there (after specifying the target directory - very important thing to not forget!)\nFor work that involves more than one task/agent, I use VSCode.\nI typically have multiple VSCode windows open at once (not too unlike my pre-coding agent workflows). I implement multiple visual/auditory indicators to differentiate between them and make sure multiple tasks move along:\n\npeon-ping:"
+  },
+  {
+    "objectID": "resources_ai.html#best-practices",
+    "href": "resources_ai.html#best-practices",
+    "title": "AI",
+    "section": "Best practices",
+    "text": "Best practices\nNote: Everything on this page is"
+  },
+  {
+    "objectID": "resources_ai.html#useful-materiallinks",
+    "href": "resources_ai.html#useful-materiallinks",
+    "title": "AI",
+    "section": "Useful material/links",
+    "text": "Useful material/links\nNote: Any material that is not my own among the below are there because they’ve in some way influenced my thinking around my personal workflow and/or other ways that I communicate about my AI use holistically.\n\nAre we all system architects now? (I hope not!): Brief remarks on using AI in political research without losing what drew us away from more stable jobs by Allison Koh - my contribution to the EPSS 2026 Showcase on Using AI in Political Science Research\nFrom Vibe to Rigor: Claude Code in Social Science by Johannes Gruber - another contribution to the same roundtable that I really appreciate (added bonus: PacMan progress bar!)\nGUIDE-LLM: A reporting checklist for large language models in behavioural science by Feuerriegel et al. (2026)\nPractical AI for Academics by Claes Bäckman"
+  },
+  {
+    "objectID": "resources_ai.html#my-agentic-workflow",
+    "href": "resources_ai.html#my-agentic-workflow",
+    "title": "AI",
+    "section": "",
+    "text": "This is how I use coding agents:\n\nFor quick fixes/one-off tasks, I open up Terminal/the command line and prompt from there (after specifying the target directory - very important thing to not forget!)\nFor work that involves more than one task/agent, I use VSCode. See workflow customizations for multitasking for more information on my setup.\nI am currently figuring out how to document my projects so I can (1) ensure a code base with enough context/memory for any coding agent to pick up from where the last one left off and (2) disclose LLM use where needed while (3) trying not to be too disruptive to collaborators. My starting point for this has been to instantiate a project by pointing an agent to GUIDE-LLM. Currently refining from there. Apologies to my collaborators for the extra verbose documentation in the meantime😅"
+  },
+  {
+    "objectID": "resources_ai.html#workflow-customizations-for-multitasking",
+    "href": "resources_ai.html#workflow-customizations-for-multitasking",
+    "title": "AI",
+    "section": "Workflow customizations for multitasking",
+    "text": "Workflow customizations for multitasking\nI typically have multiple VSCode windows open at once (not too unlike my pre-coding agent workflows). I implement multiple visual/auditory indicators to differentiate between them, make sure multiple tasks are simultaneously progressing, and incentivize manual coding where it is likely to be more efficient than using coding agents altogether:\n\npeon-ping: DESCRIBE WHAT IT IS AND I WILL ADD ON MY TWO CENTS ON WHAT I USE IT FOR.\nDifferent color themes for different projects: VSCode workspace settings theme [SPECIFY HOW TO GET TO IT]. I pick custom themes for ongoing projects that I revisit regularly (like this website and all my resaerch projects) and\nRidiculous coding: Probably the most controversial of the three, I use this VSCode plugin that [DESCRIBE WHAT RIDICULOUS CODING DOES] to add some dopamine to the process of manually editing code."
+  },
+  {
+    "objectID": "resources_ai.html#vscode-customizations-for-multitasking",
+    "href": "resources_ai.html#vscode-customizations-for-multitasking",
+    "title": "AI",
+    "section": "VSCode customizations for multitasking",
+    "text": "VSCode customizations for multitasking\nI typically have multiple VSCode windows open at once (not too unlike my pre-coding agent workflows). I implement multiple visual/auditory indicators to differentiate between them, make sure multiple tasks are simultaneously progressing, and incentivize manual coding where it is likely to be more efficient than using coding agents altogether:\n\npeon-ping: triggers short lines of recorded dialogue to indicate when a coding agent needs attention, and what for (e.g. a task is done, there’s an error, or the agent is waiting for permission to do something). The developers’ byline for the tool is “stop babysitting your terminal”. My current default for this is Bender from Futurama. Not very helpful in my efforts to not anthropomorphize using these tools but it’s fun so 🤷🏻‍♀️\nDifferent color themes for different projects: I set the theme per workspace via the command palette (“Preferences: Color Theme”) or the workbench.colorTheme key in .vscode/settings.json. I only pick custom themes for ongoing projects that I revisit regularly (like this website and all of my research projects).\nRidiculous coding: Probably the most controversial of the three, I use this VSCode plugin that adds blips when you type, explosions when you delete, shakes the screen with each keystroke, and an XP-and-level system with fireworks to add some dopamine to the process of manually editing code. Most people will probably find this annoying."
   }
 ]
