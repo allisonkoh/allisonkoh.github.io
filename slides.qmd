@@ -2,6 +2,7 @@
 title: "Slides"
 ---
 
+- [TPSA](files/tpsa.html)
 - [TPSA]() [[draft (tmp)](files/tpsa-tmp.pdf)]
 - [Digital Publics Conference 2026](files/digital-publics-conference.html)
 - [EPSS 2026 Panel: AI Regulation and Platform Governance](files/epss.html)
